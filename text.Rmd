@@ -1,0 +1,290 @@
+---
+title: "Phonology of East Caucasian languages"
+author: "G. Moroz"
+output: html_document
+bibliography: "bibliography.bib"
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+# setwd("/home/agricolamz/work/materials/2021_caucasian_phonology")
+library(lingtypology)
+library(tidyverse)
+df <- read_csv("database.csv")
+# for maps
+df %>% 
+  mutate(lang = str_replace_all(lang, "Khwarshi", "Khwarshi-Inkhoqwari"),
+         lang = str_replace_all(lang, "Dargwa", "Megeb")) ->
+  df
+```
+
+
+## Introduction
+
+There are a lot of work about phonology of indigenous languages of the Caucasus [@catford77; @smeets94a; @smeets94b; @alekseev01; @hewitt04; @grawunder17; @begus21; @boris21b; @boris21a; @koryakov21] and particular dedicated East Caucasian languages [@kk90]. There are also a lot of work on historical-comparative phonetics (S. M. Gasanova, G. Kh. Ibragimov, P. T. Magomedova, U. A. Meylanova, B. B. Talibov, S. M. Khaydakov, A. E. Alekseev, Ju. D. Desheriev, B. K. Gigineishvili, D. S. Imnaishvili, J. Nichols, S. L. Nikolayev, S. A. Starostin, A. S. Kasyan, N. A. Ardoteli, O. A. Mudrak, PUT HERE BIBTEX). Fortunately the amount of grammatical description of particular languages is increasing, so we have a lot of more new and detailed information about phonological inventories of particular villages and do not need to extropolate our knowledge of standard languages onto all villages, where the language is spoken. Even though we have a lot of works on different East Caucasian languages, in order to proceed with the analysis we still need a unified description of those inventories. We compiled the database of East Caucasian languages that can be downloaded here (add link). The database has the following variables:
+
+* id -- unique id for each segment
+* glottocode -- language identifier after Glottolog database [@hammarstrom21]
+* lang -- language name
+* idiom
+* type
+* value --- segment in IPA notation
+* value_source --- segment as it was presented in the source
+* annotation --- annotation of type of the segment (consonant vs. vowel)
+* source --- bibtex entry of the source of the information
+* page
+* comment
+
+As we discovered on average East Caucasian languages have more consonants and vowels then other languages of the world. The main reason for this are the folowing
+
+* as other indigenous languages of the Caucasus all East Caucasian languages have **ejective consonants** (except Udi);
+* as other indigenous languages of the Caucasus all East Caucasian languages have **uvular consonants**;
+* Andic and Tsezic languages have **lateral obstruents**;
+* **labialization**, gemination and fortis/lenis destinction is widespread across Dagestan;
+* common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?);
+* more or less East Caucasian languages share the same inventory of sonorants (*r*, *l*, *m*, *n*, *j*, *w*) with rare exception for *w* in South Lezgian languages.
+
+
+## Inventory size
+
+Here is the map of inventory sizes of East Caucasian languages:
+
+```{r}
+df %>% 
+  count(lang) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            minichart = "pie",
+            minichart.data = for_map$n,
+            minichart.labels = TRUE,
+            width = 3,
+            tile = "Stamen.Terrain")
+```
+
+As we see inventory size are differe from `r min(range(for_map$n))` (Lezgian and Tsez) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world:
+
+```{r}
+ph <- phoible.feature()
+set.seed(42)
+ph %>% 
+  count(language, inventoryid) %>% 
+  group_by(language) %>% 
+  sample_n(1) %>% 
+  anti_join(for_map) %>% 
+  ggplot(aes(n))+
+  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
+  geom_density(size = 2, color = "red")+
+  theme_minimal()+
+  labs(x = "number of segments",
+       subtitle = "Histogram of East Caucasian inventory sizes (in black)\nwith overlayed density function of inventory sizes of languages of the world (in red)")
+```
+
+As we can see, East Caucasian languages in general have generally big phoneme inventories comparing to the rest languages of the world (we removed East Caucasian languages from PHOIBLE before creating the density curve).
+
+
+## Consonant inventory size
+
+We can do the same comparison for the consonant inventories:
+
+```{r}
+df %>% 
+  filter(annotation == "consonant") %>% 
+  count(lang) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            minichart = "pie",
+            minichart.data = for_map$n,
+            minichart.labels = TRUE,
+            width = 3,
+            tile = "Stamen.Terrain")
+```
+
+As we see inventory size are differe from `r min(range(for_map$n))` (Budukh) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+
+```{r}
+set.seed(42)
+ph %>% 
+  filter(segmentclass == "consonant") %>% 
+  count(language, inventoryid) %>% 
+  group_by(language) %>% 
+  sample_n(1) %>% 
+  anti_join(for_map) %>% 
+  ggplot(aes(n))+
+  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
+  geom_density(size = 2, color = "red")+
+  theme_minimal()+
+  labs(x = "number of segments",
+       subtitle = "Histogram of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
+```
+
+As we can see, the majority of languages from PHOIBLE has less consonants then East Caucasian languages.
+
+## Vowel inventory size
+
+We can do the same comparison for the consonant inventories:
+
+```{r}
+df %>% 
+  filter(annotation == "vowel") %>% 
+  count(lang) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            minichart = "pie",
+            minichart.data = for_map$n,
+            minichart.labels = TRUE,
+            width = 3,
+            tile = "Stamen.Terrain")
+```
+
+As we see inventory size are differe from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Bezhta). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+
+```{r}
+set.seed(42)
+ph %>% 
+  filter(segmentclass == "vowel") %>% 
+  count(language, inventoryid) %>% 
+  group_by(language) %>% 
+  sample_n(1) %>% 
+  anti_join(for_map) %>% 
+  ggplot(aes(n))+
+  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
+  geom_density(size = 2, color = "red")+
+  theme_minimal()+
+  labs(x = "number of segments",
+       subtitle = "Histogram of East Caucasian vowel inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
+```
+
+As we can see, even vowel inventory sizes of East Caucasian languages are bigger than the average.
+
+## Labialisation
+
+```{r}
+df %>% 
+  mutate(nas = str_detect(value, "ʷ")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with labialisation", "without Labialisation")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+## Geminates/Fortis
+
+```{r}
+df %>% 
+  filter(annotation == "consonant") %>% 
+  mutate(nas = str_detect(value, "ː")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with gemination", "without gemination")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+## Lateral obstruents
+
+```{r}
+df %>% 
+  mutate(nas = str_detect(value, "ɬ")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with laterals", "without laterals")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+
+## w vs v
+
+```{r}
+df %>% 
+  mutate(nas = str_detect(value, "v")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "v", "w")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+
+## Pharyngealisation
+
+```{r}
+df %>% 
+  mutate(nas = str_detect(value, "ˤ")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with pharyngealisation", "without pharyngealisation")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+
+## Nasalised vowels
+
+```{r}
+df %>% 
+  filter(annotation == "vowel") %>% 
+  mutate(nas = str_detect(value, "ⁿ")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with nasalisation", "without nasalisation")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+## Long vowels
+
+```{r}
+df %>% 
+  filter(annotation == "vowel") %>% 
+  mutate(nas = str_detect(value, "ː")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with long vowels", "without long vowels")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
+
+
+## Umlaut vowels
+
+```{r}
+df %>% 
+  filter(annotation == "vowel") %>% 
+  mutate(nas = str_detect(value, "[yøæ]")) %>% 
+  group_by(lang) %>% 
+  summarise(n_nas = sum(nas),
+            n_dummy = ifelse(n_nas > 0, "with umlaut vowels", "without umlaut vowels")) ->
+  for_map
+
+map.feature(languages = for_map$lang,
+            features = for_map$n_dummy,
+            tile = "Stamen.Terrain")
+```
