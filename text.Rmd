@@ -46,7 +46,6 @@ As we discovered on average East Caucasian languages have more consonants and vo
 * common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?);
 * more or less East Caucasian languages share the same inventory of sonorants (*r*, *l*, *m*, *n*, *j*, *w*) with rare exception for *w* in South Lezgian languages.
 
-
 ## Inventory size
 
 Here is the map of inventory sizes of East Caucasian languages:
