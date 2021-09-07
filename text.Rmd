@@ -213,7 +213,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-
+Geminated of fortis/lenis destinction attested through all branches of East Caucasian languages except Tsesic. Unfortunately some scholars understand this differently, so sometimes under this label aspirated vs unaspirated disctinction is used.
 
 ## Lateral obstruents
 
@@ -239,6 +239,8 @@ map.feature(languages = for_map$lang,
 ```
 
 
+Laterals is the clear feature of Andic and Tsezic languages, hover there is one Lezghian language, Archi, where they also were attested. In most cases lateral system is present by fricative ɬ and two affricates tɬ and tɬ'. Sometimes the subsystem even bigger when geminated version are present.
+
 ## Labial approximmant vs fricatives
 
 ```{r}
@@ -263,6 +265,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
+The most common labial sound in East Caucasian languages is bilabial **w** that is present in most languages, however in the South Dagestan approximant become a frecative **v**. I also visited the Dargwa village Ayalakab, where I witnessed the bilabial fricative realisation **β**.
 
 ## Pharyngealization
 
@@ -312,6 +315,8 @@ map.feature(languages = for_map$lang,
             features = for_map$nasalization,
             tile = "Stamen.Terrain")
 ```
+
+
 
 ## Long vowels
 
