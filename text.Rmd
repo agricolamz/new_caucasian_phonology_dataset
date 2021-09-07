@@ -316,7 +316,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-
+Nasalised vowels is a comon feature of Andic and Tsezic languages, hovewer some researchers report sporadic final **n**-delition that leads to development of nasalised vowels in other branches (e. g. Bezhta, [@talibov07]).
 
 ## Long vowels
 
@@ -343,6 +343,8 @@ map.feature(languages = for_map$lang,
 ```
 
 
+Long vowels are grouped in the North Dagestan, Chechnya and Ingushetia. It is not present in Avar and and South Dagestan. Hovewer there are some cases when they were reported as a result of some intervocal consonant delitions.
+
 ## Umlaut vowels
 
 ```{r}
@@ -366,3 +368,5 @@ map.feature(languages = for_map$lang,
             features = for_map$`umlaut vowels`,
             tile = "Stamen.Terrain")
 ```
+
+Umlaut vowels are present in the South Dagestan and in Nakh languages. I can speculatively propose that they historically developed from pharyngealisation, but this hypothesis needs to be accurately checked with shared lexicon.
