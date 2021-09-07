@@ -183,7 +183,11 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-Labialization is widely attested in East Caucasian languages, however there are some languages that lost this feature (e. g. in Budukh, [@talibov07]). Unfortunately, sometimes scholars do not put the whole list of labialised consonants attested in a language.
+Labialization is widely attested in East Caucasian languages, however there are some languages that lost this feature (e. g. in Budukh, [@talibov07]). Unfortunately, sometimes scholars do not put the whole list of labialised consonants attested in a language. After [@catford72] it is worth mentioning that there are several types of labialisation: 
+
+* /w/-labialisation --- this kind of labialization is more or less independent of the main place of articulation. This kind of labialisation is typical for velar and uvular places fricatives and stops;
+* /ɥ/-labialisation --- this kind of labialization is typical for pharyngeals. It looks like the tongue body is retracted (due to pharyngeal place of articulation) and raised, that results /ɥ/-like sound;
+* /y/-labialisation --- this kind of labialization is typical only for post-alveolars in Abkhaz and Abaza (North Caucasian), but also may be a case for Tabasaran [@kibrik82: 7--8; @kk90: 337] and Aghul [@kk90: 338].
 
 ## Geminates/Fortis
 
@@ -208,6 +212,8 @@ map.feature(languages = for_map$lang,
             features = for_map$geminates,
             tile = "Stamen.Terrain")
 ```
+
+
 
 ## Lateral obstruents
 
