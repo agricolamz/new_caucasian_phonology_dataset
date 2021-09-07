@@ -81,7 +81,7 @@ ph %>%
        subtitle = "Histogram of East Caucasian inventory sizes (in black)\nwith overlayed density function of inventory sizes of languages of the world (in red)")
 ```
 
-As we can see, East Caucasian languages in general have generally big phoneme inventories comparing to the rest languages of the world (we removed East Caucasian languages from PHOIBLE before creating the density curve).
+As we can see, East Caucasian languages in general have generally big segment inventories comparing to the rest languages of the world (we removed East Caucasian languages from PHOIBLE before creating the density curve).
 
 
 ## Consonant inventory size
@@ -90,7 +90,7 @@ We can do the same comparison for the consonant inventories:
 
 ```{r}
 df %>% 
-  filter(annotation == "consonant") %>% 
+  filter(segment_type == "consonant") %>% 
   count(lang) ->
   for_map
 
@@ -128,7 +128,7 @@ We can do the same comparison for the consonant inventories:
 
 ```{r}
 df %>% 
-  filter(annotation == "vowel") %>% 
+  filter(segment_type == "vowel") %>% 
   count(lang) ->
   for_map
 
@@ -160,18 +160,26 @@ ph %>%
 
 As we can see, even vowel inventory sizes of East Caucasian languages are bigger than the average.
 
-## Labialisation
+## Labialization
 
 ```{r}
 df %>% 
-  mutate(nas = str_detect(value, "ʷ")) %>% 
+  mutate(lab = str_detect(segment, "ʷ")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with labialisation", "without Labialisation")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_lab = sum(lab),
+            labialization = ifelse(n_lab > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, labialization, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/labialization.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$labialization,
             tile = "Stamen.Terrain")
 ```
 
@@ -179,15 +187,23 @@ map.feature(languages = for_map$lang,
 
 ```{r}
 df %>% 
-  filter(annotation == "consonant") %>% 
-  mutate(nas = str_detect(value, "ː")) %>% 
+  filter(segment_type == "consonant") %>% 
+  mutate(feature = str_detect(segment, "ː")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with gemination", "without gemination")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            geminates = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, geminates, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/geminates.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$geminates,
             tile = "Stamen.Terrain")
 ```
 
@@ -195,63 +211,96 @@ map.feature(languages = for_map$lang,
 
 ```{r}
 df %>% 
-  mutate(nas = str_detect(value, "ɬ")) %>% 
+  mutate(feature = str_detect(segment, "ɬ")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with laterals", "without laterals")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            laterals = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, laterals, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/laterals.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$laterals,
             tile = "Stamen.Terrain")
 ```
 
 
-## w vs v
+## Labial approximmant vs fricatives
 
 ```{r}
 df %>% 
-  mutate(nas = str_detect(value, "v")) %>% 
+  mutate(feature = str_detect(segment, "v")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "v", "w")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            labials = ifelse(n_feature > 0, "v", "w")) %>% 
+  select(lang, language, idiom, type, labials, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/labials.csv", na = "")
+
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$labials,
             tile = "Stamen.Terrain")
 ```
 
 
-## Pharyngealisation
+## Pharyngealization
 
 ```{r}
-df %>% 
-  mutate(nas = str_detect(value, "ˤ")) %>% 
+df %>%  
+  mutate(feature = str_detect(segment, "ˤ")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with pharyngealisation", "without pharyngealisation")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            pharyngealization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, pharyngealization, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/pharyngealization.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$pharyngealization,
             tile = "Stamen.Terrain")
 ```
 
 
-## Nasalised vowels
+## Nasalized vowels
 
 ```{r}
 df %>% 
-  filter(annotation == "vowel") %>% 
-  mutate(nas = str_detect(value, "ⁿ")) %>% 
+  filter(segment_type == "vowel") %>% 
+  mutate(feature = str_detect(segment, "ⁿ")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with nasalisation", "without nasalisation")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            nasalization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, nasalization, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/nasalization.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$nasalization,
             tile = "Stamen.Terrain")
 ```
 
@@ -259,15 +308,23 @@ map.feature(languages = for_map$lang,
 
 ```{r}
 df %>% 
-  filter(annotation == "vowel") %>% 
-  mutate(nas = str_detect(value, "ː")) %>% 
+  filter(segment_type == "vowel") %>% 
+  mutate(feature = str_detect(segment, "ː")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with long vowels", "without long vowels")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            `long vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, `long vowels`, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/long_vowels.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$`long vowels`,
             tile = "Stamen.Terrain")
 ```
 
@@ -276,14 +333,22 @@ map.feature(languages = for_map$lang,
 
 ```{r}
 df %>% 
-  filter(annotation == "vowel") %>% 
-  mutate(nas = str_detect(value, "[yøæ]")) %>% 
+  filter(segment_type == "vowel") %>% 
+  mutate(feature = str_detect(segment, "[yøæ]")) %>% 
   group_by(lang) %>% 
-  summarise(n_nas = sum(nas),
-            n_dummy = ifelse(n_nas > 0, "with umlaut vowels", "without umlaut vowels")) ->
+  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
+  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  summarise(n_feature = sum(feature),
+            `umlaut vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
+  select(lang, language, idiom, type, `umlaut vowels`, source, page, contributer, date) ->
   for_map
 
+for_map %>% 
+  ungroup() %>% 
+  select(-lang) %>% 
+  write_csv("for_dagatlas/umlaut_vowels.csv", na = "")
+
 map.feature(languages = for_map$lang,
-            features = for_map$n_dummy,
+            features = for_map$`umlaut vowels`,
             tile = "Stamen.Terrain")
 ```

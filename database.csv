@@ -1,4 +1,4 @@
-id,glottocode,lang,language,idiom,type,phoneme,phoneme_source,segment_type,source,page,comment,contributer,date
+id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,source,page,comment,contributer,date
 1,saga1261,Tsez,Tsez,Sagada,village,i,i,vowel,wilson2021,388,,George Moroz,6.09.2021
 2,saga1261,Tsez,Tsez,Sagada,village,iː,ī,vowel,wilson2021,388,,George Moroz,6.09.2021
 3,saga1261,Tsez,Tsez,Sagada,village,e,e,vowel,wilson2021,388,,George Moroz,6.09.2021
@@ -261,63 +261,63 @@ id,glottocode,lang,language,idiom,type,phoneme,phoneme_source,segment_type,sourc
 260,mege1234,Dargwa,Dargwa,Mehweb,village,oˤ,oˤ,vowel,moroz2017,22–34,,George Moroz,6.09.2021
 261,mege1234,Dargwa,Dargwa,Mehweb,village,u,u,vowel,moroz2017,22–34,,George Moroz,6.09.2021
 262,mege1234,Dargwa,Dargwa,Mehweb,village,uˤ,uˤ,vowel,moroz2017,22–34,у автора в скобках: occurs as a variant of???,George Moroz,6.09.2021
-263,ghod1238,Godoberi,Godoberi,???,???,b,b,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-264,ghod1238,Godoberi,Godoberi,???,???,d,d,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-265,ghod1238,Godoberi,Godoberi,???,???,dʒ,ǯ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-266,ghod1238,Godoberi,Godoberi,???,???,ɡ,g,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-267,ghod1238,Godoberi,Godoberi,???,???,h,h,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-268,ghod1238,Godoberi,Godoberi,???,???,ħ,ħ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-269,ghod1238,Godoberi,Godoberi,???,???,j,j,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-270,ghod1238,Godoberi,Godoberi,???,???,k’,k’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-271,ghod1238,Godoberi,Godoberi,???,???,k’ː,k’:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-272,ghod1238,Godoberi,Godoberi,???,???,kː,k:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-273,ghod1238,Godoberi,Godoberi,???,???,kʰ,k,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-274,ghod1238,Godoberi,Godoberi,???,???,l,l,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-275,ghod1238,Godoberi,Godoberi,???,???,ɬ,ɬ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-276,ghod1238,Godoberi,Godoberi,???,???,ɬː,ɬ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-277,ghod1238,Godoberi,Godoberi,???,???,m,m,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-278,ghod1238,Godoberi,Godoberi,???,???,n,n,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-279,ghod1238,Godoberi,Godoberi,???,???,pʰ,p,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-280,ghod1238,Godoberi,Godoberi,???,???,q’,q’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-281,ghod1238,Godoberi,Godoberi,???,???,qʰ,q,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-282,ghod1238,Godoberi,Godoberi,???,???,r,r,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-283,ghod1238,Godoberi,Godoberi,???,???,ʁ,ʁ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-284,ghod1238,Godoberi,Godoberi,???,???,s,s,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-285,ghod1238,Godoberi,Godoberi,???,???,sː,s:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-286,ghod1238,Godoberi,Godoberi,???,???,ʃ,ʃ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-287,ghod1238,Godoberi,Godoberi,???,???,ʃː,ʃ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-288,ghod1238,Godoberi,Godoberi,???,???,t’,t’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-289,ghod1238,Godoberi,Godoberi,???,???,tʰ,t,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-290,ghod1238,Godoberi,Godoberi,???,???,tɬ,ƛ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-291,ghod1238,Godoberi,Godoberi,???,???,tɬ’,ƛ’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-292,ghod1238,Godoberi,Godoberi,???,???,ts,c,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-293,ghod1238,Godoberi,Godoberi,???,???,ts’,c’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-294,ghod1238,Godoberi,Godoberi,???,???,ts’ː,c’ː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-295,ghod1238,Godoberi,Godoberi,???,???,tsː,cː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-296,ghod1238,Godoberi,Godoberi,???,???,tʃ,č’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-297,ghod1238,Godoberi,Godoberi,???,???,tʃ’,č’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-298,ghod1238,Godoberi,Godoberi,???,???,tʃ’ː,č’ː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-299,ghod1238,Godoberi,Godoberi,???,???,tʃː,čː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-300,ghod1238,Godoberi,Godoberi,???,???,w,w,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-301,ghod1238,Godoberi,Godoberi,???,???,x,x,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-302,ghod1238,Godoberi,Godoberi,???,???,ʒ,ž,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-303,ghod1238,Godoberi,Godoberi,???,???,ʔ,ʔ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-304,ghod1238,Godoberi,Godoberi,???,???,ʕ,ʕ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-305,ghod1238,Godoberi,Godoberi,???,???,χ,χ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-306,ghod1238,Godoberi,Godoberi,???,???,χː,χ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
-307,ghod1238,Godoberi,Godoberi,???,???,a,a,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-308,ghod1238,Godoberi,Godoberi,???,???,aː,a:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-309,ghod1238,Godoberi,Godoberi,???,???,aⁿ,ã,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-310,ghod1238,Godoberi,Godoberi,???,???,e,e,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-311,ghod1238,Godoberi,Godoberi,???,???,eː,e:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-312,ghod1238,Godoberi,Godoberi,???,???,I,I,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-313,ghod1238,Godoberi,Godoberi,???,???,iː,i:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-314,ghod1238,Godoberi,Godoberi,???,???,iⁿ,ĩ,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-315,ghod1238,Godoberi,Godoberi,???,???,o,o,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-316,ghod1238,Godoberi,Godoberi,???,???,oː,o:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-317,ghod1238,Godoberi,Godoberi,???,???,u,u,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-318,ghod1238,Godoberi,Godoberi,???,???,uː,u:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
-319,ghod1238,Godoberi,Godoberi,???,???,uⁿ,ũ,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+263,ghod1238,Godoberi,Godoberi,,,b,b,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+264,ghod1238,Godoberi,Godoberi,,,d,d,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+265,ghod1238,Godoberi,Godoberi,,,dʒ,ǯ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+266,ghod1238,Godoberi,Godoberi,,,ɡ,g,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+267,ghod1238,Godoberi,Godoberi,,,h,h,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+268,ghod1238,Godoberi,Godoberi,,,ħ,ħ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+269,ghod1238,Godoberi,Godoberi,,,j,j,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+270,ghod1238,Godoberi,Godoberi,,,k’,k’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+271,ghod1238,Godoberi,Godoberi,,,k’ː,k’:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+272,ghod1238,Godoberi,Godoberi,,,kː,k:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+273,ghod1238,Godoberi,Godoberi,,,kʰ,k,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+274,ghod1238,Godoberi,Godoberi,,,l,l,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+275,ghod1238,Godoberi,Godoberi,,,ɬ,ɬ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+276,ghod1238,Godoberi,Godoberi,,,ɬː,ɬ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+277,ghod1238,Godoberi,Godoberi,,,m,m,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+278,ghod1238,Godoberi,Godoberi,,,n,n,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+279,ghod1238,Godoberi,Godoberi,,,pʰ,p,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+280,ghod1238,Godoberi,Godoberi,,,q’,q’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+281,ghod1238,Godoberi,Godoberi,,,qʰ,q,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+282,ghod1238,Godoberi,Godoberi,,,r,r,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+283,ghod1238,Godoberi,Godoberi,,,ʁ,ʁ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+284,ghod1238,Godoberi,Godoberi,,,s,s,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+285,ghod1238,Godoberi,Godoberi,,,sː,s:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+286,ghod1238,Godoberi,Godoberi,,,ʃ,ʃ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+287,ghod1238,Godoberi,Godoberi,,,ʃː,ʃ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+288,ghod1238,Godoberi,Godoberi,,,t’,t’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+289,ghod1238,Godoberi,Godoberi,,,tʰ,t,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+290,ghod1238,Godoberi,Godoberi,,,tɬ,ƛ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+291,ghod1238,Godoberi,Godoberi,,,tɬ’,ƛ’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+292,ghod1238,Godoberi,Godoberi,,,ts,c,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+293,ghod1238,Godoberi,Godoberi,,,ts’,c’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+294,ghod1238,Godoberi,Godoberi,,,ts’ː,c’ː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+295,ghod1238,Godoberi,Godoberi,,,tsː,cː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+296,ghod1238,Godoberi,Godoberi,,,tʃ,č’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+297,ghod1238,Godoberi,Godoberi,,,tʃ’,č’,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+298,ghod1238,Godoberi,Godoberi,,,tʃ’ː,č’ː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+299,ghod1238,Godoberi,Godoberi,,,tʃː,čː,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+300,ghod1238,Godoberi,Godoberi,,,w,w,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+301,ghod1238,Godoberi,Godoberi,,,x,x,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+302,ghod1238,Godoberi,Godoberi,,,ʒ,ž,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+303,ghod1238,Godoberi,Godoberi,,,ʔ,ʔ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+304,ghod1238,Godoberi,Godoberi,,,ʕ,ʕ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+305,ghod1238,Godoberi,Godoberi,,,χ,χ,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+306,ghod1238,Godoberi,Godoberi,,,χː,χ:,consonant,morozdraft2021,2,,George Moroz,6.09.2021
+307,ghod1238,Godoberi,Godoberi,,,a,a,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+308,ghod1238,Godoberi,Godoberi,,,aː,a:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+309,ghod1238,Godoberi,Godoberi,,,aⁿ,ã,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+310,ghod1238,Godoberi,Godoberi,,,e,e,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+311,ghod1238,Godoberi,Godoberi,,,eː,e:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+312,ghod1238,Godoberi,Godoberi,,,I,I,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+313,ghod1238,Godoberi,Godoberi,,,iː,i:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+314,ghod1238,Godoberi,Godoberi,,,iⁿ,ĩ,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+315,ghod1238,Godoberi,Godoberi,,,o,o,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+316,ghod1238,Godoberi,Godoberi,,,oː,o:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+317,ghod1238,Godoberi,Godoberi,,,u,u,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+318,ghod1238,Godoberi,Godoberi,,,uː,u:,vowel,morozdraft2021,2,,George Moroz,6.09.2021
+319,ghod1238,Godoberi,Godoberi,,,uⁿ,ũ,vowel,morozdraft2021,2,,George Moroz,6.09.2021
 320,kara1474,Karata,Karata,Karata,dialect_toplevel,b,b,consonant,magomedbekova1971,12--18,,George Moroz,6.09.2021
 321,kara1474,Karata,Karata,Karata,dialect_toplevel,ç,x~,consonant,magomedbekova1971,12--18,,George Moroz,6.09.2021
 322,kara1474,Karata,Karata,Karata,dialect_toplevel,d,d,consonant,magomedbekova1971,12--18,,George Moroz,6.09.2021
@@ -441,72 +441,72 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 438,hinu1240,Hinuq,Hinuq,Hinuq,village,l,l,consonant,forker2013,29,,George Moroz,6.09.2021
 439,hinu1240,Hinuq,Hinuq,Hinuq,village,w,w,consonant,forker2013,29,,George Moroz,6.09.2021
 440,hinu1240,Hinuq,Hinuq,Hinuq,village,j,j,consonant,forker2013,29,,George Moroz,6.09.2021
-441,bezh1248,Bezhta,Bezhta,???,???,i,и,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-442,bezh1248,Bezhta,Bezhta,???,???,e,е (э),vowel,comrieetal2015,42,,George Moroz,6.09.2021
-443,bezh1248,Bezhta,Bezhta,???,???,u,у,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-444,bezh1248,Bezhta,Bezhta,???,???,o,о,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-445,bezh1248,Bezhta,Bezhta,???,???,a,а,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-446,bezh1248,Bezhta,Bezhta,???,???,iː,ӣ,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-447,bezh1248,Bezhta,Bezhta,???,???,eː,е̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-448,bezh1248,Bezhta,Bezhta,???,???,uː,ӯ,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-449,bezh1248,Bezhta,Bezhta,???,???,oː,о̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-450,bezh1248,Bezhta,Bezhta,???,???,aː,а̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-451,bezh1248,Bezhta,Bezhta,???,???,y,уь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-452,bezh1248,Bezhta,Bezhta,???,???,ø,оь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-453,bezh1248,Bezhta,Bezhta,???,???,æ,аь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-454,bezh1248,Bezhta,Bezhta,???,???,yː,уь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-455,bezh1248,Bezhta,Bezhta,???,???,øː,оь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-456,bezh1248,Bezhta,Bezhta,???,???,æː,аь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-457,bezh1248,Bezhta,Bezhta,???,???,iⁿ,ин,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-458,bezh1248,Bezhta,Bezhta,???,???,eⁿ,ен,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-459,bezh1248,Bezhta,Bezhta,???,???,uⁿ,ун,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-460,bezh1248,Bezhta,Bezhta,???,???,oⁿ,он,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-461,bezh1248,Bezhta,Bezhta,???,???,aⁿ,ан,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-462,bezh1248,Bezhta,Bezhta,???,???,iːⁿ,ин̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-463,bezh1248,Bezhta,Bezhta,???,???,eːⁿ,ен̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-464,bezh1248,Bezhta,Bezhta,???,???,uːⁿ,ун̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-465,bezh1248,Bezhta,Bezhta,???,???,oːⁿ,он̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-466,bezh1248,Bezhta,Bezhta,???,???,aːⁿ,ан̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-467,bezh1248,Bezhta,Bezhta,???,???,yⁿ,уьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-468,bezh1248,Bezhta,Bezhta,???,???,øⁿ,оьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-469,bezh1248,Bezhta,Bezhta,???,???,æⁿ,аьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-470,bezh1248,Bezhta,Bezhta,???,???,æːⁿ,аь̄н,vowel,comrieetal2015,42,,George Moroz,6.09.2021
-471,bezh1248,Bezhta,Bezhta,???,???,aˤ,аI,vowel,comrieetal2015,41,,George Moroz,6.09.2021
-472,bezh1248,Bezhta,Bezhta,???,???,oˤ,оI,vowel,comrieetal2015,41,,George Moroz,6.09.2021
-473,bezh1248,Bezhta,Bezhta,???,???,p,п,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-474,bezh1248,Bezhta,Bezhta,???,???,p’,пI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-475,bezh1248,Bezhta,Bezhta,???,???,b,б,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-476,bezh1248,Bezhta,Bezhta,???,???,t,т,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-477,bezh1248,Bezhta,Bezhta,???,???,t’,тI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-478,bezh1248,Bezhta,Bezhta,???,???,d,д,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-479,bezh1248,Bezhta,Bezhta,???,???,k,к,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-480,bezh1248,Bezhta,Bezhta,???,???,k’,кI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-481,bezh1248,Bezhta,Bezhta,???,???,ɡ,г,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-482,bezh1248,Bezhta,Bezhta,???,???,ʔ,ъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-483,bezh1248,Bezhta,Bezhta,???,???,w,в,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-484,bezh1248,Bezhta,Bezhta,???,???,s,с,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-485,bezh1248,Bezhta,Bezhta,???,???,z,з,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-486,bezh1248,Bezhta,Bezhta,???,???,ɬ,лъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-487,bezh1248,Bezhta,Bezhta,???,???,ʃ,ш,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-488,bezh1248,Bezhta,Bezhta,???,???,ʒ,ж,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-489,bezh1248,Bezhta,Bezhta,???,???,j,й,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-490,bezh1248,Bezhta,Bezhta,???,???,χ,х,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-491,bezh1248,Bezhta,Bezhta,???,???,ʁ,гъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-492,bezh1248,Bezhta,Bezhta,???,???,ħ,хI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-493,bezh1248,Bezhta,Bezhta,???,???,ʕ,гI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-494,bezh1248,Bezhta,Bezhta,???,???,h,гь,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-495,bezh1248,Bezhta,Bezhta,???,???,ts,ц,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-496,bezh1248,Bezhta,Bezhta,???,???,ts’,цI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-497,bezh1248,Bezhta,Bezhta,???,???,tɬ,лI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-498,bezh1248,Bezhta,Bezhta,???,???,tɬ’,кь,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-499,bezh1248,Bezhta,Bezhta,???,???,tʃ,ч,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-500,bezh1248,Bezhta,Bezhta,???,???,tʃ’,чI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-501,bezh1248,Bezhta,Bezhta,???,???,qχ,хъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-502,bezh1248,Bezhta,Bezhta,???,???,qχ’,къ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-503,bezh1248,Bezhta,Bezhta,???,???,m,м,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-504,bezh1248,Bezhta,Bezhta,???,???,n,н,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-505,bezh1248,Bezhta,Bezhta,???,???,l,л,consonant,comrieetal2015,86,,George Moroz,6.09.2021
-506,bezh1248,Bezhta,Bezhta,???,???,r,р,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+441,bezh1248,Bezhta,Bezhta,,,i,и,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+442,bezh1248,Bezhta,Bezhta,,,e,е (э),vowel,comrieetal2015,42,,George Moroz,6.09.2021
+443,bezh1248,Bezhta,Bezhta,,,u,у,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+444,bezh1248,Bezhta,Bezhta,,,o,о,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+445,bezh1248,Bezhta,Bezhta,,,a,а,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+446,bezh1248,Bezhta,Bezhta,,,iː,ӣ,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+447,bezh1248,Bezhta,Bezhta,,,eː,е̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+448,bezh1248,Bezhta,Bezhta,,,uː,ӯ,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+449,bezh1248,Bezhta,Bezhta,,,oː,о̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+450,bezh1248,Bezhta,Bezhta,,,aː,а̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+451,bezh1248,Bezhta,Bezhta,,,y,уь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+452,bezh1248,Bezhta,Bezhta,,,ø,оь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+453,bezh1248,Bezhta,Bezhta,,,æ,аь,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+454,bezh1248,Bezhta,Bezhta,,,yː,уь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+455,bezh1248,Bezhta,Bezhta,,,øː,оь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+456,bezh1248,Bezhta,Bezhta,,,æː,аь̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+457,bezh1248,Bezhta,Bezhta,,,iⁿ,ин,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+458,bezh1248,Bezhta,Bezhta,,,eⁿ,ен,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+459,bezh1248,Bezhta,Bezhta,,,uⁿ,ун,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+460,bezh1248,Bezhta,Bezhta,,,oⁿ,он,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+461,bezh1248,Bezhta,Bezhta,,,aⁿ,ан,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+462,bezh1248,Bezhta,Bezhta,,,iːⁿ,ин̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+463,bezh1248,Bezhta,Bezhta,,,eːⁿ,ен̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+464,bezh1248,Bezhta,Bezhta,,,uːⁿ,ун̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+465,bezh1248,Bezhta,Bezhta,,,oːⁿ,он̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+466,bezh1248,Bezhta,Bezhta,,,aːⁿ,ан̄,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+467,bezh1248,Bezhta,Bezhta,,,yⁿ,уьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+468,bezh1248,Bezhta,Bezhta,,,øⁿ,оьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+469,bezh1248,Bezhta,Bezhta,,,æⁿ,аьн,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+470,bezh1248,Bezhta,Bezhta,,,æːⁿ,аь̄н,vowel,comrieetal2015,42,,George Moroz,6.09.2021
+471,bezh1248,Bezhta,Bezhta,,,aˤ,аI,vowel,comrieetal2015,41,,George Moroz,6.09.2021
+472,bezh1248,Bezhta,Bezhta,,,oˤ,оI,vowel,comrieetal2015,41,,George Moroz,6.09.2021
+473,bezh1248,Bezhta,Bezhta,,,p,п,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+474,bezh1248,Bezhta,Bezhta,,,p’,пI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+475,bezh1248,Bezhta,Bezhta,,,b,б,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+476,bezh1248,Bezhta,Bezhta,,,t,т,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+477,bezh1248,Bezhta,Bezhta,,,t’,тI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+478,bezh1248,Bezhta,Bezhta,,,d,д,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+479,bezh1248,Bezhta,Bezhta,,,k,к,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+480,bezh1248,Bezhta,Bezhta,,,k’,кI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+481,bezh1248,Bezhta,Bezhta,,,ɡ,г,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+482,bezh1248,Bezhta,Bezhta,,,ʔ,ъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+483,bezh1248,Bezhta,Bezhta,,,w,в,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+484,bezh1248,Bezhta,Bezhta,,,s,с,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+485,bezh1248,Bezhta,Bezhta,,,z,з,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+486,bezh1248,Bezhta,Bezhta,,,ɬ,лъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+487,bezh1248,Bezhta,Bezhta,,,ʃ,ш,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+488,bezh1248,Bezhta,Bezhta,,,ʒ,ж,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+489,bezh1248,Bezhta,Bezhta,,,j,й,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+490,bezh1248,Bezhta,Bezhta,,,χ,х,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+491,bezh1248,Bezhta,Bezhta,,,ʁ,гъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+492,bezh1248,Bezhta,Bezhta,,,ħ,хI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+493,bezh1248,Bezhta,Bezhta,,,ʕ,гI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+494,bezh1248,Bezhta,Bezhta,,,h,гь,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+495,bezh1248,Bezhta,Bezhta,,,ts,ц,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+496,bezh1248,Bezhta,Bezhta,,,ts’,цI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+497,bezh1248,Bezhta,Bezhta,,,tɬ,лI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+498,bezh1248,Bezhta,Bezhta,,,tɬ’,кь,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+499,bezh1248,Bezhta,Bezhta,,,tʃ,ч,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+500,bezh1248,Bezhta,Bezhta,,,tʃ’,чI,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+501,bezh1248,Bezhta,Bezhta,,,qχ,хъ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+502,bezh1248,Bezhta,Bezhta,,,qχ’,къ,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+503,bezh1248,Bezhta,Bezhta,,,m,м,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+504,bezh1248,Bezhta,Bezhta,,,n,н,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+505,bezh1248,Bezhta,Bezhta,,,l,л,consonant,comrieetal2015,86,,George Moroz,6.09.2021
+506,bezh1248,Bezhta,Bezhta,,,r,р,consonant,comrieetal2015,86,,George Moroz,6.09.2021
 507,hunz1247,Hunzib,Hunzib,Hunzib,language,i,и,vowel,isakovxalilov2001,259,,George Moroz,6.09.2021
 508,hunz1247,Hunzib,Hunzib,Hunzib,language,e,е,vowel,isakovxalilov2001,259,,George Moroz,6.09.2021
 509,hunz1247,Hunzib,Hunzib,Hunzib,language,ɨ,ы,vowel,isakovxalilov2001,259,,George Moroz,6.09.2021
@@ -1145,166 +1145,166 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 1142,akhv1239,Akhvakh,Akhvakh,Northern Akhvakh,dialect_toplevel,r,r,consonant,creisselsdraft2020,,,George Moroz,6.09.2021
 1143,akhv1239,Akhvakh,Akhvakh,Northern Akhvakh,dialect_toplevel,l,l,consonant,creisselsdraft2020,,,George Moroz,6.09.2021
 1144,akhv1239,Akhvakh,Akhvakh,Northern Akhvakh,dialect_toplevel,j,j,consonant,creisselsdraft2020,,,George Moroz,6.09.2021
-1145,lakk1252,Lak,???,???,???,a,a,vowel,kibrikkodzasov1990,333,"обычно реализуется звуком нейтрального подъема, средне-широкого раствора, т.е. IâI (раствор шире, чем у IəI). Другие варианты: ≈IoI перед w, ≈IeI перед j, ≈IaI рядом с увулярными",George Moroz,6.09.2021
-1146,lakk1252,Lak,???,???,???,aː,a:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1147,lakk1252,Lak,???,???,???,aˤ,aI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1148,lakk1252,Lak,???,???,???,aˤː,a:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1149,lakk1252,Lak,???,???,???,b,b,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1150,lakk1252,Lak,???,???,???,d,d,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1151,lakk1252,Lak,???,???,???,ɡ,g,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
-1152,lakk1252,Lak,???,???,???,ɡʷ,g˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1153,lakk1252,Lak,???,???,???,h,h,consonant,kibrikkodzasov1990,333,в фарингализованных слогах реализуются как эпиглоттальные ларингалы,George Moroz,6.09.2021
-1154,lakk1252,Lak,???,???,???,i,i,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1155,lakk1252,Lak,???,???,???,iː,i:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1156,lakk1252,Lak,???,???,???,iˤ,iI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1157,lakk1252,Lak,???,???,???,iˤː,i:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1158,lakk1252,Lak,???,???,???,j,j,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1159,lakk1252,Lak,???,???,???,k',k',consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
-1160,lakk1252,Lak,???,???,???,k'ʷ,k'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1161,lakk1252,Lak,???,???,???,kː,k̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1162,lakk1252,Lak,???,???,???,kːʷ,k̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1163,lakk1252,Lak,???,???,???,kʰ,k,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
-1164,lakk1252,Lak,???,???,???,kʰʷ,k˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1165,lakk1252,Lak,???,???,???,l,l,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1166,lakk1252,Lak,???,???,???,m,m,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1167,lakk1252,Lak,???,???,???,n,n,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1168,lakk1252,Lak,???,???,???,p',p',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1169,lakk1252,Lak,???,???,???,pː,p̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1170,lakk1252,Lak,???,???,???,pʰ,p,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1171,lakk1252,Lak,???,???,???,q',q',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1172,lakk1252,Lak,???,???,???,q'ʷ,q'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1173,lakk1252,Lak,???,???,???,qː,q̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1174,lakk1252,Lak,???,???,???,qːʷ,q̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1175,lakk1252,Lak,???,???,???,qʰ,q,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1176,lakk1252,Lak,???,???,???,qʰʷ,q˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1177,lakk1252,Lak,???,???,???,r,r,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1178,lakk1252,Lak,???,???,???,ʁ,ʀ,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1179,lakk1252,Lak,???,???,???,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1180,lakk1252,Lak,???,???,???,s,s,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1181,lakk1252,Lak,???,???,???,sː,s̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1182,lakk1252,Lak,???,???,???,sːʷ,s̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1183,lakk1252,Lak,???,???,???,sʷ,s˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1184,lakk1252,Lak,???,???,???,ʃ,š,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1185,lakk1252,Lak,???,???,???,ʃː,s̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1186,lakk1252,Lak,???,???,???,ʃːʷ,s̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1187,lakk1252,Lak,???,???,???,ʃʷ,š˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1188,lakk1252,Lak,???,???,???,t',t',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1189,lakk1252,Lak,???,???,???,tː,t̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1190,lakk1252,Lak,???,???,???,tʰ,t,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1191,lakk1252,Lak,???,???,???,ts',c',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1192,lakk1252,Lak,???,???,???,ts'ʷ,c'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1193,lakk1252,Lak,???,???,???,tsː,c̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1194,lakk1252,Lak,???,???,???,tsːʷ,c̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1195,lakk1252,Lak,???,???,???,tsʰ,c,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1196,lakk1252,Lak,???,???,???,tsʰʷ,c˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1197,lakk1252,Lak,???,???,???,tʃ',č',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1198,lakk1252,Lak,???,???,???,tʃ'ʷ,č'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1199,lakk1252,Lak,???,???,???,tʃː,c̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1200,lakk1252,Lak,???,???,???,tʃːʷ,c̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1201,lakk1252,Lak,???,???,???,tʃʰ,č,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1202,lakk1252,Lak,???,???,???,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1203,lakk1252,Lak,???,???,???,u,u,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1204,lakk1252,Lak,???,???,???,uː,u:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1205,lakk1252,Lak,???,???,???,uˤ,uI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1206,lakk1252,Lak,???,???,???,uˤː,u:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
-1207,lakk1252,Lak,???,???,???,w,w,consonant,kibrikkodzasov1990,333,"реализуется как IβI перед Ia, iI",George Moroz,6.09.2021
-1208,lakk1252,Lak,???,???,???,x,x,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
-1209,lakk1252,Lak,???,???,???,xː,x̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1210,lakk1252,Lak,???,???,???,xːʷ,x̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1211,lakk1252,Lak,???,???,???,xʷ,x˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1212,lakk1252,Lak,???,???,???,z,z,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1213,lakk1252,Lak,???,???,???,zʷ,z˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1214,lakk1252,Lak,???,???,???,ʒ,ž,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1215,lakk1252,Lak,???,???,???,ʒʷ,ž˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
-1216,lakk1252,Lak,???,???,???,ʔ,ʔ,consonant,kibrikkodzasov1990,333,"в фарингализованных слогах реализуются как эпиглоттальные ларингалы; в интервокальной позиции при отсутствии фарингализации реализуется как сужение связок, а не как размыкание",George Moroz,6.09.2021
-1217,lakk1252,Lak,???,???,???,χ,χ,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
-1218,lakk1252,Lak,???,???,???,χː,X̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
-1219,lakk1252,Lak,???,???,???,χːʷ,X̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1220,lakk1252,Lak,???,???,???,χʷ,χ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
-1221,arch1244,Archi,Archi,???,???,p,p,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1222,arch1244,Archi,Archi,???,???,t,t,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1223,arch1244,Archi,Archi,???,???,tʷ,t˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1224,arch1244,Archi,Archi,???,???,ts,c,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1225,arch1244,Archi,Archi,???,???,tsʷ,c˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1226,arch1244,Archi,Archi,???,???,tʃ,č,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1227,arch1244,Archi,Archi,???,???,tʃʷ,č˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1228,arch1244,Archi,Archi,???,???,tɬ,L,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1229,arch1244,Archi,Archi,???,???,tɬʷ,L˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1230,arch1244,Archi,Archi,???,???,k,k,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1231,arch1244,Archi,Archi,???,???,kʷ,k˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1232,arch1244,Archi,Archi,???,???,q,q,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1233,arch1244,Archi,Archi,???,???,qʷ,q˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1234,arch1244,Archi,Archi,???,???,b,b,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1235,arch1244,Archi,Archi,???,???,d,d,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1236,arch1244,Archi,Archi,???,???,dʷ,d˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1237,arch1244,Archi,Archi,???,???,ɡ,g,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1238,arch1244,Archi,Archi,???,???,ɡʷ,g˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1239,arch1244,Archi,Archi,???,???,p’,p’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1240,arch1244,Archi,Archi,???,???,t’,t’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1241,arch1244,Archi,Archi,???,???,ts’,c’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1242,arch1244,Archi,Archi,???,???,ts’ʷ,c’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1243,arch1244,Archi,Archi,???,???,tʃ’,č’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1244,arch1244,Archi,Archi,???,???,tʃ’ʷ,č’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1245,arch1244,Archi,Archi,???,???,tɬ’,L’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1246,arch1244,Archi,Archi,???,???,tɬ’ʷ,L’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1247,arch1244,Archi,Archi,???,???,k’,k’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1248,arch1244,Archi,Archi,???,???,k’ʷ,k’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1249,arch1244,Archi,Archi,???,???,q’,q’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1250,arch1244,Archi,Archi,???,???,q’ʷ,q’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1251,arch1244,Archi,Archi,???,???,pː,pː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1252,arch1244,Archi,Archi,???,???,tː,tː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1253,arch1244,Archi,Archi,???,???,ts’ː,c’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1254,arch1244,Archi,Archi,???,???,tʃ’ː,č’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1255,arch1244,Archi,Archi,???,???,kː,kː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1256,arch1244,Archi,Archi,???,???,kːʷ,kː˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1257,arch1244,Archi,Archi,???,???,q’ː,q’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1258,arch1244,Archi,Archi,???,???,s,s,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1259,arch1244,Archi,Archi,???,???,sʷ,s˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1260,arch1244,Archi,Archi,???,???,ʃ,š,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1261,arch1244,Archi,Archi,???,???,ʃʷ,š˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1262,arch1244,Archi,Archi,???,???,ɬ,ɬ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1263,arch1244,Archi,Archi,???,???,ɬʷ,ɬ˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1264,arch1244,Archi,Archi,???,???,χ,x̌,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1265,arch1244,Archi,Archi,???,???,χʷ,x̌˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1266,arch1244,Archi,Archi,???,???,sː,s̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1267,arch1244,Archi,Archi,???,???,sːʷ,s̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1268,arch1244,Archi,Archi,???,???,ʃː,š̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1269,arch1244,Archi,Archi,???,???,ʃːʷ,š̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1270,arch1244,Archi,Archi,???,???,ɬː,ɬ̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1271,arch1244,Archi,Archi,???,???,ɬːʷ,ɬ̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1272,arch1244,Archi,Archi,???,???,χː,x̌̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1273,arch1244,Archi,Archi,???,???,χːʷ,x̌̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1274,arch1244,Archi,Archi,???,???,z,z,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1275,arch1244,Archi,Archi,???,???,zʷ,z˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1276,arch1244,Archi,Archi,???,???,ʒ,ž,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1277,arch1244,Archi,Archi,???,???,ʒʷ,ž˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1278,arch1244,Archi,Archi,???,???,ɬ,ɬ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1279,arch1244,Archi,Archi,???,???,ʁ,ǧ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1280,arch1244,Archi,Archi,???,???,ʁʷ,ǧ˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1281,arch1244,Archi,Archi,???,???,ʕ,ʕ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1282,arch1244,Archi,Archi,???,???,ʔ,ʔ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1283,arch1244,Archi,Archi,???,???,ħ,ħ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1284,arch1244,Archi,Archi,???,???,h,h,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1285,arch1244,Archi,Archi,???,???,m,m,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1286,arch1244,Archi,Archi,???,???,n,n,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1287,arch1244,Archi,Archi,???,???,y,y,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1288,arch1244,Archi,Archi,???,???,w,w,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1289,arch1244,Archi,Archi,???,???,r,r,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1290,arch1244,Archi,Archi,???,???,l,l,consonant,kibrik1994a,300,,George Moroz,6.09.2021
-1291,arch1244,Archi,Archi,???,???,aˤ,aI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
-1292,arch1244,Archi,Archi,???,???,oˤ,oI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
-1293,arch1244,Archi,Archi,???,???,eˤ,eI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
-1294,arch1244,Archi,Archi,???,???,i,i,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1295,arch1244,Archi,Archi,???,???,iː,iː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1296,arch1244,Archi,Archi,???,???,e,e,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1297,arch1244,Archi,Archi,???,???,eː,eː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1298,arch1244,Archi,Archi,???,???,ə,ə,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1299,arch1244,Archi,Archi,???,???,a,a,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1300,arch1244,Archi,Archi,???,???,aː,aː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1301,arch1244,Archi,Archi,???,???,u,u,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1302,arch1244,Archi,Archi,???,???,uː,uː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1303,arch1244,Archi,Archi,???,???,o,o,vowel,kibrik1994a,303,,George Moroz,6.09.2021
-1304,arch1244,Archi,Archi,???,???,oː,oː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1145,lakk1252,Lak,Lak,Khosrekh,village,a,a,vowel,kibrikkodzasov1990,333,"обычно реализуется звуком нейтрального подъема, средне-широкого раствора, т.е. IâI (раствор шире, чем у IəI). Другие варианты: ≈IoI перед w, ≈IeI перед j, ≈IaI рядом с увулярными",George Moroz,6.09.2021
+1146,lakk1252,Lak,Lak,Khosrekh,village,aː,a:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1147,lakk1252,Lak,Lak,Khosrekh,village,aˤ,aI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1148,lakk1252,Lak,Lak,Khosrekh,village,aˤː,a:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1149,lakk1252,Lak,Lak,Khosrekh,village,b,b,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1150,lakk1252,Lak,Lak,Khosrekh,village,d,d,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1151,lakk1252,Lak,Lak,Khosrekh,village,ɡ,g,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
+1152,lakk1252,Lak,Lak,Khosrekh,village,ɡʷ,g˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1153,lakk1252,Lak,Lak,Khosrekh,village,h,h,consonant,kibrikkodzasov1990,333,в фарингализованных слогах реализуются как эпиглоттальные ларингалы,George Moroz,6.09.2021
+1154,lakk1252,Lak,Lak,Khosrekh,village,i,i,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1155,lakk1252,Lak,Lak,Khosrekh,village,iː,i:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1156,lakk1252,Lak,Lak,Khosrekh,village,iˤ,iI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1157,lakk1252,Lak,Lak,Khosrekh,village,iˤː,i:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1158,lakk1252,Lak,Lak,Khosrekh,village,j,j,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1159,lakk1252,Lak,Lak,Khosrekh,village,k',k',consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
+1160,lakk1252,Lak,Lak,Khosrekh,village,k'ʷ,k'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1161,lakk1252,Lak,Lak,Khosrekh,village,kː,k̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1162,lakk1252,Lak,Lak,Khosrekh,village,kːʷ,k̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1163,lakk1252,Lak,Lak,Khosrekh,village,kʰ,k,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
+1164,lakk1252,Lak,Lak,Khosrekh,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1165,lakk1252,Lak,Lak,Khosrekh,village,l,l,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1166,lakk1252,Lak,Lak,Khosrekh,village,m,m,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1167,lakk1252,Lak,Lak,Khosrekh,village,n,n,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1168,lakk1252,Lak,Lak,Khosrekh,village,p',p',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1169,lakk1252,Lak,Lak,Khosrekh,village,pː,p̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1170,lakk1252,Lak,Lak,Khosrekh,village,pʰ,p,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1171,lakk1252,Lak,Lak,Khosrekh,village,q',q',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1172,lakk1252,Lak,Lak,Khosrekh,village,q'ʷ,q'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1173,lakk1252,Lak,Lak,Khosrekh,village,qː,q̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1174,lakk1252,Lak,Lak,Khosrekh,village,qːʷ,q̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1175,lakk1252,Lak,Lak,Khosrekh,village,qʰ,q,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1176,lakk1252,Lak,Lak,Khosrekh,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1177,lakk1252,Lak,Lak,Khosrekh,village,r,r,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1178,lakk1252,Lak,Lak,Khosrekh,village,ʁ,ʀ,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1179,lakk1252,Lak,Lak,Khosrekh,village,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1180,lakk1252,Lak,Lak,Khosrekh,village,s,s,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1181,lakk1252,Lak,Lak,Khosrekh,village,sː,s̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1182,lakk1252,Lak,Lak,Khosrekh,village,sːʷ,s̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1183,lakk1252,Lak,Lak,Khosrekh,village,sʷ,s˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1184,lakk1252,Lak,Lak,Khosrekh,village,ʃ,š,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1185,lakk1252,Lak,Lak,Khosrekh,village,ʃː,s̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1186,lakk1252,Lak,Lak,Khosrekh,village,ʃːʷ,s̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1187,lakk1252,Lak,Lak,Khosrekh,village,ʃʷ,š˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1188,lakk1252,Lak,Lak,Khosrekh,village,t',t',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1189,lakk1252,Lak,Lak,Khosrekh,village,tː,t̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1190,lakk1252,Lak,Lak,Khosrekh,village,tʰ,t,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1191,lakk1252,Lak,Lak,Khosrekh,village,ts',c',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1192,lakk1252,Lak,Lak,Khosrekh,village,ts'ʷ,c'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1193,lakk1252,Lak,Lak,Khosrekh,village,tsː,c̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1194,lakk1252,Lak,Lak,Khosrekh,village,tsːʷ,c̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1195,lakk1252,Lak,Lak,Khosrekh,village,tsʰ,c,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1196,lakk1252,Lak,Lak,Khosrekh,village,tsʰʷ,c˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1197,lakk1252,Lak,Lak,Khosrekh,village,tʃ',č',consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1198,lakk1252,Lak,Lak,Khosrekh,village,tʃ'ʷ,č'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1199,lakk1252,Lak,Lak,Khosrekh,village,tʃː,c̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1200,lakk1252,Lak,Lak,Khosrekh,village,tʃːʷ,c̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1201,lakk1252,Lak,Lak,Khosrekh,village,tʃʰ,č,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1202,lakk1252,Lak,Lak,Khosrekh,village,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1203,lakk1252,Lak,Lak,Khosrekh,village,u,u,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1204,lakk1252,Lak,Lak,Khosrekh,village,uː,u:,vowel,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1205,lakk1252,Lak,Lak,Khosrekh,village,uˤ,uI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1206,lakk1252,Lak,Lak,Khosrekh,village,uˤː,u:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,6.09.2021
+1207,lakk1252,Lak,Lak,Khosrekh,village,w,w,consonant,kibrikkodzasov1990,333,"реализуется как IβI перед Ia, iI",George Moroz,6.09.2021
+1208,lakk1252,Lak,Lak,Khosrekh,village,x,x,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,6.09.2021
+1209,lakk1252,Lak,Lak,Khosrekh,village,xː,x̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1210,lakk1252,Lak,Lak,Khosrekh,village,xːʷ,x̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1211,lakk1252,Lak,Lak,Khosrekh,village,xʷ,x˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1212,lakk1252,Lak,Lak,Khosrekh,village,z,z,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1213,lakk1252,Lak,Lak,Khosrekh,village,zʷ,z˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1214,lakk1252,Lak,Lak,Khosrekh,village,ʒ,ž,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1215,lakk1252,Lak,Lak,Khosrekh,village,ʒʷ,ž˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,6.09.2021
+1216,lakk1252,Lak,Lak,Khosrekh,village,ʔ,ʔ,consonant,kibrikkodzasov1990,333,"в фарингализованных слогах реализуются как эпиглоттальные ларингалы; в интервокальной позиции при отсутствии фарингализации реализуется как сужение связок, а не как размыкание",George Moroz,6.09.2021
+1217,lakk1252,Lak,Lak,Khosrekh,village,χ,χ,consonant,kibrikkodzasov1990,333,,George Moroz,6.09.2021
+1218,lakk1252,Lak,Lak,Khosrekh,village,χː,X̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,6.09.2021
+1219,lakk1252,Lak,Lak,Khosrekh,village,χːʷ,X̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1220,lakk1252,Lak,Lak,Khosrekh,village,χʷ,χ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,6.09.2021
+1221,arch1244,Archi,Archi,,,p,p,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1222,arch1244,Archi,Archi,,,t,t,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1223,arch1244,Archi,Archi,,,tʷ,t˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1224,arch1244,Archi,Archi,,,ts,c,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1225,arch1244,Archi,Archi,,,tsʷ,c˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1226,arch1244,Archi,Archi,,,tʃ,č,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1227,arch1244,Archi,Archi,,,tʃʷ,č˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1228,arch1244,Archi,Archi,,,tɬ,L,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1229,arch1244,Archi,Archi,,,tɬʷ,L˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1230,arch1244,Archi,Archi,,,k,k,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1231,arch1244,Archi,Archi,,,kʷ,k˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1232,arch1244,Archi,Archi,,,q,q,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1233,arch1244,Archi,Archi,,,qʷ,q˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1234,arch1244,Archi,Archi,,,b,b,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1235,arch1244,Archi,Archi,,,d,d,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1236,arch1244,Archi,Archi,,,dʷ,d˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1237,arch1244,Archi,Archi,,,ɡ,g,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1238,arch1244,Archi,Archi,,,ɡʷ,g˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1239,arch1244,Archi,Archi,,,p’,p’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1240,arch1244,Archi,Archi,,,t’,t’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1241,arch1244,Archi,Archi,,,ts’,c’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1242,arch1244,Archi,Archi,,,ts’ʷ,c’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1243,arch1244,Archi,Archi,,,tʃ’,č’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1244,arch1244,Archi,Archi,,,tʃ’ʷ,č’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1245,arch1244,Archi,Archi,,,tɬ’,L’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1246,arch1244,Archi,Archi,,,tɬ’ʷ,L’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1247,arch1244,Archi,Archi,,,k’,k’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1248,arch1244,Archi,Archi,,,k’ʷ,k’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1249,arch1244,Archi,Archi,,,q’,q’,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1250,arch1244,Archi,Archi,,,q’ʷ,q’˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1251,arch1244,Archi,Archi,,,pː,pː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1252,arch1244,Archi,Archi,,,tː,tː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1253,arch1244,Archi,Archi,,,ts’ː,c’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1254,arch1244,Archi,Archi,,,tʃ’ː,č’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1255,arch1244,Archi,Archi,,,kː,kː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1256,arch1244,Archi,Archi,,,kːʷ,kː˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1257,arch1244,Archi,Archi,,,q’ː,q’ː,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1258,arch1244,Archi,Archi,,,s,s,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1259,arch1244,Archi,Archi,,,sʷ,s˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1260,arch1244,Archi,Archi,,,ʃ,š,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1261,arch1244,Archi,Archi,,,ʃʷ,š˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1262,arch1244,Archi,Archi,,,ɬ,ɬ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1263,arch1244,Archi,Archi,,,ɬʷ,ɬ˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1264,arch1244,Archi,Archi,,,χ,x̌,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1265,arch1244,Archi,Archi,,,χʷ,x̌˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1266,arch1244,Archi,Archi,,,sː,s̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1267,arch1244,Archi,Archi,,,sːʷ,s̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1268,arch1244,Archi,Archi,,,ʃː,š̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1269,arch1244,Archi,Archi,,,ʃːʷ,š̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1270,arch1244,Archi,Archi,,,ɬː,ɬ̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1271,arch1244,Archi,Archi,,,ɬːʷ,ɬ̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1272,arch1244,Archi,Archi,,,χː,x̌̄,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1273,arch1244,Archi,Archi,,,χːʷ,x̌̄˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1274,arch1244,Archi,Archi,,,z,z,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1275,arch1244,Archi,Archi,,,zʷ,z˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1276,arch1244,Archi,Archi,,,ʒ,ž,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1277,arch1244,Archi,Archi,,,ʒʷ,ž˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1278,arch1244,Archi,Archi,,,ɬ,ɬ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1279,arch1244,Archi,Archi,,,ʁ,ǧ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1280,arch1244,Archi,Archi,,,ʁʷ,ǧ˳,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1281,arch1244,Archi,Archi,,,ʕ,ʕ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1282,arch1244,Archi,Archi,,,ʔ,ʔ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1283,arch1244,Archi,Archi,,,ħ,ħ,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1284,arch1244,Archi,Archi,,,h,h,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1285,arch1244,Archi,Archi,,,m,m,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1286,arch1244,Archi,Archi,,,n,n,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1287,arch1244,Archi,Archi,,,y,y,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1288,arch1244,Archi,Archi,,,w,w,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1289,arch1244,Archi,Archi,,,r,r,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1290,arch1244,Archi,Archi,,,l,l,consonant,kibrik1994a,300,,George Moroz,6.09.2021
+1291,arch1244,Archi,Archi,,,aˤ,aI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
+1292,arch1244,Archi,Archi,,,oˤ,oI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
+1293,arch1244,Archi,Archi,,,eˤ,eI,vowel,kibrik1994a,304,,George Moroz,6.09.2021
+1294,arch1244,Archi,Archi,,,i,i,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1295,arch1244,Archi,Archi,,,iː,iː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1296,arch1244,Archi,Archi,,,e,e,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1297,arch1244,Archi,Archi,,,eː,eː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1298,arch1244,Archi,Archi,,,ə,ə,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1299,arch1244,Archi,Archi,,,a,a,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1300,arch1244,Archi,Archi,,,aː,aː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1301,arch1244,Archi,Archi,,,u,u,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1302,arch1244,Archi,Archi,,,uː,uː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1303,arch1244,Archi,Archi,,,o,o,vowel,kibrik1994a,303,,George Moroz,6.09.2021
+1304,arch1244,Archi,Archi,,,oː,oː,vowel,kibrik1994a,303,,George Moroz,6.09.2021
 1305,taba1259,Tabasaran,Tabasaran,Standard Tabasaran,language,i,и,vowel,alekseevshixalieva2003,29,,George Moroz,6.09.2021
 1306,taba1259,Tabasaran,Tabasaran,Standard Tabasaran,language,e,э,vowel,alekseevshixalieva2003,29,,George Moroz,6.09.2021
 1307,taba1259,Tabasaran,Tabasaran,Standard Tabasaran,language,y,уь,vowel,alekseevshixalieva2003,29,,George Moroz,6.09.2021
@@ -1418,105 +1418,105 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 1415,aghu1253,Aghul,Agul,Huppuq',village,ʢʷ,ʢʷ,consonant,maisakganenkov2016,,,George Moroz,6.09.2021
 1416,aghu1253,Aghul,Agul,Huppuq',village,xʷ,xʷ,consonant,maisakganenkov2016,,,George Moroz,6.09.2021
 1417,aghu1253,Aghul,Agul,Huppuq',village,ʃʷ,šʷ,consonant,maisakganenkov2016,,,George Moroz,6.09.2021
-1418,lezg1247,Lezgian,,,,i,и,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1419,lezg1247,Lezgian,,,,y,уь,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1420,lezg1247,Lezgian,,,,e,е,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1421,lezg1247,Lezgian,,,,æ,аь,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1422,lezg1247,Lezgian,,,,u,у,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1423,lezg1247,Lezgian,,,,o,о,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1424,lezg1247,Lezgian,,,,a,а,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
-1425,lezg1247,Lezgian,,,,b,б,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1426,lezg1247,Lezgian,,,,p:,пп,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1427,lezg1247,Lezgian,,,,p,п,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1428,lezg1247,Lezgian,,,,p’,пI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1429,lezg1247,Lezgian,,,,m,м,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1430,lezg1247,Lezgian,,,,w,в,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1431,lezg1247,Lezgian,,,,f,ф,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1432,lezg1247,Lezgian,,,,d,д,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1433,lezg1247,Lezgian,,,,t:,тт,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1434,lezg1247,Lezgian,,,,t,т,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1435,lezg1247,Lezgian,,,,t’,тI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1436,lezg1247,Lezgian,,,,n,н,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1437,lezg1247,Lezgian,,,,ts:,цц,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1438,lezg1247,Lezgian,,,,ts,ц,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1439,lezg1247,Lezgian,,,,ts’,цI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1440,lezg1247,Lezgian,,,,z,з,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1441,lezg1247,Lezgian,,,,s,с,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1442,lezg1247,Lezgian,,,,l,л,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1443,lezg1247,Lezgian,,,,r,р,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1444,lezg1247,Lezgian,,,,tʃː,чч,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1445,lezg1247,Lezgian,,,,tʃ,ч,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1446,lezg1247,Lezgian,,,,tʃ’,чI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1447,lezg1247,Lezgian,,,,ʒ,ж,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1448,lezg1247,Lezgian,,,,ʃ,ш,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1449,lezg1247,Lezgian,,,,j,й,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1450,lezg1247,Lezgian,,,,ɡ,г,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1451,lezg1247,Lezgian,,,,kː,кк,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1452,lezg1247,Lezgian,,,,k,к,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1453,lezg1247,Lezgian,,,,k’,кI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1454,lezg1247,Lezgian,,,,x,хь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1455,lezg1247,Lezgian,,,,qː,къ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1456,lezg1247,Lezgian,,,,q,хъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1457,lezg1247,Lezgian,,,,q’,кь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1458,lezg1247,Lezgian,,,,ʁ,гъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1459,lezg1247,Lezgian,,,,χ,х,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1460,lezg1247,Lezgian,,,,h,гь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1461,lezg1247,Lezgian,,,,ʔ,ъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
-1462,udii1243,Udi,???,???,???,a,a,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1463,udii1243,Udi,???,???,???,aː,a:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1464,udii1243,Udi,???,???,???,æ,ä,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1465,udii1243,Udi,???,???,???,b,b,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1466,udii1243,Udi,???,???,???,c,k̃y,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1467,udii1243,Udi,???,???,???,cʰ,ky,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1468,udii1243,Udi,???,???,???,d,d,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1469,udii1243,Udi,???,???,???,dz,ʒ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1470,udii1243,Udi,???,???,???,dʒ,ǯ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1471,udii1243,Udi,???,???,???,e,e,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1472,udii1243,Udi,???,???,???,f,f,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1473,udii1243,Udi,???,???,???,ɡ,g,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1474,udii1243,Udi,???,???,???,h,h,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1475,udii1243,Udi,???,???,???,i,i,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1476,udii1243,Udi,???,???,???,iː,i:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1477,udii1243,Udi,???,???,???,ɨ,ɨ,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1478,udii1243,Udi,???,???,???,j,j,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1479,udii1243,Udi,???,???,???,ɟ,gy,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1480,udii1243,Udi,???,???,???,k,k̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1481,udii1243,Udi,???,???,???,kʰ,k,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1482,udii1243,Udi,???,???,???,l,l,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1483,udii1243,Udi,???,???,???,ʎ,ly,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1484,udii1243,Udi,???,???,???,m,m,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1485,udii1243,Udi,???,???,???,n,n,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1486,udii1243,Udi,???,???,???,o,o,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1487,udii1243,Udi,???,???,???,ø,ö,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1488,udii1243,Udi,???,???,???,oː,o:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1489,udii1243,Udi,???,???,???,øː,ö:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1490,udii1243,Udi,???,???,???,p,p̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1491,udii1243,Udi,???,???,???,pʰ,p,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1492,udii1243,Udi,???,???,???,q,q̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1493,udii1243,Udi,???,???,???,qʰ,q,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1494,udii1243,Udi,???,???,???,r,r,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1495,udii1243,Udi,???,???,???,ʁ,ʀ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1496,udii1243,Udi,???,???,???,s,s,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1497,udii1243,Udi,???,???,???,ʃ,š,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1498,udii1243,Udi,???,???,???,t,t̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1499,udii1243,Udi,???,???,???,tʰ,t,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1500,udii1243,Udi,???,???,???,ts,c̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1501,udii1243,Udi,???,???,???,tsʰ,c,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1502,udii1243,Udi,???,???,???,tʃ,c̃̌,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
-1503,udii1243,Udi,???,???,???,tʃʰ,č,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1504,udii1243,Udi,???,???,???,u,u,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1505,udii1243,Udi,???,???,???,uː,u:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1506,udii1243,Udi,???,???,???,v,v,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1507,udii1243,Udi,???,???,???,y,ü,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1508,udii1243,Udi,???,???,???,z,z,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1509,udii1243,Udi,???,???,???,ʒ,ž,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1510,udii1243,Udi,???,???,???,ʔ,ʔ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1511,udii1243,Udi,???,???,???,χ,χ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1512,udii1243,Udi,???,???,???,iˤ,iI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1513,udii1243,Udi,???,???,???,eˤ,eI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1514,udii1243,Udi,???,???,???,aˤ,aI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1515,udii1243,Udi,???,???,???,oˤ,oI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
-1516,udii1243,Udi,???,???,???,uˤ,uI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1418,lezg1247,Lezgian,Lezgian,,,i,и,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1419,lezg1247,Lezgian,Lezgian,,,y,уь,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1420,lezg1247,Lezgian,Lezgian,,,e,е,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1421,lezg1247,Lezgian,Lezgian,,,æ,аь,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1422,lezg1247,Lezgian,Lezgian,,,u,у,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1423,lezg1247,Lezgian,Lezgian,,,o,о,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1424,lezg1247,Lezgian,Lezgian,,,a,а,vowel,gaydarivetal2009,54,,George Moroz,6.09.2021
+1425,lezg1247,Lezgian,Lezgian,,,b,б,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1426,lezg1247,Lezgian,Lezgian,,,p:,пп,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1427,lezg1247,Lezgian,Lezgian,,,p,п,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1428,lezg1247,Lezgian,Lezgian,,,p’,пI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1429,lezg1247,Lezgian,Lezgian,,,m,м,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1430,lezg1247,Lezgian,Lezgian,,,w,в,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1431,lezg1247,Lezgian,Lezgian,,,f,ф,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1432,lezg1247,Lezgian,Lezgian,,,d,д,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1433,lezg1247,Lezgian,Lezgian,,,t:,тт,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1434,lezg1247,Lezgian,Lezgian,,,t,т,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1435,lezg1247,Lezgian,Lezgian,,,t’,тI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1436,lezg1247,Lezgian,Lezgian,,,n,н,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1437,lezg1247,Lezgian,Lezgian,,,ts:,цц,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1438,lezg1247,Lezgian,Lezgian,,,ts,ц,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1439,lezg1247,Lezgian,Lezgian,,,ts’,цI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1440,lezg1247,Lezgian,Lezgian,,,z,з,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1441,lezg1247,Lezgian,Lezgian,,,s,с,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1442,lezg1247,Lezgian,Lezgian,,,l,л,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1443,lezg1247,Lezgian,Lezgian,,,r,р,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1444,lezg1247,Lezgian,Lezgian,,,tʃː,чч,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1445,lezg1247,Lezgian,Lezgian,,,tʃ,ч,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1446,lezg1247,Lezgian,Lezgian,,,tʃ’,чI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1447,lezg1247,Lezgian,Lezgian,,,ʒ,ж,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1448,lezg1247,Lezgian,Lezgian,,,ʃ,ш,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1449,lezg1247,Lezgian,Lezgian,,,j,й,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1450,lezg1247,Lezgian,Lezgian,,,ɡ,г,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1451,lezg1247,Lezgian,Lezgian,,,kː,кк,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1452,lezg1247,Lezgian,Lezgian,,,k,к,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1453,lezg1247,Lezgian,Lezgian,,,k’,кI,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1454,lezg1247,Lezgian,Lezgian,,,x,хь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1455,lezg1247,Lezgian,Lezgian,,,qː,къ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1456,lezg1247,Lezgian,Lezgian,,,q,хъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1457,lezg1247,Lezgian,Lezgian,,,q’,кь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1458,lezg1247,Lezgian,Lezgian,,,ʁ,гъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1459,lezg1247,Lezgian,Lezgian,,,χ,х,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1460,lezg1247,Lezgian,Lezgian,,,h,гь,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1461,lezg1247,Lezgian,Lezgian,,,ʔ,ъ,consonant,gaydarivetal2009,56,,George Moroz,6.09.2021
+1462,udii1243,Udi,Udi,Nidzh,village,a,a,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1463,udii1243,Udi,Udi,Nidzh,village,aː,a:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1464,udii1243,Udi,Udi,Nidzh,village,æ,ä,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1465,udii1243,Udi,Udi,Nidzh,village,b,b,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1466,udii1243,Udi,Udi,Nidzh,village,c,k̃y,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1467,udii1243,Udi,Udi,Nidzh,village,cʰ,ky,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1468,udii1243,Udi,Udi,Nidzh,village,d,d,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1469,udii1243,Udi,Udi,Nidzh,village,dz,ʒ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1470,udii1243,Udi,Udi,Nidzh,village,dʒ,ǯ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1471,udii1243,Udi,Udi,Nidzh,village,e,e,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1472,udii1243,Udi,Udi,Nidzh,village,f,f,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1473,udii1243,Udi,Udi,Nidzh,village,ɡ,g,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1474,udii1243,Udi,Udi,Nidzh,village,h,h,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1475,udii1243,Udi,Udi,Nidzh,village,i,i,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1476,udii1243,Udi,Udi,Nidzh,village,iː,i:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1477,udii1243,Udi,Udi,Nidzh,village,ɨ,ɨ,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1478,udii1243,Udi,Udi,Nidzh,village,j,j,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1479,udii1243,Udi,Udi,Nidzh,village,ɟ,gy,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1480,udii1243,Udi,Udi,Nidzh,village,k,k̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1481,udii1243,Udi,Udi,Nidzh,village,kʰ,k,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1482,udii1243,Udi,Udi,Nidzh,village,l,l,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1483,udii1243,Udi,Udi,Nidzh,village,ʎ,ly,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1484,udii1243,Udi,Udi,Nidzh,village,m,m,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1485,udii1243,Udi,Udi,Nidzh,village,n,n,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1486,udii1243,Udi,Udi,Nidzh,village,o,o,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1487,udii1243,Udi,Udi,Nidzh,village,ø,ö,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1488,udii1243,Udi,Udi,Nidzh,village,oː,o:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1489,udii1243,Udi,Udi,Nidzh,village,øː,ö:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1490,udii1243,Udi,Udi,Nidzh,village,p,p̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1491,udii1243,Udi,Udi,Nidzh,village,pʰ,p,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1492,udii1243,Udi,Udi,Nidzh,village,q,q̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1493,udii1243,Udi,Udi,Nidzh,village,qʰ,q,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1494,udii1243,Udi,Udi,Nidzh,village,r,r,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1495,udii1243,Udi,Udi,Nidzh,village,ʁ,ʀ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1496,udii1243,Udi,Udi,Nidzh,village,s,s,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1497,udii1243,Udi,Udi,Nidzh,village,ʃ,š,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1498,udii1243,Udi,Udi,Nidzh,village,t,t̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1499,udii1243,Udi,Udi,Nidzh,village,tʰ,t,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1500,udii1243,Udi,Udi,Nidzh,village,ts,c̃,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1501,udii1243,Udi,Udi,Nidzh,village,tsʰ,c,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1502,udii1243,Udi,Udi,Nidzh,village,tʃ,c̃̌,consonant,kibrikkodzasov1990,347,"непридыхательные произносятся с напряжением как в ротовой, так и гортанной артикуляции, но без геминации или удлиннения в какой-либо позиции. Если в корне имеется непридыхательный, то и другие шумные смычные корня обычно тоже непридыхательные",George Moroz,6.09.2021
+1503,udii1243,Udi,Udi,Nidzh,village,tʃʰ,č,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1504,udii1243,Udi,Udi,Nidzh,village,u,u,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1505,udii1243,Udi,Udi,Nidzh,village,uː,u:,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1506,udii1243,Udi,Udi,Nidzh,village,v,v,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1507,udii1243,Udi,Udi,Nidzh,village,y,ü,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1508,udii1243,Udi,Udi,Nidzh,village,z,z,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1509,udii1243,Udi,Udi,Nidzh,village,ʒ,ž,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1510,udii1243,Udi,Udi,Nidzh,village,ʔ,ʔ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1511,udii1243,Udi,Udi,Nidzh,village,χ,χ,consonant,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1512,udii1243,Udi,Udi,Nidzh,village,iˤ,iI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1513,udii1243,Udi,Udi,Nidzh,village,eˤ,eI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1514,udii1243,Udi,Udi,Nidzh,village,aˤ,aI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1515,udii1243,Udi,Udi,Nidzh,village,oˤ,oI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
+1516,udii1243,Udi,Udi,Nidzh,village,uˤ,uI,vowel,kibrikkodzasov1990,347,,George Moroz,6.09.2021
 1517,budu1248,Budukh,Budukh,Budukh,village,b,б,consonant,talibov2007,35,,George Moroz,6.09.2021
 1518,budu1248,Budukh,Budukh,Budukh,village,p,п,consonant,talibov2007,35,,George Moroz,6.09.2021
 1519,budu1248,Budukh,Budukh,Budukh,village,p’,пI,consonant,talibov2007,35,,George Moroz,6.09.2021
@@ -1563,61 +1563,61 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 1560,budu1248,Budukh,Budukh,Budukh,village,iˤ,иI,vowel,talibov2007,37,,George Moroz,6.09.2021
 1561,budu1248,Budukh,Budukh,Budukh,village,oˤ,оI,vowel,talibov2007,37,,George Moroz,6.09.2021
 1562,budu1248,Budukh,Budukh,Budukh,village,uˤ,уI,vowel,talibov2007,37,,George Moroz,6.09.2021
-1563,kryt1240,Kryz,Kryz,???,???,p,p,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1564,kryt1240,Kryz,Kryz,???,???,b,b,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1565,kryt1240,Kryz,Kryz,???,???,p’,p’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1566,kryt1240,Kryz,Kryz,???,???,f,f,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1567,kryt1240,Kryz,Kryz,???,???,v,v,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1568,kryt1240,Kryz,Kryz,???,???,t,t,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1569,kryt1240,Kryz,Kryz,???,???,d,d,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1570,kryt1240,Kryz,Kryz,???,???,t’,t’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1571,kryt1240,Kryz,Kryz,???,???,ts,c,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1572,kryt1240,Kryz,Kryz,???,???,dz,ʒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1573,kryt1240,Kryz,Kryz,???,???,ts’,c’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1574,kryt1240,Kryz,Kryz,???,???,s,s,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1575,kryt1240,Kryz,Kryz,???,???,z,z,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1576,kryt1240,Kryz,Kryz,???,???,tʃ,č,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1577,kryt1240,Kryz,Kryz,???,???,dʒ,ǯ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1578,kryt1240,Kryz,Kryz,???,???,tʃ’,č’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1579,kryt1240,Kryz,Kryz,???,???,ʃ,š̄,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1580,kryt1240,Kryz,Kryz,???,???,ʒ,ž,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1581,kryt1240,Kryz,Kryz,???,???,tʃ’ʷ,č’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1582,kryt1240,Kryz,Kryz,???,???,k,k,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1583,kryt1240,Kryz,Kryz,???,???,ɡ,g,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1584,kryt1240,Kryz,Kryz,???,???,k’,k’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1585,kryt1240,Kryz,Kryz,???,???,x,x̂,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1586,kryt1240,Kryz,Kryz,???,???,ɣ,ĝ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1587,kryt1240,Kryz,Kryz,???,???,kʷ,kᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1588,kryt1240,Kryz,Kryz,???,???,gʷ,gᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1589,kryt1240,Kryz,Kryz,???,???,k’ʷ,k’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1590,kryt1240,Kryz,Kryz,???,???,xʷ,x̂ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1591,kryt1240,Kryz,Kryz,???,???,q,q,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1592,kryt1240,Kryz,Kryz,???,???,qː,qː,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1593,kryt1240,Kryz,Kryz,???,???,q’,q’,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1594,kryt1240,Kryz,Kryz,???,???,χ,x̌,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1595,kryt1240,Kryz,Kryz,???,???,ʁ,ǧ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1596,kryt1240,Kryz,Kryz,???,???,qʷ,qᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1597,kryt1240,Kryz,Kryz,???,???,qːʷ,qːᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1598,kryt1240,Kryz,Kryz,???,???,q’ʷ,q’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1599,kryt1240,Kryz,Kryz,???,???,χʷ,x̌ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1600,kryt1240,Kryz,Kryz,???,???,ħ,ħ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1601,kryt1240,Kryz,Kryz,???,???,ʕ,ʕ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1602,kryt1240,Kryz,Kryz,???,???,ʔ,ʔ,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1603,kryt1240,Kryz,Kryz,???,???,h,h,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1604,kryt1240,Kryz,Kryz,???,???,m,m,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1605,kryt1240,Kryz,Kryz,???,???,n,n,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1606,kryt1240,Kryz,Kryz,???,???,j,y,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1607,kryt1240,Kryz,Kryz,???,???,l,l,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1608,kryt1240,Kryz,Kryz,???,???,r,r,consonant,saadiev1994,409,,George Moroz,6.09.2021
-1609,kryt1240,Kryz,Kryz,???,???,i,i,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1610,kryt1240,Kryz,Kryz,???,???,e,e,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1611,kryt1240,Kryz,Kryz,???,???,æ,ä,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1612,kryt1240,Kryz,Kryz,???,???,ɨ,ə,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1613,kryt1240,Kryz,Kryz,???,???,a,a,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1614,kryt1240,Kryz,Kryz,???,???,y,ü,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1615,kryt1240,Kryz,Kryz,???,???,ø,ö,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1616,kryt1240,Kryz,Kryz,???,???,u,u,vowel,saadiev1994,410,,George Moroz,6.09.2021
-1617,kryt1240,Kryz,Kryz,???,???,o,o,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1563,kryt1240,Kryz,Kryz,,,p,p,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1564,kryt1240,Kryz,Kryz,,,b,b,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1565,kryt1240,Kryz,Kryz,,,p’,p’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1566,kryt1240,Kryz,Kryz,,,f,f,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1567,kryt1240,Kryz,Kryz,,,v,v,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1568,kryt1240,Kryz,Kryz,,,t,t,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1569,kryt1240,Kryz,Kryz,,,d,d,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1570,kryt1240,Kryz,Kryz,,,t’,t’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1571,kryt1240,Kryz,Kryz,,,ts,c,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1572,kryt1240,Kryz,Kryz,,,dz,ʒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1573,kryt1240,Kryz,Kryz,,,ts’,c’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1574,kryt1240,Kryz,Kryz,,,s,s,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1575,kryt1240,Kryz,Kryz,,,z,z,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1576,kryt1240,Kryz,Kryz,,,tʃ,č,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1577,kryt1240,Kryz,Kryz,,,dʒ,ǯ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1578,kryt1240,Kryz,Kryz,,,tʃ’,č’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1579,kryt1240,Kryz,Kryz,,,ʃ,š̄,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1580,kryt1240,Kryz,Kryz,,,ʒ,ž,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1581,kryt1240,Kryz,Kryz,,,tʃ’ʷ,č’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1582,kryt1240,Kryz,Kryz,,,k,k,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1583,kryt1240,Kryz,Kryz,,,ɡ,g,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1584,kryt1240,Kryz,Kryz,,,k’,k’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1585,kryt1240,Kryz,Kryz,,,x,x̂,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1586,kryt1240,Kryz,Kryz,,,ɣ,ĝ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1587,kryt1240,Kryz,Kryz,,,kʷ,kᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1588,kryt1240,Kryz,Kryz,,,gʷ,gᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1589,kryt1240,Kryz,Kryz,,,k’ʷ,k’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1590,kryt1240,Kryz,Kryz,,,xʷ,x̂ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1591,kryt1240,Kryz,Kryz,,,q,q,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1592,kryt1240,Kryz,Kryz,,,qː,qː,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1593,kryt1240,Kryz,Kryz,,,q’,q’,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1594,kryt1240,Kryz,Kryz,,,χ,x̌,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1595,kryt1240,Kryz,Kryz,,,ʁ,ǧ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1596,kryt1240,Kryz,Kryz,,,qʷ,qᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1597,kryt1240,Kryz,Kryz,,,qːʷ,qːᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1598,kryt1240,Kryz,Kryz,,,q’ʷ,q’ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1599,kryt1240,Kryz,Kryz,,,χʷ,x̌ᵒ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1600,kryt1240,Kryz,Kryz,,,ħ,ħ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1601,kryt1240,Kryz,Kryz,,,ʕ,ʕ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1602,kryt1240,Kryz,Kryz,,,ʔ,ʔ,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1603,kryt1240,Kryz,Kryz,,,h,h,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1604,kryt1240,Kryz,Kryz,,,m,m,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1605,kryt1240,Kryz,Kryz,,,n,n,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1606,kryt1240,Kryz,Kryz,,,j,y,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1607,kryt1240,Kryz,Kryz,,,l,l,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1608,kryt1240,Kryz,Kryz,,,r,r,consonant,saadiev1994,409,,George Moroz,6.09.2021
+1609,kryt1240,Kryz,Kryz,,,i,i,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1610,kryt1240,Kryz,Kryz,,,e,e,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1611,kryt1240,Kryz,Kryz,,,æ,ä,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1612,kryt1240,Kryz,Kryz,,,ɨ,ə,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1613,kryt1240,Kryz,Kryz,,,a,a,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1614,kryt1240,Kryz,Kryz,,,y,ü,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1615,kryt1240,Kryz,Kryz,,,ø,ö,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1616,kryt1240,Kryz,Kryz,,,u,u,vowel,saadiev1994,410,,George Moroz,6.09.2021
+1617,kryt1240,Kryz,Kryz,,,o,o,vowel,saadiev1994,410,,George Moroz,6.09.2021
 1618,rutu1240,Rutul,Rutul,Luchek,village,p,p,consonant,alekseev1994,215,,George Moroz,6.09.2021
 1619,rutu1240,Rutul,Rutul,Luchek,village,b,b,consonant,alekseev1994,215,,George Moroz,6.09.2021
 1620,rutu1240,Rutul,Rutul,Luchek,village,p’,p’,consonant,alekseev1994,215,,George Moroz,6.09.2021
@@ -1762,67 +1762,67 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 1759,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,oː,ō,vowel,kibrik1999,17,,George Moroz,6.09.2021
 1760,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,u,u,vowel,kibrik1999,17,,George Moroz,6.09.2021
 1761,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,uː,ū,vowel,kibrik1999,17,,George Moroz,6.09.2021
-1762,khin1240,Khinalug,Khinalug,???,???,pʰ,pʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1763,khin1240,Khinalug,Khinalug,???,???,p,p,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1764,khin1240,Khinalug,Khinalug,???,???,pː,p̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1765,khin1240,Khinalug,Khinalug,???,???,b,b,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1766,khin1240,Khinalug,Khinalug,???,???,p’,p’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1767,khin1240,Khinalug,Khinalug,???,???,f,f,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1768,khin1240,Khinalug,Khinalug,???,???,v,v,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1769,khin1240,Khinalug,Khinalug,???,???,tʰ,tʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1770,khin1240,Khinalug,Khinalug,???,???,t,t,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1771,khin1240,Khinalug,Khinalug,???,???,tː,t̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1772,khin1240,Khinalug,Khinalug,???,???,d,d,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1773,khin1240,Khinalug,Khinalug,???,???,t’,t’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1774,khin1240,Khinalug,Khinalug,???,???,tsʰ,cʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1775,khin1240,Khinalug,Khinalug,???,???,ts,c,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1776,khin1240,Khinalug,Khinalug,???,???,tsː,c̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1777,khin1240,Khinalug,Khinalug,???,???,ts’,c’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1778,khin1240,Khinalug,Khinalug,???,???,s,s,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1779,khin1240,Khinalug,Khinalug,???,???,z,z,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1780,khin1240,Khinalug,Khinalug,???,???,tʃʰ,čʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1781,khin1240,Khinalug,Khinalug,???,???,tʃ,č,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1782,khin1240,Khinalug,Khinalug,???,???,tʃː,č̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1783,khin1240,Khinalug,Khinalug,???,???,dʒ,ǯ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1784,khin1240,Khinalug,Khinalug,???,???,tʃ’,č’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1785,khin1240,Khinalug,Khinalug,???,???,ʃ,š,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1786,khin1240,Khinalug,Khinalug,???,???,ʒ,ž,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1787,khin1240,Khinalug,Khinalug,???,???,kʲʰ,kʰ`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1788,khin1240,Khinalug,Khinalug,???,???,kʲ,k`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1789,khin1240,Khinalug,Khinalug,???,???,kʲː,k̄`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1790,khin1240,Khinalug,Khinalug,???,???,ɡʲ,g`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1791,khin1240,Khinalug,Khinalug,???,???,kʲ’,k`’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1792,khin1240,Khinalug,Khinalug,???,???,xʲ,x̂`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1793,khin1240,Khinalug,Khinalug,???,???,kʰ,kʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1794,khin1240,Khinalug,Khinalug,???,???,k,k,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1795,khin1240,Khinalug,Khinalug,???,???,kː,k̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1796,khin1240,Khinalug,Khinalug,???,???,ɡ,g,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1797,khin1240,Khinalug,Khinalug,???,???,k’,k’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1798,khin1240,Khinalug,Khinalug,???,???,x,x̂,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1799,khin1240,Khinalug,Khinalug,???,???,ɣ,ĝ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1800,khin1240,Khinalug,Khinalug,???,???,qʰ,qʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1801,khin1240,Khinalug,Khinalug,???,???,q,q,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1802,khin1240,Khinalug,Khinalug,???,???,qː,q̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1803,khin1240,Khinalug,Khinalug,???,???,q’,q’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1804,khin1240,Khinalug,Khinalug,???,???,χ,x̌,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1805,khin1240,Khinalug,Khinalug,???,???,ʁ,ǧ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1806,khin1240,Khinalug,Khinalug,???,???,ħ,ħ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1807,khin1240,Khinalug,Khinalug,???,???,ʕ,ʕ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1808,khin1240,Khinalug,Khinalug,???,???,ʔ,ʔ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1809,khin1240,Khinalug,Khinalug,???,???,h,h,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1810,khin1240,Khinalug,Khinalug,???,???,m,m,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1811,khin1240,Khinalug,Khinalug,???,???,n,n,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1812,khin1240,Khinalug,Khinalug,???,???,j,y,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1813,khin1240,Khinalug,Khinalug,???,???,w,w,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1814,khin1240,Khinalug,Khinalug,???,???,l,l,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1815,khin1240,Khinalug,Khinalug,???,???,lʲ,l`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1816,khin1240,Khinalug,Khinalug,???,???,r,r,consonant,kibrik1994b,370,,George Moroz,6.09.2021
-1817,khin1240,Khinalug,Khinalug,???,???,i,i,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1818,khin1240,Khinalug,Khinalug,???,???,e,e,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1819,khin1240,Khinalug,Khinalug,???,???,æ,ä,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1820,khin1240,Khinalug,Khinalug,???,???,y,ü,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1821,khin1240,Khinalug,Khinalug,???,???,ø,ö,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1822,khin1240,Khinalug,Khinalug,???,???,ɨ,ɨ,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1823,khin1240,Khinalug,Khinalug,???,???,a,a,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1824,khin1240,Khinalug,Khinalug,???,???,u,u,vowel,kibrik1994b,372,,George Moroz,6.09.2021
-1825,khin1240,Khinalug,Khinalug,???,???,o,o,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1762,khin1240,Khinalug,Khinalug,,,pʰ,pʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1763,khin1240,Khinalug,Khinalug,,,p,p,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1764,khin1240,Khinalug,Khinalug,,,pː,p̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1765,khin1240,Khinalug,Khinalug,,,b,b,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1766,khin1240,Khinalug,Khinalug,,,p’,p’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1767,khin1240,Khinalug,Khinalug,,,f,f,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1768,khin1240,Khinalug,Khinalug,,,v,v,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1769,khin1240,Khinalug,Khinalug,,,tʰ,tʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1770,khin1240,Khinalug,Khinalug,,,t,t,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1771,khin1240,Khinalug,Khinalug,,,tː,t̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1772,khin1240,Khinalug,Khinalug,,,d,d,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1773,khin1240,Khinalug,Khinalug,,,t’,t’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1774,khin1240,Khinalug,Khinalug,,,tsʰ,cʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1775,khin1240,Khinalug,Khinalug,,,ts,c,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1776,khin1240,Khinalug,Khinalug,,,tsː,c̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1777,khin1240,Khinalug,Khinalug,,,ts’,c’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1778,khin1240,Khinalug,Khinalug,,,s,s,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1779,khin1240,Khinalug,Khinalug,,,z,z,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1780,khin1240,Khinalug,Khinalug,,,tʃʰ,čʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1781,khin1240,Khinalug,Khinalug,,,tʃ,č,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1782,khin1240,Khinalug,Khinalug,,,tʃː,č̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1783,khin1240,Khinalug,Khinalug,,,dʒ,ǯ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1784,khin1240,Khinalug,Khinalug,,,tʃ’,č’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1785,khin1240,Khinalug,Khinalug,,,ʃ,š,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1786,khin1240,Khinalug,Khinalug,,,ʒ,ž,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1787,khin1240,Khinalug,Khinalug,,,kʲʰ,kʰ`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1788,khin1240,Khinalug,Khinalug,,,kʲ,k`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1789,khin1240,Khinalug,Khinalug,,,kʲː,k̄`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1790,khin1240,Khinalug,Khinalug,,,ɡʲ,g`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1791,khin1240,Khinalug,Khinalug,,,kʲ’,k`’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1792,khin1240,Khinalug,Khinalug,,,xʲ,x̂`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1793,khin1240,Khinalug,Khinalug,,,kʰ,kʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1794,khin1240,Khinalug,Khinalug,,,k,k,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1795,khin1240,Khinalug,Khinalug,,,kː,k̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1796,khin1240,Khinalug,Khinalug,,,ɡ,g,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1797,khin1240,Khinalug,Khinalug,,,k’,k’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1798,khin1240,Khinalug,Khinalug,,,x,x̂,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1799,khin1240,Khinalug,Khinalug,,,ɣ,ĝ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1800,khin1240,Khinalug,Khinalug,,,qʰ,qʰ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1801,khin1240,Khinalug,Khinalug,,,q,q,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1802,khin1240,Khinalug,Khinalug,,,qː,q̄,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1803,khin1240,Khinalug,Khinalug,,,q’,q’,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1804,khin1240,Khinalug,Khinalug,,,χ,x̌,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1805,khin1240,Khinalug,Khinalug,,,ʁ,ǧ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1806,khin1240,Khinalug,Khinalug,,,ħ,ħ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1807,khin1240,Khinalug,Khinalug,,,ʕ,ʕ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1808,khin1240,Khinalug,Khinalug,,,ʔ,ʔ,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1809,khin1240,Khinalug,Khinalug,,,h,h,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1810,khin1240,Khinalug,Khinalug,,,m,m,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1811,khin1240,Khinalug,Khinalug,,,n,n,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1812,khin1240,Khinalug,Khinalug,,,j,y,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1813,khin1240,Khinalug,Khinalug,,,w,w,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1814,khin1240,Khinalug,Khinalug,,,l,l,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1815,khin1240,Khinalug,Khinalug,,,lʲ,l`,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1816,khin1240,Khinalug,Khinalug,,,r,r,consonant,kibrik1994b,370,,George Moroz,6.09.2021
+1817,khin1240,Khinalug,Khinalug,,,i,i,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1818,khin1240,Khinalug,Khinalug,,,e,e,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1819,khin1240,Khinalug,Khinalug,,,æ,ä,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1820,khin1240,Khinalug,Khinalug,,,y,ü,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1821,khin1240,Khinalug,Khinalug,,,ø,ö,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1822,khin1240,Khinalug,Khinalug,,,ɨ,ɨ,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1823,khin1240,Khinalug,Khinalug,,,a,a,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1824,khin1240,Khinalug,Khinalug,,,u,u,vowel,kibrik1994b,372,,George Moroz,6.09.2021
+1825,khin1240,Khinalug,Khinalug,,,o,o,vowel,kibrik1994b,372,,George Moroz,6.09.2021
