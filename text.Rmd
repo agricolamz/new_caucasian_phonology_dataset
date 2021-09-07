@@ -370,3 +370,9 @@ map.feature(languages = for_map$lang,
 ```
 
 Umlaut vowels are present in the South Dagestan and in Nakh languages. I can speculatively propose that they historically developed from pharyngealisation, but this hypothesis needs to be accurately checked with shared lexicon.
+
+## More features?
+
+* syllable structure?
+* vowel harmony?
+* acoustic study of stress?
