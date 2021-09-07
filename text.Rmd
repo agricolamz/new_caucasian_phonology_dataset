@@ -183,6 +183,8 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
+Labialization is widely attested in East Caucasian languages, however there are some languages that lost this feature (e. g. in Budukh, [@talibov07]). Unfortunately, sometimes scholars do not put the whole list of labialised consonants attested in a language.
+
 ## Geminates/Fortis
 
 ```{r}
@@ -279,6 +281,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
+Pharyngealization --- is a complex feature that phonetically reallised as a constriction in the pharynx or epiglottis zone. Different scholars used different strategy in describing locus of the pharyngealisation: sometimes it is analysed as a vowel feature [@forker13], sometimes as a consonant feature [@khalilova09] and sometimes as a suprasegmental feature [@kibrik1994a; @moroz19]. It is common that pharyngealisation spreads through the word, hovewer most researchers distinguish core pharyngealised syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Everything become even more complicated since some East Caucasian languages developed two different types of pharyngealisation [e. g. @belyayev21]. As we can see from the map, pharyngealization is common for central and south Daghestan for languages of Dargic, Lak, Tsezic and Lezgian branches.
 
 ## Nasalized vowels
 
