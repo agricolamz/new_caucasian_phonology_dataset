@@ -36,44 +36,44 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 35,nucl1235,Eastern Armenian,Armenian,Eastern Armenian,dialect_toplevel,i,i,vowel,dum-tragut2009,13,,George Moroz,2021.10.04
 36,nucl1235,Eastern Armenian,Armenian,Eastern Armenian,dialect_toplevel,o,ɔ,vowel,dum-tragut2009,13,,George Moroz,2021.10.04
 37,nucl1235,Eastern Armenian,Armenian,Eastern Armenian,dialect_toplevel,u,u,vowel,dum-tragut2009,13,,George Moroz,2021.10.04
-38,musl1236,Muslim Tat,Tat,Tat,language,b,b,consonant,griunberg1963,17,,George Moroz,2021.10.04
-39,musl1236,Muslim Tat,Tat,Tat,language,d,d,consonant,griunberg1963,17,,George Moroz,2021.10.04
-40,musl1236,Muslim Tat,Tat,Tat,language,dʒ,ǰ,consonant,griunberg1963,17,,George Moroz,2021.10.04
-41,musl1236,Muslim Tat,Tat,Tat,language,f,f,consonant,griunberg1963,17,,George Moroz,2021.10.04
-42,musl1236,Muslim Tat,Tat,Tat,language,ɡ,g,consonant,griunberg1963,17,,George Moroz,2021.10.04
-43,musl1236,Muslim Tat,Tat,Tat,language,h,h,consonant,griunberg1963,17,,George Moroz,2021.10.04
-44,musl1236,Muslim Tat,Tat,Tat,language,ħ,ḥ,consonant,griunberg1963,17,,George Moroz,2021.10.04
-45,musl1236,Muslim Tat,Tat,Tat,language,j,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
-46,musl1236,Muslim Tat,Tat,Tat,language,ʝ,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
-47,musl1236,Muslim Tat,Tat,Tat,language,ɡʲ,ǵ,consonant,griunberg1963,17,,George Moroz,2021.10.04
-48,musl1236,Muslim Tat,Tat,Tat,language,k,k,consonant,griunberg1963,17,,George Moroz,2021.10.04
-49,musl1236,Muslim Tat,Tat,Tat,language,l,l,consonant,griunberg1963,17,,George Moroz,2021.10.04
-50,musl1236,Muslim Tat,Tat,Tat,language,m,m,consonant,griunberg1963,17,,George Moroz,2021.10.04
-51,musl1236,Muslim Tat,Tat,Tat,language,n,n,consonant,griunberg1963,17,,George Moroz,2021.10.04
-52,musl1236,Muslim Tat,Tat,Tat,language,p,p,consonant,griunberg1963,17,,George Moroz,2021.10.04
-53,musl1236,Muslim Tat,Tat,Tat,language,q,q,consonant,griunberg1963,17,,George Moroz,2021.10.04
-54,musl1236,Muslim Tat,Tat,Tat,language,r,r,consonant,griunberg1963,17,,George Moroz,2021.10.04
-55,musl1236,Muslim Tat,Tat,Tat,language,ʁ,ɣ,consonant,griunberg1963,17,,George Moroz,2021.10.04
-56,musl1236,Muslim Tat,Tat,Tat,language,s,s,consonant,griunberg1963,17,,George Moroz,2021.10.04
-57,musl1236,Muslim Tat,Tat,Tat,language,ʃ,š,consonant,griunberg1963,17,,George Moroz,2021.10.04
-58,musl1236,Muslim Tat,Tat,Tat,language,t,t,consonant,griunberg1963,17,,George Moroz,2021.10.04
-59,musl1236,Muslim Tat,Tat,Tat,language,tʃ,č,consonant,griunberg1963,17,,George Moroz,2021.10.04
-60,musl1236,Muslim Tat,Tat,Tat,language,v,v,consonant,griunberg1963,17,,George Moroz,2021.10.04
-61,musl1236,Muslim Tat,Tat,Tat,language,z,z,consonant,griunberg1963,17,,George Moroz,2021.10.04
-62,musl1236,Muslim Tat,Tat,Tat,language,ʒ,ž,consonant,griunberg1963,17,,George Moroz,2021.10.04
-63,musl1236,Muslim Tat,Tat,Tat,language,ʡ,',consonant,griunberg1963,17,,George Moroz,2021.10.04
-64,musl1236,Muslim Tat,Tat,Tat,language,χ,x,consonant,griunberg1963,17,,George Moroz,2021.10.04
-65,musl1236,Muslim Tat,Tat,Tat,language,ei,ei,diphthong,griunberg1963,9,,George Moroz,2021.10.04
-66,musl1236,Muslim Tat,Tat,Tat,language,ou,ou,diphthong,griunberg1963,9,,George Moroz,2021.10.04
-67,musl1236,Muslim Tat,Tat,Tat,language,øy,ɵÿ,diphthong,griunberg1963,9,,George Moroz,2021.10.04
-68,musl1236,Muslim Tat,Tat,Tat,language,a,a,vowel,griunberg1963,9,,George Moroz,2021.10.04
-69,musl1236,Muslim Tat,Tat,Tat,language,æ,æ,vowel,griunberg1963,9,,George Moroz,2021.10.04
-70,musl1236,Muslim Tat,Tat,Tat,language,i,i,vowel,griunberg1963,9,,George Moroz,2021.10.04
-71,musl1236,Muslim Tat,Tat,Tat,language,ɨ,ị,vowel,griunberg1963,9,,George Moroz,2021.10.04
-72,musl1236,Muslim Tat,Tat,Tat,language,o,o,vowel,griunberg1963,9,,George Moroz,2021.10.04
-73,musl1236,Muslim Tat,Tat,Tat,language,ø,ɵ,vowel,griunberg1963,9,,George Moroz,2021.10.04
-74,musl1236,Muslim Tat,Tat,Tat,language,u,u,vowel,griunberg1963,9,,George Moroz,2021.10.04
-75,musl1236,Muslim Tat,Tat,Tat,language,y,ÿ,vowel,griunberg1963,9,,George Moroz,2021.10.04
+38,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,b,b,consonant,griunberg1963,17,,George Moroz,2021.10.04
+39,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,d,d,consonant,griunberg1963,17,,George Moroz,2021.10.04
+40,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,dʒ,ǰ,consonant,griunberg1963,17,,George Moroz,2021.10.04
+41,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,f,f,consonant,griunberg1963,17,,George Moroz,2021.10.04
+42,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ɡ,g,consonant,griunberg1963,17,,George Moroz,2021.10.04
+43,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,h,h,consonant,griunberg1963,17,,George Moroz,2021.10.04
+44,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ħ,ḥ,consonant,griunberg1963,17,,George Moroz,2021.10.04
+45,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,j,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
+46,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ʝ,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
+47,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ɡʲ,ǵ,consonant,griunberg1963,17,,George Moroz,2021.10.04
+48,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,k,k,consonant,griunberg1963,17,,George Moroz,2021.10.04
+49,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,l,l,consonant,griunberg1963,17,,George Moroz,2021.10.04
+50,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,m,m,consonant,griunberg1963,17,,George Moroz,2021.10.04
+51,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,n,n,consonant,griunberg1963,17,,George Moroz,2021.10.04
+52,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,p,p,consonant,griunberg1963,17,,George Moroz,2021.10.04
+53,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,q,q,consonant,griunberg1963,17,,George Moroz,2021.10.04
+54,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,r,r,consonant,griunberg1963,17,,George Moroz,2021.10.04
+55,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ʁ,ɣ,consonant,griunberg1963,17,,George Moroz,2021.10.04
+56,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,s,s,consonant,griunberg1963,17,,George Moroz,2021.10.04
+57,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ʃ,š,consonant,griunberg1963,17,,George Moroz,2021.10.04
+58,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,t,t,consonant,griunberg1963,17,,George Moroz,2021.10.04
+59,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,tʃ,č,consonant,griunberg1963,17,,George Moroz,2021.10.04
+60,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,v,v,consonant,griunberg1963,17,,George Moroz,2021.10.04
+61,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,z,z,consonant,griunberg1963,17,,George Moroz,2021.10.04
+62,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ʒ,ž,consonant,griunberg1963,17,,George Moroz,2021.10.04
+63,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ʡ,',consonant,griunberg1963,17,,George Moroz,2021.10.04
+64,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,χ,x,consonant,griunberg1963,17,,George Moroz,2021.10.04
+65,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ei,ei,diphthong,griunberg1963,9,,George Moroz,2021.10.04
+66,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ou,ou,diphthong,griunberg1963,9,,George Moroz,2021.10.04
+67,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,øy,ɵÿ,diphthong,griunberg1963,9,,George Moroz,2021.10.04
+68,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,a,a,vowel,griunberg1963,9,,George Moroz,2021.10.04
+69,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,æ,æ,vowel,griunberg1963,9,,George Moroz,2021.10.04
+70,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,i,i,vowel,griunberg1963,9,,George Moroz,2021.10.04
+71,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ɨ,ị,vowel,griunberg1963,9,,George Moroz,2021.10.04
+72,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,o,o,vowel,griunberg1963,9,,George Moroz,2021.10.04
+73,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,ø,ɵ,vowel,griunberg1963,9,,George Moroz,2021.10.04
+74,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,u,u,vowel,griunberg1963,9,,George Moroz,2021.10.04
+75,musl1236,Muslim Tat,Tat,Northern Azerbaijani Tat,dialect_toplevel,y,ÿ,vowel,griunberg1963,9,,George Moroz,2021.10.04
 76,nucl1302,Georgian,Georgian,Standard Georgian,language,b,b,consonant,hewitt1995,19,,George Moroz,2021.10.04
 77,nucl1302,Georgian,Georgian,Standard Georgian,language,d,d,consonant,hewitt1995,19,,George Moroz,2021.10.04
 78,nucl1302,Georgian,Georgian,Standard Georgian,language,dz,j,consonant,hewitt1995,19,,George Moroz,2021.10.04
