@@ -45,12 +45,22 @@ df %>%
   write_csv("database.csv", na = "")
 
 # add features ------------------------------------------------------------
-
+df <- read_csv("database.csv")
 df %>% 
   mutate(segment = str_replace_all(segment, "'", "ʼ"),
-         segment = str_replace_all(segment, ":", "ː")) %>% 
+         segment = str_replace_all(segment, "’", "ʼ"),
+         segment = str_replace_all(segment, ":", "ː"),
+         segment = str_replace_all(segment, "ːⁿ", "ⁿː"),
+         segment = str_replace_all(segment, "ːʲ", "ʲː"),
+         segment = str_replace_all(segment, "ʷː", "ːʷ"),
+         segment = str_replace_all(segment, "ʼʲ", "ʲʼ"),
+         segment = str_replace_all(segment, "g", "ɡ"),
+         segment = str_replace_all(segment, "c", "kʲ"),
+         segment = str_replace_all(segment, "ɟ", "ɡʲ"),
+         segment = str_replace_all(segment, "ç", "xʲ")) %>% 
+  #distinct(segment) %>% pull(segment) %>% sort()
   write_csv("database.csv", na = "")
 
 # create tables -----------------------------------------------------------
-df <- read_csv("database.csv")
+
 

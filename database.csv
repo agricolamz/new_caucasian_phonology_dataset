@@ -45,7 +45,7 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 44,musl1236,Muslim Tat,Tat,Tat,language,ħ,ḥ,consonant,griunberg1963,17,,George Moroz,2021.10.04
 45,musl1236,Muslim Tat,Tat,Tat,language,j,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
 46,musl1236,Muslim Tat,Tat,Tat,language,ʝ,y,consonant,griunberg1963,17,,George Moroz,2021.10.04
-47,musl1236,Muslim Tat,Tat,Tat,language,ɟ,ǵ,consonant,griunberg1963,17,,George Moroz,2021.10.04
+47,musl1236,Muslim Tat,Tat,Tat,language,ɡʲ,ǵ,consonant,griunberg1963,17,,George Moroz,2021.10.04
 48,musl1236,Muslim Tat,Tat,Tat,language,k,k,consonant,griunberg1963,17,,George Moroz,2021.10.04
 49,musl1236,Muslim Tat,Tat,Tat,language,l,l,consonant,griunberg1963,17,,George Moroz,2021.10.04
 50,musl1236,Muslim Tat,Tat,Tat,language,m,m,consonant,griunberg1963,17,,George Moroz,2021.10.04
@@ -710,8 +710,8 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 703,akhv1239,Akhvakh,Akhvakh,Tad-Magitl',village,uⁿː,ũ:,vowel,kibrikkodzasov1990,322–323,"засвидетельствованы в работе [Магомедбеков 1967], но в материале [Кибрик, Кодзасов 1990] их нет",Viola Ivanova,2017.05.06
 704,akhv1239,Akhvakh,Akhvakh,Tad-Magitl',village,uⁿ,ũ,vowel,kibrikkodzasov1990,322–323,,Viola Ivanova,2017.05.06
 705,andi1255,Andi,Andi,Zilo,village,b,b,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
-706,andi1255,Andi,Andi,Zilo,village,ç,ç,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
-707,andi1255,Andi,Andi,Zilo,village,çʷ,çʷ,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
+706,andi1255,Andi,Andi,Zilo,village,xʲ,ç,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
+707,andi1255,Andi,Andi,Zilo,village,xʲʷ,çʷ,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
 708,andi1255,Andi,Andi,Zilo,village,d,d,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
 709,andi1255,Andi,Andi,Zilo,village,dʒ,ǯ,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
 710,andi1255,Andi,Andi,Zilo,village,ɡ,g,consonant,kayeetaldraft2020,,,George Moroz,2021.10.04
@@ -1087,16 +1087,16 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 1072,bagv1239,Bagvalal,Bagvalal,Kvanada,village,uⁿː,ū̃,vowel,kibrik2001,35--46,,George Moroz,2021.10.04
 1073,bagv1239,Bagvalal,Bagvalal,Kvanada,village,uⁿ,ũ,vowel,kibrik2001,35--46,,George Moroz,2021.10.04
 1074,tind1238,Tindi,Tindi,Tindi,village,b,b,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1075,tind1238,Tindi,Tindi,Tindi,village,ç,xy,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
-1076,tind1238,Tindi,Tindi,Tindi,village,cʼ,k'y,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
-1077,tind1238,Tindi,Tindi,Tindi,village,cʼʷ,k'y˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1078,tind1238,Tindi,Tindi,Tindi,village,cː,k̄y,consonant,kibrikkodzasov1990,326–327,"сильные аффрикаты реализуются непридыхательными звуками с напряженным спирантным отступом; фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
-1079,tind1238,Tindi,Tindi,Tindi,village,çː,x̄y,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
-1080,tind1238,Tindi,Tindi,Tindi,village,cːʷ,ɡ˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1081,tind1238,Tindi,Tindi,Tindi,village,çːʷ,x̄y˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1082,tind1238,Tindi,Tindi,Tindi,village,cʰ,ky,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
-1083,tind1238,Tindi,Tindi,Tindi,village,cʰʷ,ky˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1084,tind1238,Tindi,Tindi,Tindi,village,çʷ,xy˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1075,tind1238,Tindi,Tindi,Tindi,village,xʲ,xy,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
+1076,tind1238,Tindi,Tindi,Tindi,village,kʲʼ,k'y,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
+1077,tind1238,Tindi,Tindi,Tindi,village,kʲʼʷ,k'y˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1078,tind1238,Tindi,Tindi,Tindi,village,kʲː,k̄y,consonant,kibrikkodzasov1990,326–327,"сильные аффрикаты реализуются непридыхательными звуками с напряженным спирантным отступом; фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
+1079,tind1238,Tindi,Tindi,Tindi,village,xʲː,x̄y,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
+1080,tind1238,Tindi,Tindi,Tindi,village,kʲːʷ,ɡ˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1081,tind1238,Tindi,Tindi,Tindi,village,xʲːʷ,x̄y˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1082,tind1238,Tindi,Tindi,Tindi,village,kʲʰ,ky,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации",Viola Ivanova,2017.05.06
+1083,tind1238,Tindi,Tindi,Tindi,village,kʲʰʷ,ky˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1084,tind1238,Tindi,Tindi,Tindi,village,xʲʷ,xy˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1085,tind1238,Tindi,Tindi,Tindi,village,d,d,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1086,tind1238,Tindi,Tindi,Tindi,village,dʷ,d˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1087,tind1238,Tindi,Tindi,Tindi,village,ɡ,ɡ,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
@@ -1105,8 +1105,8 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 1090,tind1238,Tindi,Tindi,Tindi,village,hʷ,h˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1091,tind1238,Tindi,Tindi,Tindi,village,ʜ,ʜ,consonant,kibrikkodzasov1990,326–327,эмфатические ларингалы встречаются в заимствованиях и звукоподражаниях,Viola Ivanova,2017.05.06
 1092,tind1238,Tindi,Tindi,Tindi,village,j,j,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
-1093,tind1238,Tindi,Tindi,Tindi,village,ɟ,ɡy,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации. До сих пор палатальные встречаются в основном перед и после гласных переднего ряда, причем палатализованными в этих позициях обычно не бывают лабиализованные согласные. Однако такое распределение соблюдается не всегда.",Viola Ivanova,2017.05.06
-1094,tind1238,Tindi,Tindi,Tindi,village,ɟʷ,ɡy˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
+1093,tind1238,Tindi,Tindi,Tindi,village,ɡʲ,ɡy,consonant,kibrikkodzasov1990,326–327,"фонемы палатального ряда, восходящие к велярным, подвергшимся позиционной палатализации. До сих пор палатальные встречаются в основном перед и после гласных переднего ряда, причем палатализованными в этих позициях обычно не бывают лабиализованные согласные. Однако такое распределение соблюдается не всегда.",Viola Ivanova,2017.05.06
+1094,tind1238,Tindi,Tindi,Tindi,village,ɡʲʷ,ɡy˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1095,tind1238,Tindi,Tindi,Tindi,village,kʼ,k',consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1096,tind1238,Tindi,Tindi,Tindi,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,326–327,,Viola Ivanova,2017.05.06
 1097,tind1238,Tindi,Tindi,Tindi,village,kː,k̄,consonant,kibrikkodzasov1990,326–327,"реализуется непридыхательным взрывным, в интервокальной позиции не геминируется",Viola Ivanova,2017.05.06
@@ -1364,7 +1364,7 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 1349,ghod1238,Godoberi,Godoberi,Godoberi,village,uː,u:,vowel,morozdraft2021,2,,George Moroz,2021.10.04
 1350,ghod1238,Godoberi,Godoberi,Godoberi,village,uⁿ,ũ,vowel,morozdraft2021,2,,George Moroz,2021.10.04
 1351,kara1474,Karata,Karata,Karata,dialect_toplevel,b,b,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
-1352,kara1474,Karata,Karata,Karata,dialect_toplevel,ç,x~,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
+1352,kara1474,Karata,Karata,Karata,dialect_toplevel,xʲ,x~,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
 1353,kara1474,Karata,Karata,Karata,dialect_toplevel,d,d,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
 1354,kara1474,Karata,Karata,Karata,dialect_toplevel,dʒ,ǯ,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
 1355,kara1474,Karata,Karata,Karata,dialect_toplevel,ɡ,g,consonant,magomedbekova1971,12--18,,George Moroz,2021.10.04
@@ -2861,8 +2861,8 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 2844,lezg1247,Lezgian,Lezgian,Lezgian,village,u,u,vowel,kibrikkodzasov1990,341,,,2017.05.06
 2845,lezg1247,Lezgian,Lezgian,Lezgian,village,y,ü,vowel,kibrikkodzasov1990,341,,,2017.05.06
 2846,udii1243,Udi,Udi,Nidzh,village,b,b,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
-2847,udii1243,Udi,Udi,Nidzh,village,c,k̃y,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
-2848,udii1243,Udi,Udi,Nidzh,village,cʰ,ky,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
+2847,udii1243,Udi,Udi,Nidzh,village,kʲ,k̃y,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
+2848,udii1243,Udi,Udi,Nidzh,village,kʲʰ,ky,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
 2849,udii1243,Udi,Udi,Nidzh,village,d,d,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
 2850,udii1243,Udi,Udi,Nidzh,village,dz,ʒ,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
 2851,udii1243,Udi,Udi,Nidzh,village,dʒ,ǯ,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
@@ -3309,7 +3309,7 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 3290,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,w,w,consonant,kibrik1999,16,,George Moroz,2021.10.04
 3291,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,x,x,consonant,kibrik1999,16,,George Moroz,2021.10.04
 3292,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xː,x̄,consonant,kibrik1999,16,,George Moroz,2021.10.04
-3293,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xːʲ,x̄j,consonant,kibrik1999,16,,George Moroz,2021.10.04
+3293,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xʲː,x̄j,consonant,kibrik1999,16,,George Moroz,2021.10.04
 3294,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xːʷ,x̄o,consonant,kibrik1999,16,,George Moroz,2021.10.04
 3295,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xʲ,xj,consonant,kibrik1999,16,,George Moroz,2021.10.04
 3296,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,xʷ,xo,consonant,kibrik1999,16,,George Moroz,2021.10.04
@@ -3649,14 +3649,14 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 3630,kumy1244,Kumyk,Kumyk,Standard Kumyk,language,ɯ,ы,vowel,abdullaevaetal2014,27,,George Moroz,2021.10.04
 3631,kumy1244,Kumyk,Kumyk,Standard Kumyk,language,y,уь,vowel,abdullaevaetal2014,27,,George Moroz,2021.10.04
 3632,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,b,б,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
-3633,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ç,G,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
+3633,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,xʲ,G,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3634,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,d,д,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3635,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,dʒ,ҹ,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3636,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,f,ф,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3637,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ɡ,г,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3638,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ħ,ʎ,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3639,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ʝ,j,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
-3640,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ɟ,ҝ,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
+3640,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,ɡʲ,ҝ,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3641,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,k,к,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3642,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,k,k,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
 3643,nort2697,North Azerbaijani,Azerbaijani,Standard Azerbaijani,language,l,л,consonant,shiralievsevortyan1971,16--26,,George Moroz,2021.10.04
