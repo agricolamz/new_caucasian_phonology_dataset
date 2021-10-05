@@ -31,8 +31,26 @@ df <- read_csv("database.csv")
 
 library(lingtypology)
 df %>% 
-  mutate(aff = aff.lang(lang))
-  
+  distinct(lang) %>% 
+  mutate(lang2 = lang,
+         lang2 = str_replace(lang2, "Inkhoqwari", "Inxokvari"),
+         lang2 = str_replace(lang2, "Khwarshi", "Khwarshi-Inkhoqwari"),
+         lang2 = str_replace(lang2, "Khinalugh", "Khinalug")) %>% 
+  mutate(aff = aff.lang(lang2)) %>% 
+  select(-lang2) %>% 
+  full_join(df) %>% 
+  arrange(aff, language, source, segment_type, segment) %>% 
+  mutate(id = 1:n()) %>% 
+  select(id, glottocode, lang, language, idiom, type, segment, segment_source, segment_type, source, page, comment, contributer, date) %>% 
+  write_csv("database.csv", na = "")
+
+# add features ------------------------------------------------------------
 
 df %>% 
-  dis
+  mutate(segment = str_replace_all(segment, "'", "ʼ"),
+         segment = str_replace_all(segment, ":", "ː")) %>% 
+  write_csv("database.csv", na = "")
+
+# create tables -----------------------------------------------------------
+df <- read_csv("database.csv")
+
