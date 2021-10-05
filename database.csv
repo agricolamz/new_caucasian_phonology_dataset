@@ -107,70 +107,70 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 106,nucl1302,Georgian,Georgian,Standard Georgian,language,i,i,vowel,hewitt1995,21,,George Moroz,2021.10.04
 107,nucl1302,Georgian,Georgian,Standard Georgian,language,o,o,vowel,hewitt1995,21,,George Moroz,2021.10.04
 108,nucl1302,Georgian,Georgian,Standard Georgian,language,u,u,vowel,hewitt1995,21,,George Moroz,2021.10.04
-109,khin1240,Khinalug,Khinalug,Khinalug,village,b,b,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-110,khin1240,Khinalug,Khinalug,Khinalug,village,d,d,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-111,khin1240,Khinalug,Khinalug,Khinalug,village,dʒ,ǯ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-112,khin1240,Khinalug,Khinalug,Khinalug,village,f,f,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-113,khin1240,Khinalug,Khinalug,Khinalug,village,ɡ,g,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-114,khin1240,Khinalug,Khinalug,Khinalug,village,ɡʲ,g`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-115,khin1240,Khinalug,Khinalug,Khinalug,village,ɣ,ĝ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-116,khin1240,Khinalug,Khinalug,Khinalug,village,h,h,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-117,khin1240,Khinalug,Khinalug,Khinalug,village,ħ,ħ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-118,khin1240,Khinalug,Khinalug,Khinalug,village,j,y,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-119,khin1240,Khinalug,Khinalug,Khinalug,village,k,k,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-120,khin1240,Khinalug,Khinalug,Khinalug,village,kʼ,k’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-121,khin1240,Khinalug,Khinalug,Khinalug,village,kː,k̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-122,khin1240,Khinalug,Khinalug,Khinalug,village,kʰ,kʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-123,khin1240,Khinalug,Khinalug,Khinalug,village,kʲ,k`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-124,khin1240,Khinalug,Khinalug,Khinalug,village,kʲʼ,k`’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-125,khin1240,Khinalug,Khinalug,Khinalug,village,kʲː,k̄`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-126,khin1240,Khinalug,Khinalug,Khinalug,village,kʲʰ,kʰ`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-127,khin1240,Khinalug,Khinalug,Khinalug,village,l,l,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-128,khin1240,Khinalug,Khinalug,Khinalug,village,lʲ,l`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-129,khin1240,Khinalug,Khinalug,Khinalug,village,m,m,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-130,khin1240,Khinalug,Khinalug,Khinalug,village,n,n,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-131,khin1240,Khinalug,Khinalug,Khinalug,village,p,p,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-132,khin1240,Khinalug,Khinalug,Khinalug,village,pʼ,p’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-133,khin1240,Khinalug,Khinalug,Khinalug,village,pː,p̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-134,khin1240,Khinalug,Khinalug,Khinalug,village,pʰ,pʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-135,khin1240,Khinalug,Khinalug,Khinalug,village,q,q,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-136,khin1240,Khinalug,Khinalug,Khinalug,village,qʼ,q’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-137,khin1240,Khinalug,Khinalug,Khinalug,village,qː,q̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-138,khin1240,Khinalug,Khinalug,Khinalug,village,qʰ,qʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-139,khin1240,Khinalug,Khinalug,Khinalug,village,r,r,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-140,khin1240,Khinalug,Khinalug,Khinalug,village,ʁ,ǧ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-141,khin1240,Khinalug,Khinalug,Khinalug,village,s,s,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-142,khin1240,Khinalug,Khinalug,Khinalug,village,ʃ,š,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-143,khin1240,Khinalug,Khinalug,Khinalug,village,t,t,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-144,khin1240,Khinalug,Khinalug,Khinalug,village,tʼ,t’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-145,khin1240,Khinalug,Khinalug,Khinalug,village,tː,t̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-146,khin1240,Khinalug,Khinalug,Khinalug,village,tʰ,tʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-147,khin1240,Khinalug,Khinalug,Khinalug,village,ts,c,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-148,khin1240,Khinalug,Khinalug,Khinalug,village,tsʼ,c’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-149,khin1240,Khinalug,Khinalug,Khinalug,village,tsː,c̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-150,khin1240,Khinalug,Khinalug,Khinalug,village,tsʰ,cʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-151,khin1240,Khinalug,Khinalug,Khinalug,village,tʃ,č,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-152,khin1240,Khinalug,Khinalug,Khinalug,village,tʃʼ,č’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-153,khin1240,Khinalug,Khinalug,Khinalug,village,tʃː,č̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-154,khin1240,Khinalug,Khinalug,Khinalug,village,tʃʰ,čʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-155,khin1240,Khinalug,Khinalug,Khinalug,village,v,v,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-156,khin1240,Khinalug,Khinalug,Khinalug,village,w,w,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-157,khin1240,Khinalug,Khinalug,Khinalug,village,x,x̂,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-158,khin1240,Khinalug,Khinalug,Khinalug,village,xʲ,x̂`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-159,khin1240,Khinalug,Khinalug,Khinalug,village,z,z,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-160,khin1240,Khinalug,Khinalug,Khinalug,village,ʒ,ž,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-161,khin1240,Khinalug,Khinalug,Khinalug,village,ʔ,ʔ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-162,khin1240,Khinalug,Khinalug,Khinalug,village,ʕ,ʕ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-163,khin1240,Khinalug,Khinalug,Khinalug,village,χ,x̌,consonant,kibrik1994b,370,,George Moroz,2021.10.04
-164,khin1240,Khinalug,Khinalug,Khinalug,village,a,a,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-165,khin1240,Khinalug,Khinalug,Khinalug,village,æ,ä,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-166,khin1240,Khinalug,Khinalug,Khinalug,village,e,e,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-167,khin1240,Khinalug,Khinalug,Khinalug,village,i,i,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-168,khin1240,Khinalug,Khinalug,Khinalug,village,ɨ,ɨ,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-169,khin1240,Khinalug,Khinalug,Khinalug,village,o,o,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-170,khin1240,Khinalug,Khinalug,Khinalug,village,ø,ö,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-171,khin1240,Khinalug,Khinalug,Khinalug,village,u,u,vowel,kibrik1994b,372,,George Moroz,2021.10.04
-172,khin1240,Khinalug,Khinalug,Khinalug,village,y,ü,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+109,khin1240,Khinalugh,Khinalugh,Khynalyg,village,b,b,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+110,khin1240,Khinalugh,Khinalugh,Khynalyg,village,d,d,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+111,khin1240,Khinalugh,Khinalugh,Khynalyg,village,dʒ,ǯ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+112,khin1240,Khinalugh,Khinalugh,Khynalyg,village,f,f,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+113,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ɡ,g,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+114,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ɡʲ,g`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+115,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ɣ,ĝ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+116,khin1240,Khinalugh,Khinalugh,Khynalyg,village,h,h,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+117,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ħ,ħ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+118,khin1240,Khinalugh,Khinalugh,Khynalyg,village,j,y,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+119,khin1240,Khinalugh,Khinalugh,Khynalyg,village,k,k,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+120,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʼ,k’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+121,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kː,k̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+122,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʰ,kʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+123,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʲ,k`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+124,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʲʼ,k`’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+125,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʲː,k̄`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+126,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʲʰ,kʰ`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+127,khin1240,Khinalugh,Khinalugh,Khynalyg,village,l,l,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+128,khin1240,Khinalugh,Khinalugh,Khynalyg,village,lʲ,l`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+129,khin1240,Khinalugh,Khinalugh,Khynalyg,village,m,m,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+130,khin1240,Khinalugh,Khinalugh,Khynalyg,village,n,n,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+131,khin1240,Khinalugh,Khinalugh,Khynalyg,village,p,p,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+132,khin1240,Khinalugh,Khinalugh,Khynalyg,village,pʼ,p’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+133,khin1240,Khinalugh,Khinalugh,Khynalyg,village,pː,p̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+134,khin1240,Khinalugh,Khinalugh,Khynalyg,village,pʰ,pʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+135,khin1240,Khinalugh,Khinalugh,Khynalyg,village,q,q,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+136,khin1240,Khinalugh,Khinalugh,Khynalyg,village,qʼ,q’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+137,khin1240,Khinalugh,Khinalugh,Khynalyg,village,qː,q̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+138,khin1240,Khinalugh,Khinalugh,Khynalyg,village,qʰ,qʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+139,khin1240,Khinalugh,Khinalugh,Khynalyg,village,r,r,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+140,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ʁ,ǧ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+141,khin1240,Khinalugh,Khinalugh,Khynalyg,village,s,s,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+142,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ʃ,š,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+143,khin1240,Khinalugh,Khinalugh,Khynalyg,village,t,t,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+144,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʼ,t’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+145,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tː,t̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+146,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʰ,tʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+147,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ts,c,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+148,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tsʼ,c’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+149,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tsː,c̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+150,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tsʰ,cʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+151,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʃ,č,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+152,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʃʼ,č’,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+153,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʃː,č̄,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+154,khin1240,Khinalugh,Khinalugh,Khynalyg,village,tʃʰ,čʰ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+155,khin1240,Khinalugh,Khinalugh,Khynalyg,village,v,v,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+156,khin1240,Khinalugh,Khinalugh,Khynalyg,village,w,w,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+157,khin1240,Khinalugh,Khinalugh,Khynalyg,village,x,x̂,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+158,khin1240,Khinalugh,Khinalugh,Khynalyg,village,xʲ,x̂`,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+159,khin1240,Khinalugh,Khinalugh,Khynalyg,village,z,z,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+160,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ʒ,ž,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+161,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ʔ,ʔ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+162,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ʕ,ʕ,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+163,khin1240,Khinalugh,Khinalugh,Khynalyg,village,χ,x̌,consonant,kibrik1994b,370,,George Moroz,2021.10.04
+164,khin1240,Khinalugh,Khinalugh,Khynalyg,village,a,a,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+165,khin1240,Khinalugh,Khinalugh,Khynalyg,village,æ,ä,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+166,khin1240,Khinalugh,Khinalugh,Khynalyg,village,e,e,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+167,khin1240,Khinalugh,Khinalugh,Khynalyg,village,i,i,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+168,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ɨ,ɨ,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+169,khin1240,Khinalugh,Khinalugh,Khynalyg,village,o,o,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+170,khin1240,Khinalugh,Khinalugh,Khynalyg,village,ø,ö,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+171,khin1240,Khinalugh,Khinalugh,Khynalyg,village,u,u,vowel,kibrik1994b,372,,George Moroz,2021.10.04
+172,khin1240,Khinalugh,Khinalugh,Khynalyg,village,y,ü,vowel,kibrik1994b,372,,George Moroz,2021.10.04
 173,khin1240,Khinalugh,Khinalugh,Khynalyg,village,b,b,consonant,kibrikkodzasov1990,346–347,,Viola Ivanova,2017.05.06
 174,khin1240,Khinalugh,Khinalugh,Khynalyg,village,kʲ,k̃y,consonant,kibrikkodzasov1990,346–347,,Viola Ivanova,2017.05.06
 175,khin1240,Khinalugh,Khinalugh,Khynalyg,village,xʲ,xy,consonant,kibrikkodzasov1990,346–347,,Viola Ivanova,2017.05.06
@@ -234,157 +234,81 @@ id,glottocode,lang,language,idiom,type,segment,segment_source,segment_type,sourc
 233,khin1240,Khinalugh,Khinalugh,Khynalyg,village,u,u,vowel,kibrikkodzasov1990,346–347,,Viola Ivanova,2017.05.06
 234,khin1240,Khinalugh,Khinalugh,Khynalyg,village,uː,u:,vowel,kibrikkodzasov1990,346–347,"Вопрос о долгих требует дальнейшего исследования. Как и в Будухе, удлиннение в некоторых случаях может отражать не сегментный контраст, а просодические влияния",Viola Ivanova,2017.05.06
 235,khin1240,Khinalugh,Khinalugh,Khynalyg,village,y,ü,vowel,kibrikkodzasov1990,346–347,,Viola Ivanova,2017.05.06
-236,lakk1252,Lak,Lak,Khosrekh,village,b,b,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 237,lakk1252,Lak,Lak,Khosrekh,village,b,b,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-238,lakk1252,Lak,Lak,Khosrekh,village,d,d,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 239,lakk1252,Lak,Lak,Khosrekh,village,d,d,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-240,lakk1252,Lak,Lak,Khosrekh,village,ɡ,g,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,2021.10.04
 241,lakk1252,Lak,Lak,Khosrekh,village,ɡ,g,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,Viola Ivanova,2017.05.06
-242,lakk1252,Lak,Lak,Khosrekh,village,ɡʷ,g˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 243,lakk1252,Lak,Lak,Khosrekh,village,ɡʷ,g˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-244,lakk1252,Lak,Lak,Khosrekh,village,h,h,consonant,kibrikkodzasov1990,333,в фарингализованных слогах реализуются как эпиглоттальные ларингалы,George Moroz,2021.10.04
 245,lakk1252,Lak,Lak,Khosrekh,village,h,h,consonant,kibrikkodzasov1990,333,в фарингализованных слогах реализуются как эпиглоттальные ларингалы,Viola Ivanova,2017.05.06
-246,lakk1252,Lak,Lak,Khosrekh,village,j,j,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 247,lakk1252,Lak,Lak,Khosrekh,village,j,j,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-248,lakk1252,Lak,Lak,Khosrekh,village,kʼ,k',consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,2021.10.04
 249,lakk1252,Lak,Lak,Khosrekh,village,kʼ,k',consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,Viola Ivanova,2017.05.06
-250,lakk1252,Lak,Lak,Khosrekh,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 251,lakk1252,Lak,Lak,Khosrekh,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-252,lakk1252,Lak,Lak,Khosrekh,village,kː,k̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 253,lakk1252,Lak,Lak,Khosrekh,village,kː,k̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-254,lakk1252,Lak,Lak,Khosrekh,village,kːʷ,k̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 255,lakk1252,Lak,Lak,Khosrekh,village,kːʷ,k̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-256,lakk1252,Lak,Lak,Khosrekh,village,kʰ,k,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,2021.10.04
 257,lakk1252,Lak,Lak,Khosrekh,village,kʰ,k,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,Viola Ivanova,2017.05.06
-258,lakk1252,Lak,Lak,Khosrekh,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 259,lakk1252,Lak,Lak,Khosrekh,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-260,lakk1252,Lak,Lak,Khosrekh,village,l,l,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 261,lakk1252,Lak,Lak,Khosrekh,village,l,l,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-262,lakk1252,Lak,Lak,Khosrekh,village,m,m,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 263,lakk1252,Lak,Lak,Khosrekh,village,m,m,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-264,lakk1252,Lak,Lak,Khosrekh,village,n,n,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 265,lakk1252,Lak,Lak,Khosrekh,village,n,n,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-266,lakk1252,Lak,Lak,Khosrekh,village,pʼ,p',consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 267,lakk1252,Lak,Lak,Khosrekh,village,pʼ,p',consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-268,lakk1252,Lak,Lak,Khosrekh,village,pː,p̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 269,lakk1252,Lak,Lak,Khosrekh,village,pː,p̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-270,lakk1252,Lak,Lak,Khosrekh,village,pʰ,p,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 271,lakk1252,Lak,Lak,Khosrekh,village,pʰ,p,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-272,lakk1252,Lak,Lak,Khosrekh,village,qʼ,q',consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 273,lakk1252,Lak,Lak,Khosrekh,village,qʼ,q',consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-274,lakk1252,Lak,Lak,Khosrekh,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 275,lakk1252,Lak,Lak,Khosrekh,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-276,lakk1252,Lak,Lak,Khosrekh,village,qː,q̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 277,lakk1252,Lak,Lak,Khosrekh,village,qː,q̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-278,lakk1252,Lak,Lak,Khosrekh,village,qːʷ,q̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 279,lakk1252,Lak,Lak,Khosrekh,village,qːʷ,q̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-280,lakk1252,Lak,Lak,Khosrekh,village,qʰ,q,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 281,lakk1252,Lak,Lak,Khosrekh,village,qʰ,q,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-282,lakk1252,Lak,Lak,Khosrekh,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 283,lakk1252,Lak,Lak,Khosrekh,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-284,lakk1252,Lak,Lak,Khosrekh,village,r,r,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 285,lakk1252,Lak,Lak,Khosrekh,village,r,r,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-286,lakk1252,Lak,Lak,Khosrekh,village,ʁ,ʀ,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 287,lakk1252,Lak,Lak,Khosrekh,village,ʁ,ʀ,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-288,lakk1252,Lak,Lak,Khosrekh,village,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 289,lakk1252,Lak,Lak,Khosrekh,village,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-290,lakk1252,Lak,Lak,Khosrekh,village,s,s,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 291,lakk1252,Lak,Lak,Khosrekh,village,s,s,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-292,lakk1252,Lak,Lak,Khosrekh,village,sː,s̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 293,lakk1252,Lak,Lak,Khosrekh,village,sː,s̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-294,lakk1252,Lak,Lak,Khosrekh,village,sːʷ,s̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 295,lakk1252,Lak,Lak,Khosrekh,village,sːʷ,s̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-296,lakk1252,Lak,Lak,Khosrekh,village,sʷ,s˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 297,lakk1252,Lak,Lak,Khosrekh,village,sʷ,s˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-298,lakk1252,Lak,Lak,Khosrekh,village,ʃ,š,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 299,lakk1252,Lak,Lak,Khosrekh,village,ʃ,š,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-300,lakk1252,Lak,Lak,Khosrekh,village,ʃː,s̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 301,lakk1252,Lak,Lak,Khosrekh,village,ʃː,s̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-302,lakk1252,Lak,Lak,Khosrekh,village,ʃːʷ,s̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 303,lakk1252,Lak,Lak,Khosrekh,village,ʃːʷ,s̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-304,lakk1252,Lak,Lak,Khosrekh,village,ʃʷ,š˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 305,lakk1252,Lak,Lak,Khosrekh,village,ʃʷ,š˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-306,lakk1252,Lak,Lak,Khosrekh,village,tʼ,t',consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 307,lakk1252,Lak,Lak,Khosrekh,village,tʼ,t',consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-308,lakk1252,Lak,Lak,Khosrekh,village,tː,t̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 309,lakk1252,Lak,Lak,Khosrekh,village,tː,t̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-310,lakk1252,Lak,Lak,Khosrekh,village,tʰ,t,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 311,lakk1252,Lak,Lak,Khosrekh,village,tʰ,t,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-312,lakk1252,Lak,Lak,Khosrekh,village,tsʼ,c',consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 313,lakk1252,Lak,Lak,Khosrekh,village,tsʼ,c',consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-314,lakk1252,Lak,Lak,Khosrekh,village,tsʼʷ,c'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 315,lakk1252,Lak,Lak,Khosrekh,village,tsʼʷ,c'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-316,lakk1252,Lak,Lak,Khosrekh,village,tsː,c̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 317,lakk1252,Lak,Lak,Khosrekh,village,tsː,c̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-318,lakk1252,Lak,Lak,Khosrekh,village,tsːʷ,c̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 319,lakk1252,Lak,Lak,Khosrekh,village,tsːʷ,c̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-320,lakk1252,Lak,Lak,Khosrekh,village,tsʰ,c,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 321,lakk1252,Lak,Lak,Khosrekh,village,tsʰ,c,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-322,lakk1252,Lak,Lak,Khosrekh,village,tsʰʷ,c˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 323,lakk1252,Lak,Lak,Khosrekh,village,tsʰʷ,c˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-324,lakk1252,Lak,Lak,Khosrekh,village,tʃʼ,č',consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 325,lakk1252,Lak,Lak,Khosrekh,village,tʃʼ,č',consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-326,lakk1252,Lak,Lak,Khosrekh,village,tʃʼʷ,č'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 327,lakk1252,Lak,Lak,Khosrekh,village,tʃʼʷ,č'˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-328,lakk1252,Lak,Lak,Khosrekh,village,tʃː,c̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 329,lakk1252,Lak,Lak,Khosrekh,village,tʃː,c̄̌,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-330,lakk1252,Lak,Lak,Khosrekh,village,tʃːʷ,c̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 331,lakk1252,Lak,Lak,Khosrekh,village,tʃːʷ,c̄̌˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-332,lakk1252,Lak,Lak,Khosrekh,village,tʃʰ,č,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 333,lakk1252,Lak,Lak,Khosrekh,village,tʃʰ,č,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-334,lakk1252,Lak,Lak,Khosrekh,village,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 335,lakk1252,Lak,Lak,Khosrekh,village,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-336,lakk1252,Lak,Lak,Khosrekh,village,w,w,consonant,kibrikkodzasov1990,333,"реализуется как IβI перед Ia, iI",George Moroz,2021.10.04
 337,lakk1252,Lak,Lak,Khosrekh,village,w,w,consonant,kibrikkodzasov1990,333,"реализуется как IβI перед Ia, iI",Viola Ivanova,2017.05.06
-338,lakk1252,Lak,Lak,Khosrekh,village,x,x,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,George Moroz,2021.10.04
 339,lakk1252,Lak,Lak,Khosrekh,village,x,x,consonant,kibrikkodzasov1990,333,наблюдается прогрессивная палатализация велярных после i,Viola Ivanova,2017.05.06
-340,lakk1252,Lak,Lak,Khosrekh,village,xː,x̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 341,lakk1252,Lak,Lak,Khosrekh,village,xː,x̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-342,lakk1252,Lak,Lak,Khosrekh,village,xːʷ,x̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 343,lakk1252,Lak,Lak,Khosrekh,village,xːʷ,x̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-344,lakk1252,Lak,Lak,Khosrekh,village,xʷ,x˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 345,lakk1252,Lak,Lak,Khosrekh,village,xʷ,x˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-346,lakk1252,Lak,Lak,Khosrekh,village,z,z,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 347,lakk1252,Lak,Lak,Khosrekh,village,z,z,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-348,lakk1252,Lak,Lak,Khosrekh,village,zʷ,z˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 349,lakk1252,Lak,Lak,Khosrekh,village,zʷ,z˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-350,lakk1252,Lak,Lak,Khosrekh,village,ʒ,ž,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 351,lakk1252,Lak,Lak,Khosrekh,village,ʒ,ž,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-352,lakk1252,Lak,Lak,Khosrekh,village,ʒʷ,ž˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",George Moroz,2021.10.04
 353,lakk1252,Lak,Lak,Khosrekh,village,ʒʷ,ž˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при сибилянтах: вертикальное сужение губ, выдвижения вперед нет; губная преграда при смычных ≈ p, при фрикативных ≈ ɸ или ≈ β (в зависимости от глухости/звонкости звука); губная преграда раскрывается одновременно с язычной или даже раньше",Viola Ivanova,2017.05.06
-354,lakk1252,Lak,Lak,Khosrekh,village,ʔ,ʔ,consonant,kibrikkodzasov1990,333,"в фарингализованных слогах реализуются как эпиглоттальные ларингалы; в интервокальной позиции при отсутствии фарингализации реализуется как сужение связок, а не как размыкание",George Moroz,2021.10.04
 355,lakk1252,Lak,Lak,Khosrekh,village,ʔ,ʔ,consonant,kibrikkodzasov1990,333,"в фарингализованных слогах реализуются как эпиглоттальные ларингалы; в интервокальной позиции при отсутствии фарингализации реализуется как сужение связок, а не как размыкание",Viola Ivanova,2017.05.06
-356,lakk1252,Lak,Lak,Khosrekh,village,χ,χ,consonant,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 357,lakk1252,Lak,Lak,Khosrekh,village,χ,χ,consonant,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-358,lakk1252,Lak,Lak,Khosrekh,village,χː,X̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",George Moroz,2021.10.04
 359,lakk1252,Lak,Lak,Khosrekh,village,χː,X̄,consonant,kibrikkodzasov1990,333,"сильные согласные реализуются напряженными непридыхательными краткими в начале слога (в начале слова и после согласного в середине), напряженными геминатами в интервокальной позиции, а в конце слога ослабляются",Viola Ivanova,2017.05.06
-360,lakk1252,Lak,Lak,Khosrekh,village,χːʷ,X̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 361,lakk1252,Lak,Lak,Khosrekh,village,χːʷ,X̄˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-362,lakk1252,Lak,Lak,Khosrekh,village,χʷ,χ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",George Moroz,2021.10.04
 363,lakk1252,Lak,Lak,Khosrekh,village,χʷ,χ˳,consonant,kibrikkodzasov1990,333,"фонетическая реализация лабиализации при заднеязычных: некоторое выдвижение губ (между w и β). Фонетическому различию соответствует различие в распределении: сибилянты контрастируют по лабиализации перед u, а заднеязычные в этой позиции контраста не имеют (автоматическая выдвинутая лабиализация).",Viola Ivanova,2017.05.06
-364,lakk1252,Lak,Lak,Khosrekh,village,a,a,vowel,kibrikkodzasov1990,333,"обычно реализуется звуком нейтрального подъема, средне-широкого раствора, т.е. IâI (раствор шире, чем у IəI). Другие варианты: ≈IoI перед w, ≈IeI перед j, ≈IaI рядом с увулярными",George Moroz,2021.10.04
 365,lakk1252,Lak,Lak,Khosrekh,village,a,a,vowel,kibrikkodzasov1990,333,"обычно реализуется звуком нейтрального подъема, средне-широкого раствора, т.е. IâI (раствор шире, чем у IəI). Другие варианты: ≈IoI перед w, ≈IeI перед j, ≈IaI рядом с увулярными",Viola Ivanova,2017.05.06
-366,lakk1252,Lak,Lak,Khosrekh,village,aː,a:,vowel,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 367,lakk1252,Lak,Lak,Khosrekh,village,aː,a:,vowel,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-368,lakk1252,Lak,Lak,Khosrekh,village,aˤ,aI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 369,lakk1252,Lak,Lak,Khosrekh,village,aˤ,aI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
-370,lakk1252,Lak,Lak,Khosrekh,village,aˤː,a:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 371,lakk1252,Lak,Lak,Khosrekh,village,aˤː,a:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
-372,lakk1252,Lak,Lak,Khosrekh,village,i,i,vowel,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 373,lakk1252,Lak,Lak,Khosrekh,village,i,i,vowel,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-374,lakk1252,Lak,Lak,Khosrekh,village,iː,i:,vowel,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 375,lakk1252,Lak,Lak,Khosrekh,village,iː,i:,vowel,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-376,lakk1252,Lak,Lak,Khosrekh,village,iˤ,iI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 377,lakk1252,Lak,Lak,Khosrekh,village,iˤ,iI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
-378,lakk1252,Lak,Lak,Khosrekh,village,iˤː,i:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 379,lakk1252,Lak,Lak,Khosrekh,village,iˤː,i:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
-380,lakk1252,Lak,Lak,Khosrekh,village,u,u,vowel,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 381,lakk1252,Lak,Lak,Khosrekh,village,u,u,vowel,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-382,lakk1252,Lak,Lak,Khosrekh,village,uː,u:,vowel,kibrikkodzasov1990,333,,George Moroz,2021.10.04
 383,lakk1252,Lak,Lak,Khosrekh,village,uː,u:,vowel,kibrikkodzasov1990,333,,Viola Ivanova,2017.05.06
-384,lakk1252,Lak,Lak,Khosrekh,village,uˤ,uI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 385,lakk1252,Lak,Lak,Khosrekh,village,uˤ,uI,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
-386,lakk1252,Lak,Lak,Khosrekh,village,uˤː,u:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,George Moroz,2021.10.04
 387,lakk1252,Lak,Lak,Khosrekh,village,uˤː,u:I,vowel,kibrikkodzasov1990,333,фарингализация расширяет гласные и смещает их вперед,Viola Ivanova,2017.05.06
 388,avar1256,Avar,Avar,Standard Avar,language,b,б,consonant,alekseevataev1997,35,,George Moroz,2021.10.04
 389,avar1256,Avar,Avar,Standard Avar,language,d,д,consonant,alekseevataev1997,35,,George Moroz,2021.10.04
@@ -2791,75 +2715,75 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 2774,lezg1247,Lezgian,Lezgian,Standard Lezgian,language,o,о,vowel,gaydarivetal2009,54,,George Moroz,2021.10.04
 2775,lezg1247,Lezgian,Lezgian,Standard Lezgian,language,u,у,vowel,gaydarivetal2009,54,,George Moroz,2021.10.04
 2776,lezg1247,Lezgian,Lezgian,Standard Lezgian,language,y,уь,vowel,gaydarivetal2009,54,,George Moroz,2021.10.04
-2777,lezg1247,Lezgian,Lezgian,Lezgian,village,b,b,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2778,lezg1247,Lezgian,Lezgian,Lezgian,village,d,d,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2779,lezg1247,Lezgian,Lezgian,Lezgian,village,dʷ,d˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2780,lezg1247,Lezgian,Lezgian,Lezgian,village,ɡ,ɡ,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2781,lezg1247,Lezgian,Lezgian,Lezgian,village,ɡʷ,ɡ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2782,lezg1247,Lezgian,Lezgian,Lezgian,village,h,h,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2783,lezg1247,Lezgian,Lezgian,Lezgian,village,ʜ,ʜ,consonant,kibrikkodzasov1990,341,"ʕ и ʜ --- редкие фонемы, обычно встречаются в заимствованиях по соседству с ä",,2017.05.06
-2784,lezg1247,Lezgian,Lezgian,Lezgian,village,j,j,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2785,lezg1247,Lezgian,Lezgian,Lezgian,village,k,k̃,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2786,lezg1247,Lezgian,Lezgian,Lezgian,village,kʼ,k',consonant,kibrikkodzasov1990,341,,,2017.05.06
-2787,lezg1247,Lezgian,Lezgian,Lezgian,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2788,lezg1247,Lezgian,Lezgian,Lezgian,village,kʰ,k,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2789,lezg1247,Lezgian,Lezgian,Lezgian,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2790,lezg1247,Lezgian,Lezgian,Lezgian,village,kʷ,k̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2791,lezg1247,Lezgian,Lezgian,Lezgian,village,l,l,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2792,lezg1247,Lezgian,Lezgian,Lezgian,village,m,m,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2793,lezg1247,Lezgian,Lezgian,Lezgian,village,n,n,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2794,lezg1247,Lezgian,Lezgian,Lezgian,village,p,p̃,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2795,lezg1247,Lezgian,Lezgian,Lezgian,village,pʼ,p',consonant,kibrikkodzasov1990,341,,,2017.05.06
-2796,lezg1247,Lezgian,Lezgian,Lezgian,village,pʰ,p,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2797,lezg1247,Lezgian,Lezgian,Lezgian,village,q,q̃,consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",,2017.05.06
-2798,lezg1247,Lezgian,Lezgian,Lezgian,village,qʼ,q',consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",,2017.05.06
-2799,lezg1247,Lezgian,Lezgian,Lezgian,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2800,lezg1247,Lezgian,Lezgian,Lezgian,village,qʰ,q,consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",,2017.05.06
-2801,lezg1247,Lezgian,Lezgian,Lezgian,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2802,lezg1247,Lezgian,Lezgian,Lezgian,village,qʷ,q̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2803,lezg1247,Lezgian,Lezgian,Lezgian,village,r,r,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2804,lezg1247,Lezgian,Lezgian,Lezgian,village,ʁ,ʀ,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2805,lezg1247,Lezgian,Lezgian,Lezgian,village,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2806,lezg1247,Lezgian,Lezgian,Lezgian,village,s,s,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2807,lezg1247,Lezgian,Lezgian,Lezgian,village,sʷ,s˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2808,lezg1247,Lezgian,Lezgian,Lezgian,village,ʃ,š,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2809,lezg1247,Lezgian,Lezgian,Lezgian,village,ʃʷ,š˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2810,lezg1247,Lezgian,Lezgian,Lezgian,village,t,t̃,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2811,lezg1247,Lezgian,Lezgian,Lezgian,village,tʼ,t',consonant,kibrikkodzasov1990,341,,,2017.05.06
-2812,lezg1247,Lezgian,Lezgian,Lezgian,village,tʼʷ,t'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2813,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰ,t,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2814,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰʷ,t̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2815,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰʷ,t˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2816,lezg1247,Lezgian,Lezgian,Lezgian,village,ts,c̃,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2817,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʼ,c',consonant,kibrikkodzasov1990,341,,,2017.05.06
-2818,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʼʷ,c'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2819,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʰ,c,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2820,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʰʷ,c˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2821,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʷ,c̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2822,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃ,c̃̌,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2823,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʼ,č',consonant,kibrikkodzasov1990,341,,,2017.05.06
-2824,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʼʷ,č'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2825,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʰ,č,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2826,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2827,lezg1247,Lezgian,Lezgian,Lezgian,village,x,x,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2828,lezg1247,Lezgian,Lezgian,Lezgian,village,xʷ,x˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2829,lezg1247,Lezgian,Lezgian,Lezgian,village,z,z,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2830,lezg1247,Lezgian,Lezgian,Lezgian,village,zʷ,z˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2831,lezg1247,Lezgian,Lezgian,Lezgian,village,ʒ,ž,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2832,lezg1247,Lezgian,Lezgian,Lezgian,village,ʒʷ,ž˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2833,lezg1247,Lezgian,Lezgian,Lezgian,village,ʔ,ʔ,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2834,lezg1247,Lezgian,Lezgian,Lezgian,village,ʢ,ʕ,consonant,kibrikkodzasov1990,341,"ʕ и ʜ --- редкие фонемы, обычно встречаются в заимствованиях по соседству с ä",,2017.05.06
-2835,lezg1247,Lezgian,Lezgian,Lezgian,village,β,w,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2836,lezg1247,Lezgian,Lezgian,Lezgian,village,χ,χ,consonant,kibrikkodzasov1990,341,,,2017.05.06
-2837,lezg1247,Lezgian,Lezgian,Lezgian,village,χʷ,χ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",,2017.05.06
-2838,lezg1247,Lezgian,Lezgian,Lezgian,village,a,a,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2839,lezg1247,Lezgian,Lezgian,Lezgian,village,æ,ä,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2840,lezg1247,Lezgian,Lezgian,Lezgian,village,e,e,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2841,lezg1247,Lezgian,Lezgian,Lezgian,village,i,i,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2842,lezg1247,Lezgian,Lezgian,Lezgian,village,ɨ,ɨ,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2843,lezg1247,Lezgian,Lezgian,Lezgian,village,o,o,vowel,kibrikkodzasov1990,341,a = IoI после w и C˳,,2017.05.06
-2844,lezg1247,Lezgian,Lezgian,Lezgian,village,u,u,vowel,kibrikkodzasov1990,341,,,2017.05.06
-2845,lezg1247,Lezgian,Lezgian,Lezgian,village,y,ü,vowel,kibrikkodzasov1990,341,,,2017.05.06
+2777,lezg1247,Lezgian,Lezgian,Lezgian,village,b,b,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2778,lezg1247,Lezgian,Lezgian,Lezgian,village,d,d,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2779,lezg1247,Lezgian,Lezgian,Lezgian,village,dʷ,d˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2780,lezg1247,Lezgian,Lezgian,Lezgian,village,ɡ,ɡ,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2781,lezg1247,Lezgian,Lezgian,Lezgian,village,ɡʷ,ɡ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2782,lezg1247,Lezgian,Lezgian,Lezgian,village,h,h,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2783,lezg1247,Lezgian,Lezgian,Lezgian,village,ʜ,ʜ,consonant,kibrikkodzasov1990,341,"ʕ и ʜ --- редкие фонемы, обычно встречаются в заимствованиях по соседству с ä",George Moroz,2017.05.06
+2784,lezg1247,Lezgian,Lezgian,Lezgian,village,j,j,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2785,lezg1247,Lezgian,Lezgian,Lezgian,village,k,k̃,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2786,lezg1247,Lezgian,Lezgian,Lezgian,village,kʼ,k',consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2787,lezg1247,Lezgian,Lezgian,Lezgian,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2788,lezg1247,Lezgian,Lezgian,Lezgian,village,kʰ,k,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2789,lezg1247,Lezgian,Lezgian,Lezgian,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2790,lezg1247,Lezgian,Lezgian,Lezgian,village,kʷ,k̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2791,lezg1247,Lezgian,Lezgian,Lezgian,village,l,l,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2792,lezg1247,Lezgian,Lezgian,Lezgian,village,m,m,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2793,lezg1247,Lezgian,Lezgian,Lezgian,village,n,n,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2794,lezg1247,Lezgian,Lezgian,Lezgian,village,p,p̃,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2795,lezg1247,Lezgian,Lezgian,Lezgian,village,pʼ,p',consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2796,lezg1247,Lezgian,Lezgian,Lezgian,village,pʰ,p,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2797,lezg1247,Lezgian,Lezgian,Lezgian,village,q,q̃,consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+2798,lezg1247,Lezgian,Lezgian,Lezgian,village,qʼ,q',consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+2799,lezg1247,Lezgian,Lezgian,Lezgian,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2800,lezg1247,Lezgian,Lezgian,Lezgian,village,qʰ,q,consonant,kibrikkodzasov1990,341,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+2801,lezg1247,Lezgian,Lezgian,Lezgian,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2802,lezg1247,Lezgian,Lezgian,Lezgian,village,qʷ,q̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2803,lezg1247,Lezgian,Lezgian,Lezgian,village,r,r,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2804,lezg1247,Lezgian,Lezgian,Lezgian,village,ʁ,ʀ,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2805,lezg1247,Lezgian,Lezgian,Lezgian,village,ʁʷ,ʀ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2806,lezg1247,Lezgian,Lezgian,Lezgian,village,s,s,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2807,lezg1247,Lezgian,Lezgian,Lezgian,village,sʷ,s˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2808,lezg1247,Lezgian,Lezgian,Lezgian,village,ʃ,š,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2809,lezg1247,Lezgian,Lezgian,Lezgian,village,ʃʷ,š˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2810,lezg1247,Lezgian,Lezgian,Lezgian,village,t,t̃,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2811,lezg1247,Lezgian,Lezgian,Lezgian,village,tʼ,t',consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2812,lezg1247,Lezgian,Lezgian,Lezgian,village,tʼʷ,t'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2813,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰ,t,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2814,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰʷ,t̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2815,lezg1247,Lezgian,Lezgian,Lezgian,village,tʰʷ,t˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2816,lezg1247,Lezgian,Lezgian,Lezgian,village,ts,c̃,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2817,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʼ,c',consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2818,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʼʷ,c'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2819,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʰ,c,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2820,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʰʷ,c˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2821,lezg1247,Lezgian,Lezgian,Lezgian,village,tsʷ,c̃˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2822,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃ,c̃̌,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2823,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʼ,č',consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2824,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʼʷ,č'˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2825,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʰ,č,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2826,lezg1247,Lezgian,Lezgian,Lezgian,village,tʃʰʷ,č˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2827,lezg1247,Lezgian,Lezgian,Lezgian,village,x,x,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2828,lezg1247,Lezgian,Lezgian,Lezgian,village,xʷ,x˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2829,lezg1247,Lezgian,Lezgian,Lezgian,village,z,z,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2830,lezg1247,Lezgian,Lezgian,Lezgian,village,zʷ,z˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2831,lezg1247,Lezgian,Lezgian,Lezgian,village,ʒ,ž,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2832,lezg1247,Lezgian,Lezgian,Lezgian,village,ʒʷ,ž˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2833,lezg1247,Lezgian,Lezgian,Lezgian,village,ʔ,ʔ,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2834,lezg1247,Lezgian,Lezgian,Lezgian,village,ʢ,ʕ,consonant,kibrikkodzasov1990,341,"ʕ и ʜ --- редкие фонемы, обычно встречаются в заимствованиях по соседству с ä",George Moroz,2017.05.06
+2835,lezg1247,Lezgian,Lezgian,Lezgian,village,β,w,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2836,lezg1247,Lezgian,Lezgian,Lezgian,village,χ,χ,consonant,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2837,lezg1247,Lezgian,Lezgian,Lezgian,village,χʷ,χ˳,consonant,kibrikkodzasov1990,341,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+2838,lezg1247,Lezgian,Lezgian,Lezgian,village,a,a,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2839,lezg1247,Lezgian,Lezgian,Lezgian,village,æ,ä,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2840,lezg1247,Lezgian,Lezgian,Lezgian,village,e,e,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2841,lezg1247,Lezgian,Lezgian,Lezgian,village,i,i,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2842,lezg1247,Lezgian,Lezgian,Lezgian,village,ɨ,ɨ,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2843,lezg1247,Lezgian,Lezgian,Lezgian,village,o,o,vowel,kibrikkodzasov1990,341,a = IoI после w и C˳,George Moroz,2017.05.06
+2844,lezg1247,Lezgian,Lezgian,Lezgian,village,u,u,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
+2845,lezg1247,Lezgian,Lezgian,Lezgian,village,y,ü,vowel,kibrikkodzasov1990,341,,George Moroz,2017.05.06
 2846,udii1243,Udi,Udi,Nidzh,village,b,b,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
 2847,udii1243,Udi,Udi,Nidzh,village,kʲ,k̃y,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
 2848,udii1243,Udi,Udi,Nidzh,village,kʲʰ,ky,consonant,kibrikkodzasov1990,347,,Viola Ivanova,2017.05.06
@@ -3329,69 +3253,69 @@ The vowel /ü/ has only been preserved by some older speakers. Younger speakers 
 3310,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,oː,ō,vowel,kibrik1999,17,,George Moroz,2021.10.04
 3311,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,u,u,vowel,kibrik1999,17,,George Moroz,2021.10.04
 3312,tsak1249,Tsakhur,Tsakhur,Mishlesh,village,uː,ū,vowel,kibrik1999,17,,George Moroz,2021.10.04
-3313,tsak1249,Tsakhur,Tsakhur,Mikikh,village,b,b,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3314,tsak1249,Tsakhur,Tsakhur,Mikikh,village,d,d,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3315,tsak1249,Tsakhur,Tsakhur,Mikikh,village,dʒ,ǯ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3316,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɡ,ɡ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3317,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɡʷ,ɡ˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3318,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɢ,ɢ,consonant,kibrikkodzasov1990,343,"ɢ и q̄ находятся в дополнительном распределении: ɢ в начале слова, q̄ --- в интервокальной позиции",George Moroz,2017.05.06
-3319,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɣ,ɡ̌,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3320,tsak1249,Tsakhur,Tsakhur,Mikikh,village,h,h,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3321,tsak1249,Tsakhur,Tsakhur,Mikikh,village,j,j,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3322,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kʼ,k',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3323,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3324,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kː,k̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3325,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kːʷ,k̄˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3326,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kʰ,k,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3327,tsak1249,Tsakhur,Tsakhur,Mikikh,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3328,tsak1249,Tsakhur,Tsakhur,Mikikh,village,l,l,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3329,tsak1249,Tsakhur,Tsakhur,Mikikh,village,m,m,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3330,tsak1249,Tsakhur,Tsakhur,Mikikh,village,n,n,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3331,tsak1249,Tsakhur,Tsakhur,Mikikh,village,pʼ,p',consonant,kibrikkodzasov1990,343,p' встречается в единичных словах,George Moroz,2017.05.06
-3332,tsak1249,Tsakhur,Tsakhur,Mikikh,village,pː,p̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3333,tsak1249,Tsakhur,Tsakhur,Mikikh,village,pʰ,p,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3334,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qʼ,q',consonant,kibrikkodzasov1990,343,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
-3335,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3336,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qː,q̄,consonant,kibrikkodzasov1990,343,"ɢ и q̄ находятся в дополнительном распределении: ɢ в начале слова, q̄ --- в интервокальной позиции. Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
-3337,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qːʷ,q̄˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3338,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qʰ,q,consonant,kibrikkodzasov1990,343,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
-3339,tsak1249,Tsakhur,Tsakhur,Mikikh,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3340,tsak1249,Tsakhur,Tsakhur,Mikikh,village,r,r,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3341,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ʁ,ʀ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3342,tsak1249,Tsakhur,Tsakhur,Mikikh,village,s,s,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3343,tsak1249,Tsakhur,Tsakhur,Mikikh,village,sː,s̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3344,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ʃ,š,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3345,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ʃː,s̄̌,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3346,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tʼ,t',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3347,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tː,t̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3348,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tʰ,t,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3349,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tsʼ,c',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3350,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tsː,c̄,consonant,kibrikkodzasov1990,343,tsː встречается в единичных словах,George Moroz,2017.05.06
-3351,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tsʰ,c,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3352,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tʃʼ,č',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3353,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tʃː,c̄̌,consonant,kibrikkodzasov1990,343,c̄̌ встречается в единичных словах,George Moroz,2017.05.06
-3354,tsak1249,Tsakhur,Tsakhur,Mikikh,village,tʃʰ,č,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3355,tsak1249,Tsakhur,Tsakhur,Mikikh,village,w,w,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3356,tsak1249,Tsakhur,Tsakhur,Mikikh,village,x,x,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3357,tsak1249,Tsakhur,Tsakhur,Mikikh,village,xː,xː,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3358,tsak1249,Tsakhur,Tsakhur,Mikikh,village,xʷ,x˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3359,tsak1249,Tsakhur,Tsakhur,Mikikh,village,z,z,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3360,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ʒ,ž,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3361,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ʔ,ʔ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3362,tsak1249,Tsakhur,Tsakhur,Mikikh,village,χ,χ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3363,tsak1249,Tsakhur,Tsakhur,Mikikh,village,χː,χː,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3364,tsak1249,Tsakhur,Tsakhur,Mikikh,village,χʷ,χ˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
-3365,tsak1249,Tsakhur,Tsakhur,Mikikh,village,a,a,vowel,kibrikkodzasov1990,343,a = IoI после w и C˳,George Moroz,2017.05.06
-3366,tsak1249,Tsakhur,Tsakhur,Mikikh,village,aː,a:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3367,tsak1249,Tsakhur,Tsakhur,Mikikh,village,e,e,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3368,tsak1249,Tsakhur,Tsakhur,Mikikh,village,eː,e:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3369,tsak1249,Tsakhur,Tsakhur,Mikikh,village,i,i,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3370,tsak1249,Tsakhur,Tsakhur,Mikikh,village,iː,i:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3371,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɨ,ɨ,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3372,tsak1249,Tsakhur,Tsakhur,Mikikh,village,ɨ,ɨ,vowel,kibrikkodzasov1990,343,ɨ = IəI в конце слова. ɨl = IolI,George Moroz,2017.05.06
-3373,tsak1249,Tsakhur,Tsakhur,Mikikh,village,oː,o:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3374,tsak1249,Tsakhur,Tsakhur,Mikikh,village,u,u,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
-3375,tsak1249,Tsakhur,Tsakhur,Mikikh,village,uː,u:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3313,tsak1249,Tsakhur,Tsakhur,Mikik,village,b,b,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3314,tsak1249,Tsakhur,Tsakhur,Mikik,village,d,d,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3315,tsak1249,Tsakhur,Tsakhur,Mikik,village,dʒ,ǯ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3316,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɡ,ɡ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3317,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɡʷ,ɡ˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3318,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɢ,ɢ,consonant,kibrikkodzasov1990,343,"ɢ и q̄ находятся в дополнительном распределении: ɢ в начале слова, q̄ --- в интервокальной позиции",George Moroz,2017.05.06
+3319,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɣ,ɡ̌,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3320,tsak1249,Tsakhur,Tsakhur,Mikik,village,h,h,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3321,tsak1249,Tsakhur,Tsakhur,Mikik,village,j,j,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3322,tsak1249,Tsakhur,Tsakhur,Mikik,village,kʼ,k',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3323,tsak1249,Tsakhur,Tsakhur,Mikik,village,kʼʷ,k'˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3324,tsak1249,Tsakhur,Tsakhur,Mikik,village,kː,k̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3325,tsak1249,Tsakhur,Tsakhur,Mikik,village,kːʷ,k̄˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3326,tsak1249,Tsakhur,Tsakhur,Mikik,village,kʰ,k,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3327,tsak1249,Tsakhur,Tsakhur,Mikik,village,kʰʷ,k˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3328,tsak1249,Tsakhur,Tsakhur,Mikik,village,l,l,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3329,tsak1249,Tsakhur,Tsakhur,Mikik,village,m,m,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3330,tsak1249,Tsakhur,Tsakhur,Mikik,village,n,n,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3331,tsak1249,Tsakhur,Tsakhur,Mikik,village,pʼ,p',consonant,kibrikkodzasov1990,343,p' встречается в единичных словах,George Moroz,2017.05.06
+3332,tsak1249,Tsakhur,Tsakhur,Mikik,village,pː,p̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3333,tsak1249,Tsakhur,Tsakhur,Mikik,village,pʰ,p,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3334,tsak1249,Tsakhur,Tsakhur,Mikik,village,qʼ,q',consonant,kibrikkodzasov1990,343,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+3335,tsak1249,Tsakhur,Tsakhur,Mikik,village,qʼʷ,q'˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3336,tsak1249,Tsakhur,Tsakhur,Mikik,village,qː,q̄,consonant,kibrikkodzasov1990,343,"ɢ и q̄ находятся в дополнительном распределении: ɢ в начале слова, q̄ --- в интервокальной позиции. Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+3337,tsak1249,Tsakhur,Tsakhur,Mikik,village,qːʷ,q̄˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3338,tsak1249,Tsakhur,Tsakhur,Mikik,village,qʰ,q,consonant,kibrikkodzasov1990,343,"Авторы считают, что «различие взрывных и аффрикат не несет дистинктивной функции». Т. е. на основании источника не понятно с чем мы имеем дело, например, с q или с qχ. В случае сомнения мы выбирали взрывной вариант.",George Moroz,2017.05.06
+3339,tsak1249,Tsakhur,Tsakhur,Mikik,village,qʰʷ,q˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3340,tsak1249,Tsakhur,Tsakhur,Mikik,village,r,r,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3341,tsak1249,Tsakhur,Tsakhur,Mikik,village,ʁ,ʀ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3342,tsak1249,Tsakhur,Tsakhur,Mikik,village,s,s,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3343,tsak1249,Tsakhur,Tsakhur,Mikik,village,sː,s̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3344,tsak1249,Tsakhur,Tsakhur,Mikik,village,ʃ,š,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3345,tsak1249,Tsakhur,Tsakhur,Mikik,village,ʃː,s̄̌,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3346,tsak1249,Tsakhur,Tsakhur,Mikik,village,tʼ,t',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3347,tsak1249,Tsakhur,Tsakhur,Mikik,village,tː,t̄,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3348,tsak1249,Tsakhur,Tsakhur,Mikik,village,tʰ,t,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3349,tsak1249,Tsakhur,Tsakhur,Mikik,village,tsʼ,c',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3350,tsak1249,Tsakhur,Tsakhur,Mikik,village,tsː,c̄,consonant,kibrikkodzasov1990,343,tsː встречается в единичных словах,George Moroz,2017.05.06
+3351,tsak1249,Tsakhur,Tsakhur,Mikik,village,tsʰ,c,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3352,tsak1249,Tsakhur,Tsakhur,Mikik,village,tʃʼ,č',consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3353,tsak1249,Tsakhur,Tsakhur,Mikik,village,tʃː,c̄̌,consonant,kibrikkodzasov1990,343,c̄̌ встречается в единичных словах,George Moroz,2017.05.06
+3354,tsak1249,Tsakhur,Tsakhur,Mikik,village,tʃʰ,č,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3355,tsak1249,Tsakhur,Tsakhur,Mikik,village,w,w,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3356,tsak1249,Tsakhur,Tsakhur,Mikik,village,x,x,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3357,tsak1249,Tsakhur,Tsakhur,Mikik,village,xː,xː,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3358,tsak1249,Tsakhur,Tsakhur,Mikik,village,xʷ,x˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3359,tsak1249,Tsakhur,Tsakhur,Mikik,village,z,z,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3360,tsak1249,Tsakhur,Tsakhur,Mikik,village,ʒ,ž,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3361,tsak1249,Tsakhur,Tsakhur,Mikik,village,ʔ,ʔ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3362,tsak1249,Tsakhur,Tsakhur,Mikik,village,χ,χ,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3363,tsak1249,Tsakhur,Tsakhur,Mikik,village,χː,χː,consonant,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3364,tsak1249,Tsakhur,Tsakhur,Mikik,village,χʷ,χ˳,consonant,kibrikkodzasov1990,343,"имеются исконные лабиализованные всех рядов, кроме губных и ларингалов",George Moroz,2017.05.06
+3365,tsak1249,Tsakhur,Tsakhur,Mikik,village,a,a,vowel,kibrikkodzasov1990,343,a = IoI после w и C˳,George Moroz,2017.05.06
+3366,tsak1249,Tsakhur,Tsakhur,Mikik,village,aː,a:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3367,tsak1249,Tsakhur,Tsakhur,Mikik,village,e,e,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3368,tsak1249,Tsakhur,Tsakhur,Mikik,village,eː,e:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3369,tsak1249,Tsakhur,Tsakhur,Mikik,village,i,i,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3370,tsak1249,Tsakhur,Tsakhur,Mikik,village,iː,i:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3371,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɨ,ɨ,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3372,tsak1249,Tsakhur,Tsakhur,Mikik,village,ɨ,ɨ,vowel,kibrikkodzasov1990,343,ɨ = IəI в конце слова. ɨl = IolI,George Moroz,2017.05.06
+3373,tsak1249,Tsakhur,Tsakhur,Mikik,village,oː,o:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3374,tsak1249,Tsakhur,Tsakhur,Mikik,village,u,u,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
+3375,tsak1249,Tsakhur,Tsakhur,Mikik,village,uː,u:,vowel,kibrikkodzasov1990,343,,George Moroz,2017.05.06
 3376,bats1242,Bats,Tsova-Tush,Zemo-Alvani,village,b,b,consonant,holiskygagua1994,150,,George Moroz,2021.10.04
 3377,bats1242,Bats,Tsova-Tush,Zemo-Alvani,village,d,d,consonant,holiskygagua1994,150,,George Moroz,2021.10.04
 3378,bats1242,Bats,Tsova-Tush,Zemo-Alvani,village,dz,ʒ,consonant,holiskygagua1994,150,,George Moroz,2021.10.04
