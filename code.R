@@ -174,8 +174,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, long_vowels) %>% 
   pivot_wider(names_from = long_vowels, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of long vowels",
+         value1_name = "Presence of long vowels") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -195,8 +195,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, nasalization) %>% 
   pivot_wider(names_from = nasalization, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of nasal vowels",
+         value1_name = "Presence of nasal vowels") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -215,8 +215,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, pharyngealization) %>% 
   pivot_wider(names_from = pharyngealization, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of pharyngealized segments",
+         value1_name = "Presence of pharyngealized segments") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -236,8 +236,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, umlaut_vowels) %>% 
   pivot_wider(names_from = umlaut_vowels, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of umlaut vowels",
+         value1_name = "Presence of umlaut vowels") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -257,8 +257,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, palatalized_consonants) %>% 
   pivot_wider(names_from = palatalized_consonants, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of palatalized consonants",
+         value1_name = "Presence of palatalized consonants") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -282,8 +282,8 @@ df %>%
          pharyngeals = str_remove_all(pharyngeals, "none, ")) %>% 
   distinct(language, idiom, type, pharyngeals, source, page, contributer, date) %>% 
   mutate(value1 = pharyngeals,
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Pharyngeal inventory",
+         value1_name = "Pharyngeal inventory") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -303,8 +303,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
   pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of laterals",
-         value1_name = "Presence of laterals") %>% 
+         feature = "Presence of velar voiced fricatives",
+         value1_name = "Presence of velar voiced fricatives") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -312,46 +312,66 @@ df %>%
   arrange(language) %>% 
   write_csv("for_dagatlas/velar_voiced_fricatives.csv", na = "")
 
-# 
+# uvular voiced fricatives
+df %>% 
+  filter(segment_type == "consonant") %>% 
+  group_by(language, idiom, type, source, contributer) %>% 
+  mutate(page = str_c(unique(page), collapse = ", ")) %>% 
+  ungroup() %>% 
+  mutate(velar_voiced_fricatives = ifelse(str_detect(segment, "ɢ"),
+                                          "attested",
+                                          "not attested")) %>% 
+  count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
+  pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
+  mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
+         feature = "Presence of uvular voiced fricatives",
+         value1_name = "Presence of uvular voiced fricatives") %>% 
+  left_join(tomerge) %>% 
+  mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
+         language = ifelse(language == "Tokita", "Karata", language)) %>% 
+  select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
+  arrange(language) %>% 
+  write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
+
+# initiation/phonation
 df %>% 
   filter(segment_type == "consonant",
          str_detect(segment, "k"), 
          !str_detect(segment, "ʷ"),
          !str_detect(segment, "ˤ"),
          !str_detect(segment, "ʲ")) %>% 
-  group_by(language, idiom, type, source, contributer) %>% 
+  group_by(language, idiom, type, source, contributer, date) %>% 
   mutate(page2 = str_c(unique(page), collapse = ", ")) %>% 
   ungroup() %>% 
-  distinct(lang, idiom, segment, source, contributer, page) %>% 
-  group_by(lang, idiom, source, contributer) %>% 
+  distinct(lang, idiom, segment, source, contributer, page, date) %>% 
+  group_by(lang, idiom, source, contributer, date) %>% 
   arrange(lang, idiom, source, contributer, segment) %>% 
   mutate(feature = "Number of initiation/phonation contrasts in voiceless consonants",
          value1_name = "Type of the contrast",
          value1 = n(),
-         # value1 = case_when(value1 == 1 ~ "one-way",
-         #                    value1 == 2 ~ "two-way",
-         #                    value1 == 3 ~ "three-way",
-         #                    value1 == 4 ~ "four-way"),
+         value1 = case_when(value1 == 1 ~ "one-way",
+                            value1 == 2 ~ "two-way",
+                            value1 == 3 ~ "three-way",
+                            value1 == 4 ~ "four-way"),
          segment = str_replace(segment, "k", "C"),
          value2_name = "Contents of the contrast",
          value2 = str_c(segment, collapse = "-")) %>% 
   select(-segment) %>% 
   distinct() %>% 
+  left_join(tomerge) %>% 
+  mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
+         language = ifelse(language == "Tokita", "Karata", language)) %>% 
+  select(language, idiom, type, genlang_point, map, feature, value1_name, value1, value2_name, value2, source, page, contributer, date) %>% 
+  arrange(language) %>% 
+  write_csv("for_dagatlas/init_phon_contrasts.csv", na = "")
+
+
+df %>% 
+  filter(segment_type == "consonant",
+         str_detect(segment, "[xɣ]"), 
+         !str_detect(segment, "ʷ"),
+         !str_detect(segment, "ˤ"),
+         !str_detect(segment, "ʲ")) %>% 
+  select(language, idiom, type, source, segment) %>% 
+  pivot_wider(names_from = segment, values_from = segment) %>% 
   View()
-  
-  
-  group_by(language, idiom, type, source, contributer) %>% 
-  mutate(page = str_c(unique(page), collapse = ", ")) %>% 
-  ungroup() %>% 
-  mutate(aspirated = ifelse(str_detect(segment, "ʰ"),
-                            "attested",
-                            "not attested")) %>% 
-  count(language, idiom, type, source, page, contributer, date, aspirated) %>% 
-  pivot_wider(names_from = aspirated, values_from = n, values_fill = 0) %>% 
-  mutate(aspirated = ifelse(attested > 0, "attested", "not attested"),
-         map = "") %>% 
-  select(-`not attested`, -attested) %>% 
-  select(language, idiom, type, map, aspirated, source, page, contributer, date) %>% 
-  mutate(map = ifelse(source == "kibrikkodzasov1990" & language == "Khinalug", "no", map),
-         map = ifelse(source == "talibov2007" & language == "Budukh", "no", map)) %>% 
-  write_csv("for_dagatlas/aspirated.csv", na = "")
