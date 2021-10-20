@@ -343,9 +343,9 @@ df %>%
   group_by(language, idiom, type, source, contributer, date) %>% 
   mutate(page2 = str_c(unique(page), collapse = ", ")) %>% 
   ungroup() %>% 
-  distinct(lang, idiom, segment, source, contributer, page, date) %>% 
-  group_by(lang, idiom, source, contributer, date) %>% 
-  arrange(lang, idiom, source, contributer, segment) %>% 
+  distinct(language, idiom, segment, source, contributer, page, date) %>% 
+  group_by(language, idiom, source, contributer, date) %>% 
+  arrange(language, idiom, source, contributer, segment) %>% 
   mutate(feature = "Number of initiation/phonation contrasts in voiceless consonants",
          value1_name = "Type of the contrast",
          value1 = n(),
@@ -365,13 +365,6 @@ df %>%
   arrange(language) %>% 
   write_csv("for_dagatlas/init_phon_contrasts.csv", na = "")
 
+# all_features_merger -----------------------------------------------------
 
-df %>% 
-  filter(segment_type == "consonant",
-         str_detect(segment, "[xɣ]"), 
-         !str_detect(segment, "ʷ"),
-         !str_detect(segment, "ˤ"),
-         !str_detect(segment, "ʲ")) %>% 
-  select(language, idiom, type, source, segment) %>% 
-  pivot_wider(names_from = segment, values_from = segment) %>% 
-  View()
+df <- map_dfr(str_c("for_dagatlas/", list.files("for_dagatlas/")), read_csv)
