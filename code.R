@@ -352,7 +352,7 @@ df %>%
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
   select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
   arrange(language) %>% 
-  write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
+  write_csv("for_dagatlas/ejective_p.csv", na = "")
 
 
 # initiation/phonation
