@@ -303,8 +303,8 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
   pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of velar voiced fricatives",
-         value1_name = "Presence of velar voiced fricatives") %>% 
+         feature = "Presence of velar voiced fricative",
+         value1_name = "Presence of velar voiced fricative") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -324,14 +324,36 @@ df %>%
   count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
   pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of uvular voiced fricatives",
-         value1_name = "Presence of uvular voiced fricatives") %>% 
+         feature = "Presence of uvular voiced stop",
+         value1_name = "Presence of uvular voiced stop") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
   select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
   arrange(language) %>% 
   write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
+
+# uvular voiced fricatives
+df %>% 
+  filter(segment_type == "consonant") %>% 
+  group_by(language, idiom, type, source, contributer) %>% 
+  mutate(page = str_c(unique(page), collapse = ", ")) %>% 
+  ungroup() %>% 
+  mutate(velar_voiced_fricatives = ifelse(str_detect(segment, "p'"),
+                                          "attested",
+                                          "not attested")) %>% 
+  count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
+  pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
+  mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
+         feature = "Presence of ejective p",
+         value1_name = "Presence of ejective p") %>% 
+  left_join(tomerge) %>% 
+  mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
+         language = ifelse(language == "Tokita", "Karata", language)) %>% 
+  select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
+  arrange(language) %>% 
+  write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
+
 
 # initiation/phonation
 df %>% 
@@ -367,4 +389,5 @@ df %>%
 
 # all_features_merger -----------------------------------------------------
 
-df <- map_dfr(str_c("for_dagatlas/", list.files("for_dagatlas/")), read_csv)
+map_dfr(str_c("for_dagatlas/", list.files("for_dagatlas/")), read_csv) %>% 
+  write_csv("merge_all_features.csv", na = "")
