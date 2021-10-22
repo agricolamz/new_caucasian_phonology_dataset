@@ -333,17 +333,17 @@ df %>%
   arrange(language) %>% 
   write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
 
-# uvular voiced fricatives
+# ejective p
 df %>% 
   filter(segment_type == "consonant") %>% 
   group_by(language, idiom, type, source, contributer) %>% 
   mutate(page = str_c(unique(page), collapse = ", ")) %>% 
   ungroup() %>% 
-  mutate(velar_voiced_fricatives = ifelse(str_detect(segment, "p'"),
+  mutate(ejective_p = ifelse(str_detect(segment, "pʼ"),
                                           "attested",
-                                          "not attested")) %>% 
-  count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
-  pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
+                                          "not attested"))  %>% 
+  count(language, idiom, type, source, page, contributer, date, ejective_p) %>% 
+  pivot_wider(names_from = ejective_p, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
          feature = "Presence of ejective p",
          value1_name = "Presence of ejective p") %>% 
@@ -354,6 +354,27 @@ df %>%
   arrange(language) %>% 
   write_csv("for_dagatlas/ejective_p.csv", na = "")
 
+# ejective s ʃ
+
+df %>% 
+  filter(segment_type == "consonant") %>% 
+  group_by(language, idiom, type, source, contributer) %>% 
+  mutate(page = str_c(unique(page), collapse = ", ")) %>% 
+  ungroup() %>% 
+  mutate(ejective_s = ifelse(str_detect(segment, "[ʃs]ʼ"),
+                             "attested",
+                             "not attested"))  %>% 
+  count(language, idiom, type, source, page, contributer, date, ejective_s) %>% 
+  pivot_wider(names_from = ejective_s, values_from = n, values_fill = 0) %>% 
+  mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
+         feature = "Presence of ejective fricatives",
+         value1_name = "Presence of ejective fricatives") %>% 
+  left_join(tomerge) %>% 
+  mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
+         language = ifelse(language == "Tokita", "Karata", language)) %>% 
+  select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
+  arrange(language) %>% 
+  write_csv("for_dagatlas/ejective_s.csv", na = "")
 
 # initiation/phonation
 df %>% 
