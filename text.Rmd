@@ -149,7 +149,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size are differe from `r min(range(for_map$n))` (Budukh) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+As we see inventory size are differe from `r min(range(for_map$n))` (Azerbaijani) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
 
 ```{r}
 set.seed(42)
@@ -165,7 +165,7 @@ ph %>%
        subtitle = "Density of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
 ```
 
-As we can see, the majority of languages from PHOIBLE has less consonants then East Caucasian languages.
+As we can see, the majority of languages from PHOIBLE has less consonants then East Caucasian languages. This is result caused by different subsystems of East Caucasian languages like ejectives, labialized consonants, uvulars and post uvulars. More or less the same phonological profile can be found in other indigenous language family of the Caucasus --- North-East Caucasian languages with one of the world consonant champions Ubykh [@fenwick11: 16--17].
 
 ### Vowel inventory size
 
@@ -202,7 +202,7 @@ ph %>%
        subtitle = "Density of East Caucasian vowel and dipthong inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
 ```
 
-As we can see, even vowel/diphthong inventory sizes of East Caucasian languages are slightly bigger than the average. As expected PHOIBLE data reveal average vowel/diphthong inventory size around 5, while the East Caucasian dataset show the mean, median an mode around 10 vowels/diphthongs. Diphthongs are present only in Nakh languages and Hinuq [@forker13]. However it is worth mentioning that the distinction between diphthong and and combination of vowel and semivowels *j* and *w* is not clear in East Caucasian languages. There is a tendency to have closing diphthongs or combinations of vowel and semivowel in the end of the syllable (like *ai*/*aj*, *eu*/*ew*) and opening diphthongs or combinations of vowel and semivowel in the beginning of the syllable (like *ia*/*ja*, *ue*/*we*). I can stipulate that  Nakh scholars tend to describe those unites as a dipthong and Dagestanian scholars 
+As we can see, even vowel/diphthong inventory sizes of East Caucasian languages are slightly bigger than the average language of the world. As expected PHOIBLE data reveal average vowel/diphthong inventory size around 5, while the East Caucasian dataset show the mean, median an mode around 10 vowels/diphthongs. Diphthongs are present only in Nakh languages and Hinuq [@forker13]. However it is worth mentioning that the distinction between diphthong and and combination of vowel and semivowels *j* and *w* is not clear in East Caucasian languages. There is a tendency to have closing diphthongs or combinations of vowel and semivowel in the end of the syllable (like *ai*/*aj*, *eu*/*ew*) and opening diphthongs or combinations of vowel and semivowel in the beginning of the syllable (like *ia*/*ja*, *ue*/*we*), and, as far as I know, there is no phonological difference between diphthongs and combinations of vowel and semivowel in any East Caucasian language. I can stipulate that Nakh scholars tend to describe those unites as diphthongs and Dagestanian scholars tend to describe them as combinations of vowel and semvowel.
 
 ## Series of stops
 
