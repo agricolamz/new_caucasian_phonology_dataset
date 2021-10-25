@@ -20,28 +20,31 @@ df <- read_csv("database.csv")
 
 ## Introduction
 
-There are a lot of work about phonology of indigenous languages of the Caucasus [@catford77; @smeets94a; @smeets94b; @alekseev01; @hewitt04; @grawunder17; @begus21; @boris21b; @boris21a; @koryakov21] and particular dedicated East Caucasian languages [@kk90]. There are also a lot of work on historical-comparative phonetics [@bokarev60; @gudava64; @imnayshvili77; @akiev77; @gigineyshvili77; @talibov80; @bokarev81; @nikolayev94; @nichols03; @ardoteli09; @mudrak19; @mudrak20] and many others. Fortunately the amount of grammatical description of particular languages is increasing, so we have a lot of more new and detailed information about phonological inventories of particular villages and do not need to extrapolate our knowledge of standard languages onto all villages, where the language is spoken. Even though we have a lot of works on different East Caucasian languages, in order to proceed with the analysis we still need a unified description of those inventories. We compiled the database of East Caucasian languages that can be downloaded from [here](). The database has the following variables:
+There are a lot of work about phonology of indigenous languages of the Caucasus [@catford77; @smeets94a; @smeets94b; @alekseev01; @hewitt04; @grawunder17; @begus21; @boris21b; @boris21a; @koryakov21] and particular dedicated East Caucasian languages [@kk90]. There are also a lot of work on historical-comparative phonetics [@bokarev60; @gudava64; @imnayshvili77; @akiev77; @gigineyshvili77; @talibov80; @bokarev81; @nikolayev94; @nichols03; @ardoteli09; @mudrak19; @mudrak20] and many others. Fortunately the amount of grammatical description of particular languages is increasing, so we have a lot of more new and detailed information about phonological inventories of particular villages and do not need to extrapolate our knowledge of standard languages onto all villages, where the language is spoken. Even though we have a lot of works on different East Caucasian languages, in order to proceed with the analysis we still need a unified description of those inventories. In order to solve this task, I compiled the database of East Caucasian languages that can be downloaded from [here](https://raw.githubusercontent.com/agricolamz/new_caucasian_phonology_dataset/master/database.csv). The database has the following variables:
 
-* id -- unique id for each segment
-* glottocode -- language identifier after Glottolog database [@hammarstrom21]
-* language -- language name
-* idiom
-* type
-* value --- segment in IPA notation
-* value_source --- segment as it was presented in the source
-* annotation --- annotation of type of the segment (consonant vs. vowel)
-* source --- bibtex entry of the source of the information
-* page
-* comment
+* id -- unique id for each segment;
+* glottocode -- language identifier after Glottolog database [@hammarstrom21];
+* language -- language name;
+* idiom;
+* type;
+* segment --- segment in IPA notation;
+* segment_source --- segment as it was presented in the source;
+* segment_type --- annotation of type of the segment (consonant, vowel or diphthong);
+* source --- bibtex entry of the source of the information;
+* page;
+* comment;
+* contributor;
+* date -- date of the contribution
 
-On average East Caucasian languages (and other indigenous languages of the Caucasus) have more consonants and vowels then other languages of the world. The main reason for this are the following
+The database is compiled from different sources and therefore some languages can be present multiple times: in some cases it is different idioms (e. g. Darwa dialects), in other cases it is different sources of the same languages (e. g. Khinalug).
 
-* as other indigenous languages of the Caucasus have **ejective consonants** (except Udi);
-* as other indigenous languages of the Caucasus have **uvular consonants**;
+On average East Caucasian languages (and other indigenous languages of the Caucasus) have more consonants and vowels then other languages of the world. The main reasons for this are the following
+
+* as other indigenous languages of the Caucasus East Caucasian languages have **ejective consonants** (except Udi);
+* as other indigenous languages of the Caucasus East Caucasian languages have **uvular consonants**;
 * Andic and Tsezic languages have **lateral obstruents**;
 * **labialization**, gemination and fortis/lenis destinction is widespread across Dagestan;
-* common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?);
-* more or less East Caucasian languages share the same inventory of sonorants (*r*, *l*, *m*, *n*, *j*, *w*) with rare exception for *w* in South Lezgian languages.
+* common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?).
 
 In this introductory part of the atlas we will be focusing on inventory sizes, but there are also the following separate subchapters:
 
@@ -69,12 +72,22 @@ read_csv("merge_all_features.csv") %>% distinct(feature) %>% pull(feature) %>% s
 
 Here is the map of inventory sizes of East Caucasian languages:
 
+
 ```{r}
 set.seed(42)
 df %>% 
-  count(lang, source, glottocode) %>% 
+  distinct(lang, source, glottocode) %>% 
   group_by(lang) %>% 
-  slice_sample(n = 1) ->
+  slice_sample(n = 1) %>% 
+  mutate(filter_languages = TRUE) ->
+  filter_for_maps
+```
+
+```{r}
+df %>% 
+  left_join(filter_for_maps) %>% 
+  filter(filter_languages) %>% 
+  count(lang, source, glottocode) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -85,7 +98,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size of languages in our dataset are differ from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world[^excludEA]:
+As we can see inventory size of languages in our dataset are ranged from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world[^excludEA]:
 
 [^excludEA]: Here and further performing such a comparison of our dataset and one, provided by PHOIBLE, arise a question: whether we need to exclude East Caucasian and non-indigenous languages of the Caucasus from the PHOIBLE subsample that we use? In this text we decided to exclude them for the sake of the comparability. However, groups that we get are far from to be comparable in the proper way: different language families are overrepresented in both groups; the dataset sizes are different (PHOIBLE's 2169 languages vs our dataset of 50 idioms) etc. For those who are against of the exclusion we assure that this operation changes shapes of the density plots that we obtained, but the change is extremely small. 
 
@@ -114,8 +127,7 @@ ph %>%
        subtitle = "Density functions of East Caucasian inventory sizes (in black)\nwith overlayed with density function of inventory sizes of languages of the world (in red)")
 ```
 
-As we can see, East Caucasian languages in general have generally big segment inventories (with mean, median and mode near 60 segments) comparing to the rest languages of the world.
-
+As we can see, East Caucasian languages in general have big segment inventories (with mean, median and mode near 60 segments) comparing to the rest languages of the world. A small peak around 40 can be explained by non-indigenous languages present in our dataset. From the next sections we will see that overall large inventories are mostly caused by large consonant inventories, but vowels and diphthongs also play a significant role.
 
 ### Consonant inventory size
 
@@ -123,10 +135,10 @@ We can do the same comparison for the consonant inventories:
 
 ```{r}
 df %>% 
-  filter(segment_type == "consonant") %>% 
-  count(lang, source) %>% 
-  group_by(lang) %>% 
-  slice_sample(n = 1) ->
+  left_join(filter_for_maps) %>% 
+  filter(filter_languages,
+         segment_type == "consonant") %>% 
+  count(lang, source) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -149,7 +161,7 @@ ph %>%
   geom_density(data = for_map, aes(x = n))+
   geom_density(size = 1, color = "red")+
   theme_minimal()+
-  labs(x = "number of segments",
+  labs(x = "number of consonant segments",
        subtitle = "Density of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
 ```
 
@@ -161,10 +173,10 @@ We can do the same comparison for the consonant inventories:
 
 ```{r}
 df %>% 
-  filter(segment_type == "vowel") %>% 
-  count(lang, source) %>% 
-  group_by(lang) %>% 
-  slice_sample(n = 1) ->
+  left_join(filter_for_maps) %>% 
+  filter(filter_languages,
+         segment_type == "vowel" | segment_type == "diphthong") %>% 
+  count(lang, source) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -175,10 +187,9 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size are differ from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Bezhta). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+As we see inventory size are differ from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Chechen). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
 
 ```{r}
-set.seed(42)
 ph %>% 
   filter(segmentclass == "vowel",
          inventoryid %in% ph_sample) %>% 
@@ -187,11 +198,11 @@ ph %>%
   geom_density(data = for_map, aes(x = n))+
   geom_density(size = 1, color = "red")+
   theme_minimal()+
-  labs(x = "number of segments",
-       subtitle = "Density of East Caucasian vowel inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
+  labs(x = "number of vowel or dipthong segments",
+       subtitle = "Density of East Caucasian vowel and dipthong inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
 ```
 
-As we can see, even vowel inventory sizes of East Caucasian languages are bigger than the average.
+As we can see, even vowel/diphthong inventory sizes of East Caucasian languages are slightly bigger than the average. As expected PHOIBLE data reveal average vowel/diphthong inventory size around 5, while the East Caucasian dataset show the mean, median an mode around 10 vowels/diphthongs. Diphthongs are present only in Nakh languages and Hinuq [@forker13]. However it is worth mentioning that the distinction between diphthong and and combination of vowel and semivowels *j* and *w* is not clear in East Caucasian languages. There is a tendency to have closing diphthongs or combinations of vowel and semivowel in the end of the syllable (like *ai*/*aj*, *eu*/*ew*) and opening diphthongs or combinations of vowel and semivowel in the beginning of the syllable (like *ia*/*ja*, *ue*/*we*). I can stipulate that  Nakh scholars tend to describe those unites as a dipthong and Dagestanian scholars 
 
 ## Series of stops
 
