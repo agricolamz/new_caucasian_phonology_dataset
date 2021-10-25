@@ -43,7 +43,7 @@ On average East Caucasian languages (and other indigenous languages of the Cauca
 * common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?);
 * more or less East Caucasian languages share the same inventory of sonorants (*r*, *l*, *m*, *n*, *j*, *w*) with rare exception for *w* in South Lezgian languages.
 
-In this phonological part of the atlas we will be focusing on inventory sizes, but there are also the following separate subchapters:
+In this introductory part of the atlas we will be focusing on inventory sizes, but there are also the following separate subchapters:
 
 ```{r, include=FALSE}
 read_csv("merge_all_features.csv") %>% distinct(feature) %>% pull(feature) %>% str_c("* ", ., collapse =  " ")
@@ -72,7 +72,7 @@ Here is the map of inventory sizes of East Caucasian languages:
 ```{r}
 set.seed(42)
 df %>% 
-  count(lang, source) %>% 
+  count(lang, source, glottocode) %>% 
   group_by(lang) %>% 
   slice_sample(n = 1) ->
   for_map
@@ -85,25 +85,36 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size are differe from `r min(range(for_map$n))` (Lezgian and Tsez) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world:
+As we see inventory size of languages in our dataset are differ from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world[^excludEA]:
 
-```{r}
-ph <- phoible.feature()
+[^excludEA]: Here and further performing such a comparison of our dataset and one, provided by PHOIBLE, arise a question: whether we need to exclude East Caucasian and non-indigenous languages of the Caucasus from the PHOIBLE subsample that we use? In this text we decided to exclude them for the sake of the comparability. However, groups that we get are far from to be comparable in the proper way: different language families are overrepresented in both groups; the dataset sizes are different (PHOIBLE's 2169 languages vs our dataset of 50 idioms) etc. For those who are against of the exclusion we assure that this operation changes shapes of the density plots that we obtained, but the change is extremely small. 
+
+```{r download phoible, cache=TRUE}
+ph <- phoible.feature(na.rm = FALSE)
+
 set.seed(42)
 ph %>% 
-  count(language, inventoryid) %>% 
+  distinct(language, inventoryid, glottocode) %>% 
   group_by(language) %>% 
   sample_n(1) %>% 
-  anti_join(for_map) %>% 
-  ggplot(aes(n))+
-  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
-  geom_density(size = 2, color = "red")+
-  theme_minimal()+
-  labs(x = "number of segments",
-       subtitle = "Histogram of East Caucasian inventory sizes (in black)\nwith overlayed density function of inventory sizes of languages of the world (in red)")
+  anti_join(df, by = "glottocode") %>% 
+  pull(inventoryid) ->
+  ph_sample
 ```
 
-As we can see, East Caucasian languages in general have generally big segment inventories comparing to the rest languages of the world (we removed East Caucasian languages from PHOIBLE before creating the density curve).
+```{r}
+ph %>% 
+  filter(inventoryid %in% ph_sample) %>% 
+  count(language, inventoryid) %>% 
+  ggplot(aes(n))+
+  geom_density(data = for_map, aes(x = n))+
+  geom_density(color = "red")+
+  theme_minimal()+
+  labs(x = "number of segments",
+       subtitle = "Density functions of East Caucasian inventory sizes (in black)\nwith overlayed with density function of inventory sizes of languages of the world (in red)")
+```
+
+As we can see, East Caucasian languages in general have generally big segment inventories (with mean, median and mode near 60 segments) comparing to the rest languages of the world.
 
 
 ### Consonant inventory size
@@ -131,17 +142,15 @@ As we see inventory size are differe from `r min(range(for_map$n))` (Budukh) to 
 ```{r}
 set.seed(42)
 ph %>% 
-  filter(segmentclass == "consonant") %>% 
+  filter(inventoryid %in% ph_sample,
+         segmentclass == "consonant") %>% 
   count(language, inventoryid) %>% 
-  group_by(language) %>% 
-  sample_n(1) %>% 
-  anti_join(for_map) %>% 
   ggplot(aes(n))+
-  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
-  geom_density(size = 2, color = "red")+
+  geom_density(data = for_map, aes(x = n))+
+  geom_density(size = 1, color = "red")+
   theme_minimal()+
   labs(x = "number of segments",
-       subtitle = "Histogram of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
+       subtitle = "Density of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
 ```
 
 As we can see, the majority of languages from PHOIBLE has less consonants then East Caucasian languages.
@@ -171,17 +180,15 @@ As we see inventory size are differ from `r min(range(for_map$n))` (Avar) to `r 
 ```{r}
 set.seed(42)
 ph %>% 
-  filter(segmentclass == "vowel") %>% 
+  filter(segmentclass == "vowel",
+         inventoryid %in% ph_sample) %>% 
   count(language, inventoryid) %>% 
-  group_by(language) %>% 
-  sample_n(1) %>% 
-  anti_join(for_map) %>% 
   ggplot(aes(n))+
-  geom_histogram(data = for_map, aes(x = n, y = ..density..))+
-  geom_density(size = 2, color = "red")+
+  geom_density(data = for_map, aes(x = n))+
+  geom_density(size = 1, color = "red")+
   theme_minimal()+
   labs(x = "number of segments",
-       subtitle = "Histogram of East Caucasian vowel inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
+       subtitle = "Density of East Caucasian vowel inventory sizes (in black)\nwith overlayed density function of vowel inventory sizes of languages of the world (in red)")
 ```
 
 As we can see, even vowel inventory sizes of East Caucasian languages are bigger than the average.
