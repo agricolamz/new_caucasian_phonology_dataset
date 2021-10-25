@@ -208,7 +208,7 @@ As we can see, even vowel/diphthong inventory sizes of East Caucasian languages 
 
 The noticeable feature of all indigenous languages of the Caucasus is the presence of ejective consonants that usually present in most possible places of articulation (see chapter on ejective pʼ) and not restricted to obstruents, but also affricates (and sometimes fricatives, see chapter on ejective fricatives). This feature is so widespread that even non-indigenous languages of the Caucasus like Azerbaijani [@aslanov74; @daniell2021], Kumyk [@dmitriyev40: 32], Ossetic [@abaev64: 6] borrowed some ejective consonants due to the contact or a East Caucasian substrat. It is also worth mentioning that Udi, indigenous East Caucasian language, lost ejectives evidently because of the Azerbaijani and replaced them with non-aspirated obstruents.
 
-
+Voiceless stops of all indigenous languages of the Caucasus tend to be slightly aspirated. In some languages there is even separate opposition of aspirated vs. non-aspirated (sometimes in Russian linguistic term *преруптивный* is used) stops: Udi, Lezgian, Khinalug.
 
 
 ## Pharyngeals

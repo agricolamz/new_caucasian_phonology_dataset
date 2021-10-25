@@ -408,7 +408,10 @@ df %>%
   distinct() %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
-         language = ifelse(language == "Tokita", "Karata", language)) %>% 
+         language = ifelse(language == "Tokita", "Karata", language),
+         value1 = ifelse(source == "creisselsdraft2020", "four-way", value1),
+         value2 = ifelse(source == "creisselsdraft2020", "C-Cː-Cʼ-Cʼː", value2),
+         ) %>% 
   select(language, idiom, type, genlang_point, map, feature, value1_name, value1, value2_name, value2, source, page, contributor, date) %>% 
   arrange(language) %>% 
   write_csv("for_dagatlas/init_phon_contrasts.csv", na = "")
