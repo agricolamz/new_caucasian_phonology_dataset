@@ -195,7 +195,7 @@ As we can see, even vowel inventory sizes of East Caucasian languages are bigger
 
 ## Series of stops
 
-It looks like ejectives appear in non-indigenous languages of the Caucasus like Azerbaijani [@aslanov74], Kumyk [@dmitriyev40: 32], Ossetic [@abaev64: 6].
+It looks like ejectives appear in non-indigenous languages of the Caucasus like Azerbaijani [@aslanov74; @daniell2021], Kumyk [@dmitriyev40: 32], Ossetic [@abaev64: 6].
 
 ## Pharyngeals
 [@colarusso13]

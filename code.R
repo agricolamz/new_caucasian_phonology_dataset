@@ -295,22 +295,27 @@ df %>%
 df %>% 
   filter(segment_type == "consonant") %>% 
   group_by(language, idiom, type, source, contributer) %>% 
-  mutate(page = str_c(unique(page), collapse = ", ")) %>% 
-  ungroup() %>% 
-  mutate(velar_voiced_fricatives = ifelse(str_detect(segment, "ɣ"),
-                            "attested",
-                            "not attested")) %>% 
-  count(language, idiom, type, source, page, contributer, date, velar_voiced_fricatives) %>% 
-  pivot_wider(names_from = velar_voiced_fricatives, values_from = n, values_fill = 0) %>% 
-  mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of velar voiced fricative",
-         value1_name = "Presence of velar voiced fricative") %>% 
+  mutate(page = str_c(unique(page), collapse = ", "),
+         velar_fricatives = case_when(
+           str_detect(segment, "xʲ")~"xʲ",
+           str_detect(segment, "ɣʲ")~"ɣʲ",
+           str_detect(segment, "ɣ")~"ɣ",
+           str_detect(segment, "x")~"x",
+           TRUE ~ "none"),
+         velar_fricatives = str_c(unique(velar_fricatives), collapse = ", "),
+         velar_fricatives = str_remove_all(velar_fricatives, "none, ")) %>% 
+  distinct(language, idiom, type, velar_fricatives, source, page, contributer, date) %>% 
+  pull(velar_fricatives) %>% 
+  unique()
+mutate(value1 = velar_fricatives,
+         feature = "Velar fricatives",
+         value1_name = "Velar fricatives") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
   select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributer, date) %>% 
   arrange(language) %>% 
-  write_csv("for_dagatlas/velar_voiced_fricatives.csv", na = "")
+  write_csv("for_dagatlas/velar_fricatives.csv", na = "")
 
 # uvular voiced fricatives
 df %>% 
