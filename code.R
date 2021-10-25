@@ -394,7 +394,7 @@ df %>%
   distinct(language, idiom, segment, source, contributor, page, date) %>% 
   group_by(language, idiom, source, contributor, date) %>% 
   arrange(language, idiom, source, contributor, segment) %>% 
-  mutate(feature = "Number of contrasts in voiceless consonants",
+  mutate(feature = "Number of contrasts in voiceless obstruents",
          value1_name = "Type of the contrast",
          value1 = n(),
          value1 = case_when(value1 == 1 ~ "one-way",
