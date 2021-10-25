@@ -34,7 +34,7 @@ There are a lot of work about phonology of indigenous languages of the Caucasus 
 * page;
 * comment;
 * contributor;
-* date -- date of the contribution
+* date -- date of the contribution.
 
 The database is compiled from different sources and therefore some languages can be present multiple times: in some cases it is different idioms (e. g. Darwa dialects), in other cases it is different sources of the same languages (e. g. Khinalug).
 
@@ -220,10 +220,10 @@ df %>%
   mutate(lab = str_detect(segment, "ʷ")) %>% 
   group_by(lang, source) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_lab = sum(lab),
             labialization = ifelse(n_lab > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, labialization, source, page, contributer, date) ->
+  select(lang, language, idiom, type, labialization, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -245,10 +245,10 @@ df %>%
   mutate(feature = str_detect(segment, "ː")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             geminates = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, geminates, source, page, contributer, date) ->
+  select(lang, language, idiom, type, geminates, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -265,10 +265,10 @@ df %>%
   mutate(feature = str_detect(segment, "ɬ")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             laterals = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, laterals, source, page, contributer, date) ->
+  select(lang, language, idiom, type, laterals, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -286,10 +286,10 @@ df %>%
   mutate(feature = str_detect(segment, "v")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             labials = ifelse(n_feature > 0, "v", "w")) %>% 
-  select(lang, language, idiom, type, labials, source, page, contributer, date) ->
+  select(lang, language, idiom, type, labials, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -306,10 +306,10 @@ df %>%
   mutate(feature = str_detect(segment, "ˤ")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             pharyngealization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, pharyngealization, source, page, contributer, date) ->
+  select(lang, language, idiom, type, pharyngealization, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -327,10 +327,10 @@ df %>%
   mutate(feature = str_detect(segment, "ⁿ")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             nasalization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, nasalization, source, page, contributer, date) ->
+  select(lang, language, idiom, type, nasalization, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -348,10 +348,10 @@ df %>%
   mutate(feature = str_detect(segment, "ː")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             `long vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, `long vowels`, source, page, contributer, date) ->
+  select(lang, language, idiom, type, `long vowels`, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
@@ -370,10 +370,10 @@ df %>%
   mutate(feature = str_detect(segment, "[yøæ]")) %>% 
   group_by(lang) %>% 
   mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributer, date) %>% 
+  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
   summarise(n_feature = sum(feature),
             `umlaut vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, `umlaut vowels`, source, page, contributer, date) ->
+  select(lang, language, idiom, type, `umlaut vowels`, source, page, contributor, date) ->
   for_map
 
 map.feature(languages = for_map$lang,
