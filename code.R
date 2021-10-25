@@ -59,7 +59,7 @@ df %>%
          segment = str_replace_all(segment, "c", "kʲ"),
          segment = str_replace_all(segment, "ɟ", "ɡʲ"),
          segment = str_replace_all(segment, "ç", "xʲ")) %>% 
-  #distinct(segment) %>% pull(segment) %>% sort()
+  # distinct(segment) %>% pull(segment) %>% sort()
   write_csv("database.csv", na = "")
 
 # create tables -----------------------------------------------------------
@@ -282,8 +282,8 @@ df %>%
          pharyngeals = str_remove_all(pharyngeals, "none, ")) %>% 
   distinct(language, idiom, type, pharyngeals, source, page, contributer, date) %>% 
   mutate(value1 = pharyngeals,
-         feature = "Pharyngeal inventory",
-         value1_name = "Pharyngeal inventory") %>% 
+         feature = "Pharyngeal inventories",
+         value1_name = "Pharyngeal inventories") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
@@ -361,7 +361,7 @@ df %>%
   group_by(language, idiom, type, source, contributer) %>% 
   mutate(page = str_c(unique(page), collapse = ", ")) %>% 
   ungroup() %>% 
-  mutate(ejective_s = ifelse(str_detect(segment, "[ʃs]ʼ"),
+  mutate(ejective_s = ifelse(str_detect(segment, "^[ʃs]ʼ"),
                              "attested",
                              "not attested"))  %>% 
   count(language, idiom, type, source, page, contributer, date, ejective_s) %>% 
@@ -389,7 +389,7 @@ df %>%
   distinct(language, idiom, segment, source, contributer, page, date) %>% 
   group_by(language, idiom, source, contributer, date) %>% 
   arrange(language, idiom, source, contributer, segment) %>% 
-  mutate(feature = "Number of initiation/phonation contrasts in voiceless consonants",
+  mutate(feature = "Number of contrasts in voiceless consonants",
          value1_name = "Type of the contrast",
          value1 = n(),
          value1 = case_when(value1 == 1 ~ "one-way",
