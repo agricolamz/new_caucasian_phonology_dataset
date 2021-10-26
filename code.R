@@ -95,7 +95,7 @@ df %>%
   count(language, idiom, type, source, page, contributor, date, geminates) %>% 
   pivot_wider(names_from = geminates, values_from = n, values_fill = 0) %>% 
   mutate(value1 = ifelse(attested > 0, "attested", "not attested"),
-         feature = "Presence of geminates",
+         feature = "Number of contrasts in voiceless obstruents",
          value1_name = "Presence of geminates") %>% 
   left_join(tomerge) %>% 
   mutate(genlang_point = ifelse(language == "Tokita", "no", genlang_point),
@@ -336,7 +336,7 @@ df %>%
          language = ifelse(language == "Tokita", "Karata", language)) %>% 
   select(language, idiom, type, genlang_point, map, feature, value1_name, value1, source, page, contributor, date) %>% 
   arrange(language) %>% 
-  write_csv("for_dagatlas/uvular_voiced_fricatives.csv", na = "")
+  write_csv("for_dagatlas/uvular_voiced_stop.csv", na = "")
 
 # ejective p
 df %>% 

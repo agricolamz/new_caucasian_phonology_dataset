@@ -55,7 +55,7 @@ read_csv("merge_all_features.csv") %>% distinct(feature) %>% pull(feature) %>% s
 * Number of contrasts in voiceless consonants 
 * Presence of fortis/geminates 
 * Presence of labialized consonants 
-* Presence of laterals 
+* Presence of laterals
 * Presence of long vowels 
 * Presence of nasal vowels 
 * Pharyngeal inventories
@@ -64,7 +64,7 @@ read_csv("merge_all_features.csv") %>% distinct(feature) %>% pull(feature) %>% s
 * Presence of palatalized consonants 
 * Presence of umlaut vowels 
 * Presence of uvular voiced stop
-* Presence of velar voiced fricative
+* Presence of velar fricatives
 * Presence of ejective pʼ
 * Presence of ejective fricatives
 
@@ -257,183 +257,250 @@ read_csv("for_dagatlas/init_phon_contrasts.csv") %>%
 
 Even thought it is theoretically possible to have five-way distinction it is not present in our dataset. One-way contrast is present in non-indigenous languages (Azerbaijani, Kumyk, Nogai, Tat). The most frequent is two-way voiceless-ejective distinction that is present in majority of languages. The most frequent three-way distinction is voiceless-geminated-ejective distinction. The most frequent four-way distinction is voiceless-geminated-ejective-geminated ejective that is also attributed to the protolanguage [@nikolayev94; @nichols03]. This voiceless-geminated-ejective-geminated is present exclusively in Avar and Andic languages.
 
-## Pharyngeals
-[@catford83; @colarusso13]
+It is also interesting to create the map of just geminates:
 
-## OLD
+```{r}
+read_csv("for_dagatlas/geminates.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+Geminated of fortis/lenis destinction attested through all branches of East Caucasian languages except Tsesic. It looks like languages near the border lose gemination contrast.
 
 ## Labialization
 
+Labialization is widely attested in East Caucasian languages, however there are some languages that lost this feature (e. g. in Budukh, [@talibov07]). Unfortunately, sometimes scholars do not put the whole list of labialized consonants attested in a language, so it is hard to obtain the whole list. After [@catford72] it is worth mentioning that there are several types of labialization: 
+
+* /w/-labialization --- this kind of labialization is more or less independent of the main place of articulation. This kind of labialization is typical for velar and uvular places fricatives and stops and widely attested in East Caucasian languages;
+* /ɥ/-labialization --- this kind of labialization is typical for pharyngeals. It looks like the tongue body is retracted (due to pharyngeal place of articulation) and raised, that results /ɥ/-like sound that is not present in East Caucasian languages;
+* /y/-labialization --- this kind of labialization is typical only for post-alveolars in Abkhaz and Abaza (North Caucasian), but also may be a case for Tabasaran [@kibrik82: 7--8; @kk90: 337] and Aghul [@kk90: 338].
+
 ```{r}
-df %>% 
-  mutate(lab = str_detect(segment, "ʷ")) %>% 
-  group_by(lang, source) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_lab = sum(lab),
-            labialization = ifelse(n_lab > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, labialization, source, page, contributor, date) ->
+read_csv("for_dagatlas/labialization.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
   for_map
 
-map.feature(languages = for_map$lang,
-            features = for_map$labialization,
+map.feature(languages = for_map$language,
+            features = for_map$value1,
             tile = "Stamen.Terrain")
 ```
 
-Labialization is widely attested in East Caucasian languages, however there are some languages that lost this feature (e. g. in Budukh, [@talibov07]). Unfortunately, sometimes scholars do not put the whole list of labialised consonants attested in a language. After [@catford72] it is worth mentioning that there are several types of labialisation: 
+As we can see labialization is lost in Bezhta, Udi, Budukh, Khinalug. I can stipulate that the absence of labialised consonants in Nakh languages can be just reinterpreted by scholars as part of diphthong. Georgian probably also has labialized consonants, but those consonants are analyzed as a combination of the consonant and *w*.
 
-* /w/-labialisation --- this kind of labialization is more or less independent of the main place of articulation. This kind of labialisation is typical for velar and uvular places fricatives and stops;
-* /ɥ/-labialisation --- this kind of labialization is typical for pharyngeals. It looks like the tongue body is retracted (due to pharyngeal place of articulation) and raised, that results /ɥ/-like sound;
-* /y/-labialisation --- this kind of labialization is typical only for post-alveolars in Abkhaz and Abaza (North Caucasian), but also may be a case for Tabasaran [@kibrik82: 7--8; @kk90: 337] and Aghul [@kk90: 338].
+## Presence of laterals
 
-## Geminates/Fortis
+Laterals is the significant feature of Avar, Andic and Tsezic languages, however there is one Lezghian language, Archi, where they also were attested. In most cases lateral system is present by fricative ɬ and two affricates tɬ and tɬ'. Sometimes the subsystem even bigger when geminated version are present.
 
 ```{r}
-df %>% 
-  filter(segment_type == "consonant") %>% 
-  mutate(feature = str_detect(segment, "ː")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            geminates = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, geminates, source, page, contributor, date) ->
+read_csv("for_dagatlas/laterals.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
   for_map
 
-map.feature(languages = for_map$lang,
-            features = for_map$geminates,
+map.feature(languages = for_map$language,
+            features = for_map$value1,
             tile = "Stamen.Terrain")
 ```
 
-Geminated of fortis/lenis destinction attested through all branches of East Caucasian languages except Tsesic. Unfortunately some scholars understand this differently, so sometimes under this label aspirated vs unaspirated disctinction is used.
+Lateral inventory can be differ from 1 (Tsova-Tush, ɬ) to 12 (Akhvakh, ɬ, tɬ, tɬ' all long, labialised and long labialized).
 
-## Lateral obstruents
-
-```{r}
-df %>% 
-  mutate(feature = str_detect(segment, "ɬ")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            laterals = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, laterals, source, page, contributor, date) ->
-  for_map
-
-map.feature(languages = for_map$lang,
-            features = for_map$laterals,
-            tile = "Stamen.Terrain")
-```
-
-
-Laterals is the clear feature of Andic and Tsezic languages, hover there is one Lezghian language, Archi, where they also were attested. In most cases lateral system is present by fricative ɬ and two affricates tɬ and tɬ'. Sometimes the subsystem even bigger when geminated version are present.
-
-## Labial approximmant vs fricatives
-
-```{r}
-df %>% 
-  mutate(feature = str_detect(segment, "v")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            labials = ifelse(n_feature > 0, "v", "w")) %>% 
-  select(lang, language, idiom, type, labials, source, page, contributor, date) ->
-  for_map
-
-map.feature(languages = for_map$lang,
-            features = for_map$labials,
-            tile = "Stamen.Terrain")
-```
-
-The most common labial sound in East Caucasian languages is bilabial **w** that is present in most languages, however in the South Dagestan approximant become a frecative **v**. I also visited the Dargwa village Ayalakab, where I witnessed the bilabial fricative realisation **β**.
-
-## Pharyngealization
-
-```{r}
-df %>%  
-  mutate(feature = str_detect(segment, "ˤ")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            pharyngealization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, pharyngealization, source, page, contributor, date) ->
-  for_map
-
-map.feature(languages = for_map$lang,
-            features = for_map$pharyngealization,
-            tile = "Stamen.Terrain")
-```
-
-Pharyngealization --- is a complex feature that phonetically reallised as a constriction in the pharynx or epiglottis zone. Different scholars used different strategy in describing locus of the pharyngealisation: sometimes it is analysed as a vowel feature [@forker13], sometimes as a consonant feature [@khalilova09] and sometimes as a suprasegmental feature [@kibrik1994a; @moroz19]. It is common that pharyngealisation spreads through the word, hovewer most researchers distinguish core pharyngealised syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Everything become even more complicated since some East Caucasian languages developed two different types of pharyngealisation [e. g. @belyayev21]. As we can see from the map, pharyngealization is common for central and south Daghestan for languages of Dargic, Lak, Tsezic and Lezgian branches.
-
-## Nasalized vowels
-
-```{r}
-df %>% 
-  filter(segment_type == "vowel") %>% 
-  mutate(feature = str_detect(segment, "ⁿ")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            nasalization = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, nasalization, source, page, contributor, date) ->
-  for_map
-
-map.feature(languages = for_map$lang,
-            features = for_map$nasalization,
-            tile = "Stamen.Terrain")
-```
-
-Nasalised vowels is a comon feature of Andic and Tsezic languages, hovewer some researchers report sporadic final **n**-delition that leads to development of nasalised vowels in other branches (e. g. Bezhta, [@talibov07]).
-
-## Long vowels
-
-```{r}
-df %>% 
-  filter(segment_type == "vowel") %>% 
-  mutate(feature = str_detect(segment, "ː")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            `long vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, `long vowels`, source, page, contributor, date) ->
-  for_map
-
-map.feature(languages = for_map$lang,
-            features = for_map$`long vowels`,
-            tile = "Stamen.Terrain")
-```
-
+## Presence of long vowels 
 
 Long vowels are grouped in the North Dagestan, Chechnya and Ingushetia. It is not present in Avar and and South Dagestan. Hovewer there are some cases when they were reported as a result of some intervocal consonant delitions.
 
-## Umlaut vowels
 
 ```{r}
-df %>% 
-  filter(segment_type == "vowel") %>% 
-  mutate(feature = str_detect(segment, "[yøæ]")) %>% 
-  group_by(lang) %>% 
-  mutate(page = str_c(unique(page), sep = ", ", collapse = ", ")) %>% 
-  group_by(lang, language, idiom, type, source, page, contributor, date) %>% 
-  summarise(n_feature = sum(feature),
-            `umlaut vowels` = ifelse(n_feature > 0, "attested", "not attested")) %>% 
-  select(lang, language, idiom, type, `umlaut vowels`, source, page, contributor, date) ->
+read_csv("for_dagatlas/long_vowels.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
   for_map
 
-map.feature(languages = for_map$lang,
-            features = for_map$`umlaut vowels`,
+map.feature(languages = for_map$language,
+            features = for_map$value1,
             tile = "Stamen.Terrain")
 ```
 
-Umlaut vowels are present in the South Dagestan and in Nakh languages. I can speculatively propose that they historically developed from pharyngealisation, but this hypothesis needs to be accurately checked with shared lexicon.
+## Presence of nasal vowels 
 
-## More features?
+Nasalised vowels is a comon feature of Andic and Tsezic languages, hovewer some researchers report sporadic final **n**-delition that leads to development of nasalised vowels in other branches (e. g. Bezhta, [@talibov07]).
 
-* syllable structure?
-* vowel harmony?
-* acoustic study of stress?
+```{r}
+read_csv("for_dagatlas/nasalization.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+## Pharyngeals
+
+Pharyngeals in the Caucasus has a huge coverage in literature [@catford83; @kodzasov86; @kodzasov87; @colarusso13; @arkhipov19; @belyayev21]. Even thought there is a new model of laryngeal articulation [@esling96; @esling05], it is hard to adjust data created within the old model to the new approach without new acoustic study, therefor I will use standrad IPA model that distinguishes pharyngeal (ħ, ʕ), epiglottal (ʜ, ʢ, ʡ).
+
+ЭТОЙ КАРТЕ НЕЛЬЗЯ ВЕРИТЬ, ОНА ПРЯЧЕТ НЕКОТОРЫЕ ЗНАЧЕНИЯ
+
+```{r}
+read_csv("for_dagatlas/pharyngeals.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+for_map$value1 <- factor(for_map$value1, levels = c("none", "ʢ", "ħ, ʕ", "ʜ, ʢ", "ʜ, ʡ"))
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+Most common scenario is one place of articulation (or none): either pharyngeal or epiglottal with voced and voiceless consonant. The rest zoo of systems is conected to epiglottal stop that is merged with different subsystems. There are also rare cases with just one pharyngeal consonant: ħ or ʢ.
+
+```{r}
+read_csv("for_dagatlas/pharyngeals.csv") %>% 
+  group_by(value1) %>% 
+  summarise(langs = str_c(unique(language), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(9, 8, 3, 5, 4, 7, 1, 2, 6, 10)) %>% 
+  rename(`fricative inventory` = value1,
+         languages = langs) %>% 
+  knitr::kable()
+```
+
+
+## Presence of pharyngealized segments
+
+Pharyngealization --- is a complex feature that phonetically realized as a constriction in the pharynx or epiglottis zone. Different scholars used different strategy in describing locus of the pharyngealization: sometimes it is analysed as a vowel feature [@forker13], sometimes as a consonant feature [@khalilova09] and sometimes as a suprasegmental feature [@kibrik1994a; @moroz19]. It is common that pharyngealisation spreads through the word, hovewer most researchers distinguish core pharyngealized syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Everything become even more complicated since some East Caucasian languages developed two different types of pharyngealisation [e. g. @belyayev21]. As we can see from the map, pharyngealization is common for central and south Daghestan for languages of Dargic, Lak, Tsezic and Lezgian branches.
+
+```{r}
+read_csv("for_dagatlas/pharyngealization.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+## Inventory of v-like consonants
+
+The most common labial sound in East Caucasian languages is bilabial **w** that is present in most languages, however in the South Dagestan approximant become a frecative **v**. I also visited the Dargwa village Ayalakab, where I witnessed the bilabial fricative realisation **β**.
+
+
+```{r}
+read_csv("for_dagatlas/labials.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+
+```{r}
+read_csv("for_dagatlas/labials.csv") %>% 
+  group_by(value1) %>% 
+  summarise(langs = str_c(unique(language), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(3, 1, 2, 4, 5)) %>% 
+  rename(`fricative inventory` = value1,
+         languages = langs) %>% 
+  knitr::kable()
+```
+
+
+## Presence of umlaut vowels 
+
+Umlaut vowels are present in the South Dagestan and in Nakh languages. I can speculatively propose that they historically developed from pharyngealization, but this hypothesis needs to be accurately checked with shared lexicon.
+
+```{r}
+read_csv("for_dagatlas/umlaut_vowels.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+## Presence of velar fricatives
+
+Presence of velar fricatives is a hard feature, since a lot of Russian scholars tend to merge voiced velar fricative *ɣ* and voiced velar stop *ɡ*. Sometimes voiced velar fricative is mixed (or positionally distributed) with voiced uvular fricative *ʁ*, and, as a result, scholars provide merged velar-uvular place of articulation or need to choose one.
+
+```{r}
+read_csv("for_dagatlas/velar_fricatives.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+for_map$value1 <- factor(for_map$value1, levels = c("none", "x", "xʲ", "x, xʲ", "ɣ, x", "ɣ, x, xʲ"))
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+In order to make it easier I collected data in the table. As we see both from the map and the table the most common inventory is just *x*. There are 11 languages that lack velar fricatives  including all non-indigenous languages (except Azerbaijani). There are 8 languages that has both voiced and voiceless fricatives. The rest systems are rare.
+
+```{r}
+read_csv("for_dagatlas/velar_fricatives.csv") %>% 
+  group_by(value1) %>% 
+  summarise(langs = str_c(unique(language), collapse = ", ")) %>% 
+  ungroup() %>% 
+  slice(c(4, 5, 7, 6, 2, 3, 1)) %>% 
+  rename(`fricative inventory` = value1,
+         languages = langs) %>% 
+  knitr::kable()
+```
+
+## Presence of palatalized consonants 
+
+```{r}
+read_csv("for_dagatlas/palatalized_consonants.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+
+## Presence of uvular voiced stop
+
+```{r}
+read_csv("for_dagatlas/uvular_voiced_stop.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
+
+## Presence of ejective pʼ
+
+```{r}
+read_csv("for_dagatlas/ejective_p.csv") %>% 
+  left_join(filter_for_maps, c("language" = "lang", "source")) %>% 
+  filter(filter_languages) ->
+  for_map
+
+map.feature(languages = for_map$language,
+            features = for_map$value1,
+            tile = "Stamen.Terrain")
+```
+
