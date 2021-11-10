@@ -2,7 +2,7 @@
 title: "On phonology of East Caucasian languages"
 author: "G. Moroz"
 output: 
-  html_document: default
+  word_document: default
 always_allow_html: true
 bibliography: "bibliography.bib"
 editor_options: 
@@ -36,37 +36,15 @@ There are a lot of work about phonology of indigenous languages of the Caucasus 
 * contributor;
 * date -- date of the contribution.
 
-The database is compiled from different sources and therefore some languages can be present multiple times: in some cases it is different idioms (e. g. Darwa dialects), in other cases it is different sources of the same languages (e. g. Khinalug).
+The database is compiled from different sources and therefore some languages can be present multiple times: in some cases it is different idioms (e. g. Dargwa dialects), in other cases it is different sources of the same languages (e. g. Khinalug).
 
 On average East Caucasian languages (and other indigenous languages of the Caucasus) have more consonants and vowels then other languages of the world. The main reasons for this are the following
 
 * as other indigenous languages of the Caucasus East Caucasian languages have **ejective consonants** (except Udi);
 * as other indigenous languages of the Caucasus East Caucasian languages have **uvular consonants**;
 * Andic and Tsezic languages have **lateral obstruents**;
-* **labialization**, gemination and fortis/lenis destinction is widespread across Dagestan;
+* **labialization**, gemination and fortis/lenis distinction are widespread across Dagestan;
 * common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?).
-
-In this introductory part of the atlas we will be focusing on inventory sizes, but there are also the following separate subchapters:
-
-```{r, include=FALSE}
-read_csv("merge_all_features.csv") %>% distinct(feature) %>% pull(feature) %>% str_c("* ", ., collapse =  " ")
-```
-
-* Number of contrasts in voiceless consonants 
-* Presence of fortis/geminates 
-* Presence of labialized consonants 
-* Presence of laterals
-* Presence of long vowels 
-* Presence of nasal vowels 
-* Pharyngeal inventories
-* Presence of pharyngealized segments
-* Inventory of v-like consonants
-* Presence of palatalized consonants 
-* Presence of umlaut vowels 
-* Presence of uvular voiced stop
-* Presence of velar fricatives
-* Presence of ejective pʼ
-* Presence of ejective fricatives
 
 ## Inventory size
 
@@ -98,7 +76,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we can see inventory size of languages in our dataset are ranged from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world[^excludEA]:
+As we can see, inventory size of languages in our dataset are ranged from `r min(range(for_map$n))` (Georgian and Kumyk) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible] which contains inventories of the languages of the world[^excludEA]:
 
 [^excludEA]: Here and further performing such a comparison of our dataset and one, provided by PHOIBLE, arise a question: whether we need to exclude East Caucasian and non-indigenous languages of the Caucasus from the PHOIBLE subsample that we use? In this text we decided to exclude them for the sake of the comparability. However, groups that we get are far from to be comparable in the proper way: different language families are overrepresented in both groups; the dataset sizes are different (PHOIBLE's 2169 languages vs our dataset of 50 idioms) etc. For those who are against of the exclusion we assure that this operation changes shapes of the density plots that we obtained, but the change is extremely small. 
 
@@ -149,7 +127,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size are differe from `r min(range(for_map$n))` (Azerbaijani) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+As we see, inventory size differs from `r min(range(for_map$n))` (Azerbaijani) to `r max(range(for_map$n))` (Northern Akvakh). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
 
 ```{r}
 set.seed(42)
@@ -165,11 +143,11 @@ ph %>%
        subtitle = "Density of East Caucasian consonant inventory sizes (in black)\nwith overlayed density function of consonant inventory sizes of languages of the world (in red)")
 ```
 
-As demonstrated on the plot, the majority of languages from PHOIBLE has less consonants then East Caucasian languages. This is result caused by different subsystems of East Caucasian languages like ejectives, labialized consonants, uvulars and post uvulars. More or less the same phonological profile can be found in other indigenous language family of the Caucasus --- North-East Caucasian languages with one of the world consonant champions Ubykh [@fenwick11: 16--17].
+As demonstrated on the plot, the majority of languages from PHOIBLE has less consonants then East Caucasian languages. This result is caused by different subsystems of East Caucasian languages like ejectives, labialized consonants, uvulars and post uvulars. More or less the same phonological profile can be found in other indigenous language families of the Caucasus --- North-East Caucasian languages with one of the world consonant champions Ubykh [@fenwick11: 16--17].
 
 ### Vowel inventory size
 
-We can do the same comparison for the consonant inventories:
+We can do the same comparison for the vowel inventories:
 
 ```{r}
 df %>% 
@@ -187,7 +165,7 @@ map.feature(languages = for_map$lang,
             tile = "Stamen.Terrain")
 ```
 
-As we see inventory size are differ from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Chechen). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
+As we see inventory size differs from `r min(range(for_map$n))` (Avar) to `r max(range(for_map$n))` (Chechen). We can compare the obtained numbers with the PHOIBLE database [@phoible]:
 
 ```{r}
 ph %>% 
@@ -255,7 +233,7 @@ read_csv("for_dagatlas/init_phon_contrasts.csv") %>%
   knitr::kable()
 ```
 
-Even thought it is theoretically possible to have five-way distinction it is not present in our dataset. One-way contrast is present in non-indigenous languages (Azerbaijani, Kumyk, Nogai, Tat). The most frequent is two-way voiceless-ejective distinction that is present in majority of languages. The most frequent three-way distinction is voiceless-geminated-ejective distinction. The most frequent four-way distinction is voiceless-geminated-ejective-geminated ejective that is also attributed to the protolanguage [@nikolayev94; @nichols03]. This voiceless-geminated-ejective-geminated is present exclusively in Avar and Andic languages.
+Even though it is theoretically possible to have five-way distinction it is not present in our dataset. One-way contrast is present in non-indigenous languages (Azerbaijani, Kumyk, Nogai, Tat). The most frequent is two-way voiceless-ejective distinction that is present in majority of languages. The most frequent three-way distinction is voiceless-geminated-ejective distinction. The most frequent four-way distinction is voiceless-geminated-ejective-geminated ejective that is also attributed to the protolanguage [@nikolayev94; @nichols03]. This voiceless-geminated-ejective-geminated is present exclusively in Avar and Andic languages.
 
 It is also interesting to create the map of just geminates:
 
@@ -295,7 +273,7 @@ As we can see labialization is lost in Bezhta, Udi, Budukh, Khinalug. I can stip
 
 ## Presence of laterals
 
-Laterals is the significant feature of Avar, Andic and Tsezic languages, however there is one Lezghian language, Archi, where they also were attested. In most cases lateral system is present by fricative ɬ and two affricates tɬ and tɬ'. Sometimes the subsystem even bigger when geminated version are present.
+Laterals is the significant feature of Avar, Andic and Tsezic languages, however there is one Lezghian language, Archi, where they also were attested. In most cases lateral system is present by fricative ɬ and two affricates tɬ and tɬ'. Sometimes the subsystem is even bigger when geminated version is present.
 
 ```{r}
 read_csv("for_dagatlas/laterals.csv") %>% 
@@ -308,11 +286,11 @@ map.feature(languages = for_map$language,
             tile = "Stamen.Terrain")
 ```
 
-Lateral inventory can be differ from 1 (Tsova-Tush, ɬ) to 12 (Akhvakh, ɬ, tɬ, tɬ' all long, labialised and long labialized).
+Lateral inventory can differ from 1 (Tsova-Tush, ɬ) to 12 (Akhvakh, ɬ, tɬ, tɬ' all long, labialised and long labialized).
 
 ## Presence of long vowels 
 
-Long vowels are grouped in the North Dagestan, Chechnya and Ingushetia. It is not present in Avar and and South Dagestan. Hovewer there are some cases when they were reported as a result of some intervocal consonant delitions.
+Long vowels are grouped in the North Dagestan, Chechnya and Ingushetia. They are not present in Avar and South Dagestan. However there are some cases when they were reported as a result of some intervocal consonant deletions.
 
 
 ```{r}
@@ -360,7 +338,7 @@ map.feature(languages = for_map$language,
             tile = "Stamen.Terrain")
 ```
 
-Most common scenario is one place of articulation (or none): either pharyngeal or epiglottal with voced and voiceless consonant. The rest zoo of systems is conected to epiglottal stop that is merged with different subsystems. There are also rare cases with just one pharyngeal consonant: ħ or ʢ.
+Most common scenario is one place of articulation (or none): either pharyngeal or epiglottal with voiced and voiceless consonant. The rest zoo of systems is connected to epiglottal stop that is merged with different subsystems. There are also rare cases with just one pharyngeal consonant: ħ or ʢ.
 
 ```{r}
 read_csv("for_dagatlas/pharyngeals.csv") %>% 
@@ -376,7 +354,7 @@ read_csv("for_dagatlas/pharyngeals.csv") %>%
 
 ## Presence of pharyngealized segments
 
-Pharyngealization --- is a complex feature that phonetically realized as a constriction in the pharynx or epiglottis zone. Different scholars used different strategy in describing locus of the pharyngealization: sometimes it is analysed as a vowel feature [@forker13], sometimes as a consonant feature [@khalilova09] and sometimes as a suprasegmental feature [@kibrik1994a; @moroz19]. It is common that pharyngealisation spreads through the word, hovewer most researchers distinguish core pharyngealized syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Everything become even more complicated since some East Caucasian languages developed two different types of pharyngealisation [e. g. @belyayev21]. As we can see from the map, pharyngealization is common for central and south Daghestan for languages of Dargic, Lak, Tsezic and Lezgian branches.
+Pharyngealization --- is a complex feature that phonetically realized as a constriction in the pharynx or epiglottis zone. Different scholars used different strategy in describing locus of the pharyngealization: sometimes it is analysed as a vowel feature [@forker13], sometimes as a consonant feature [@khalilova09] and sometimes as a suprasegmental feature [@kibrik1994a; @moroz19]. It is common that pharyngealisation spreads through the word, hovewer most researchers distinguish core pharyngealized syllable [@kibrik1994a; @talibov07; @moroz19; @belyayev21]. Everything becomes even more complicated since some East Caucasian languages developed two different types of pharyngealisation [e. g. @belyayev21]. As we can see from the map, pharyngealization is common for central and south Daghestan for languages of Dargic, Lak, Tsezic and Lezgian branches.
 
 ```{r}
 read_csv("for_dagatlas/pharyngealization.csv") %>% 
