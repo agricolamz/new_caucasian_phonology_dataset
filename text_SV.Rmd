@@ -20,36 +20,20 @@ df <- read_csv("database.csv")
 
 ## Introduction
 
-There are a lot of work about phonology of indigenous languages of the Caucasus [@catford77; @smeets94a; @smeets94b; @alekseev01; @hewitt04; @grawunder17; @begus21; @boris21b; @boris21a; @koryakov21] and particular dedicated East Caucasian languages [@kk90]. There are also a lot of work on historical-comparative phonetics [@bokarev60; @gudava64; @imnayshvili77; @akiev77; @gigineyshvili77; @talibov80; @bokarev81; @nikolayev94; @nichols03; @ardoteli09; @mudrak19; @mudrak20] and many others. Fortunately the amount of grammatical description of particular languages is increasing, so we have a lot of more new and detailed information about phonological inventories of particular villages and do not need to extrapolate our knowledge of standard languages onto all villages, where the language is spoken. Even though we have a lot of works on different East Caucasian languages, in order to proceed with the analysis we still need a unified description of those inventories. In order to solve this task, I compiled the database of East Caucasian languages that can be downloaded from [here](https://raw.githubusercontent.com/agricolamz/new_caucasian_phonology_dataset/master/database.csv). The database has the following variables:
+There are many studies dedicated to the phonology of the indigenous languages of the Caucasus [@catford77; @smeets94a; @smeets94b; @alekseev01; @hewitt04; @grawunder17; @begus21; @boris21b; @boris21a; @koryakov21], and see [@kk90] on the East Caucasian languages in particular. There are also many studies on the historical-comparative phonetics of these languages, such as [@bokarev60; @gudava64; @imnayshvili77; @akiev77; @gigineyshvili77; @talibov80; @bokarev81; @nikolayev94; @nichols03; @ardoteli09; @mudrak19; @mudrak20] and many others. Since the amount of grammatical descriptions for particular idioms is increasing, we currently have a lot more information about the phonological inventories represented in specific villages villages, so we do not need to extrapolate our knowledge of standard languages onto all villages where the language is spoken. Even though we have a lot of material on different East Caucasian languages, in order to be able to compare them we still need a unified description of those inventories. In order to solve this task, I compiled a database of East Caucasian phoneme inventories that can be accessed and downloaded [here](https://raw.githubusercontent.com/agricolamz/new_caucasian_phonology_dataset/master/database.csv). #change url
 
-* id -- unique id for each segment;
-* glottocode -- language identifier after Glottolog database [@hammarstrom21];
-* language -- language name;
-* idiom;
-* type;
-* segment --- segment in IPA notation;
-* segment_source --- segment as it was presented in the source;
-* segment_type --- annotation of type of the segment (consonant, vowel or diphthong);
-* source --- bibtex entry of the source of the information;
-* page;
-* comment;
-* contributor;
-* date -- date of the contribution.
 
-The database is compiled from different sources and therefore some languages can be present multiple times: in some cases it is different idioms (e. g. Dargwa dialects), in other cases it is different sources of the same languages (e. g. Khinalug).
+On average East Caucasian languages (as well as other indigenous languages of the Caucasus) have more consonants and vowels than other languages of the world. The main reasons for this are the following:
 
-On average East Caucasian languages (and other indigenous languages of the Caucasus) have more consonants and vowels then other languages of the world. The main reasons for this are the following
-
-* as other indigenous languages of the Caucasus East Caucasian languages have **ejective consonants** (except Udi);
-* as other indigenous languages of the Caucasus East Caucasian languages have **uvular consonants**;
-* Andic and Tsezic languages have **lateral obstruents**;
-* **labialization**, gemination and fortis/lenis distinction are widespread across Dagestan;
-* common among languages of the world triangle vowel system (*i*, *e*, *a*, *o*, *u*) is complicated with **nasalization** (mostly Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (on the South, Azerbaijanian influence?).
+* the presence **ejective consonants** (with the exception of Udi);
+* the presence of **uvular consonants**;
+* the presence of **lateral obstruents** in Andic and Tsezic languages;
+* widespread **labialization**, gemination and fortis/lenis distinction across Dagestan;
+* common triangle vowel systems (*i*, *e*, *a*, *o*, *u*) are complicated with **nasalization** (mostly in Andic and some Tsezic languages), **long vowels** (Nakh, Andic and Tsezic), **pharyngealisation** and **umlaut vowels** (in languages spoken in the south, possibly due to Azerbaijani influence).
 
 ## Inventory size
 
-Here is the map of inventory sizes of East Caucasian languages:
-
+The map below shows the size of the phoneme inventories in East Caucasian languages:
 
 ```{r}
 set.seed(42)
