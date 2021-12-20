@@ -1,4 +1,4 @@
-language,idiom,type,genlang_point,map,feature,value1_name,value1,source,page,contributor,date
+language,idiom_correct,type,genlang_point,map,feature,value1_name,value1,source,page,contributor,date
 Agul,Burshag,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,340--341,Viola Ivanova,2017.05.06
 Agul,Huppuq',village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʡ, ʢ",maisakganenkov2016,,George Moroz,2021.10.04
 Akhvakh,Northern Akhvakh,dialect_toplevel,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",creisselsdraft2020,,George Moroz,2021.10.04
@@ -12,13 +12,13 @@ Avar,Standard Avar,language,yes,yes,Pharyngeal inventories,Pharyngeal inventorie
 Avar,Chadakolob,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,320,Viola Ivanova,2017.05.06
 Azerbaijani,Standard Azerbaijani,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,ħ,shiralievsevortyan1971,16--26,George Moroz,2021.10.04
 Bagvalal,Kvanada,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrik2001,35--46,George Moroz,2021.10.04
-Bezhta,Bezhta,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",comrieetal2015,86,George Moroz,2021.10.04
+Bezhta,Bezhta,dialect_toplevel,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",comrieetal2015,86,George Moroz,2021.10.04
 Bezhta,Tlyadal,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,330,Viola Ivanova,2017.05.06
 Botlikh,Botlikh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",alexeyevverheesdraft2020,,George Moroz,2021.10.04
-Budukh,Budug,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʡ, ʢ",kibrikkodzasov1990,345,George Moroz,2017.05.06
-Budukh,Budug,village,no,no,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",talibov2007,35,George Moroz,2021.10.04
-Chamalal,Chamalal,language,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",bokarev1949a,"12, 15",George Moroz,2021.10.04
-Chamalal,Gigatl',village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,324,George Moroz,2017.05.06
+Budukh,Budukh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʡ, ʢ",kibrikkodzasov1990,345,George Moroz,2017.05.06
+Budukh,Budukh,village,no,no,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",talibov2007,35,George Moroz,2021.10.04
+Chamalal,Upper Gakvari,dialect_nt1,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",bokarev1949a,"12, 15",George Moroz,2021.10.04
+Chamalal,Gigatli,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,324,George Moroz,2017.05.06
 Chechen,Standard Chechen,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʡ",nichols1994,4,George Moroz,2021.10.04
 Dargwa,Chirag,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,334,George Moroz,2017.05.06
 Dargwa,Mehweb,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʜ, ʡ",moroz2017,22--34,George Moroz,2021.10.04
@@ -26,16 +26,16 @@ Dargwa,Tanty,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, �
 Dargwa,Kaitag,dialect_toplevel,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",temirbulatova2004,39,George Moroz,2021.10.04
 Georgian,Standard Georgian,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,hewitt1995,19,George Moroz,2021.10.04
 Godoberi,Godoberi,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",morozdraft2021,2,George Moroz,2021.10.04
-Hinuq,Genukh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʡ",forker2013,29,George Moroz,2021.10.04
-Hinuq,Genukh,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,329,George Moroz,2017.05.06
+Hinuq,Hinuq,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʡ",forker2013,29,George Moroz,2021.10.04
+Hinuq,Hinuq,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,329,George Moroz,2017.05.06
 Hunzib,Gunzib,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",isakovxalilov2001,260,George Moroz,2021.10.04
 Hunzib,Gunzib,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,332,George Moroz,2017.05.06
 Ingush,Standard Ingush,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",nichols2011,20,George Moroz,2021.10.04
-Inkhoqwari,Inkhokvari,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,327,George Moroz,2017.05.06
 Karata,Karata,dialect_toplevel,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,magomedbekova1971,12--18,George Moroz,2021.10.04
-Karata,Tukita,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",gadzhieva2007,8,George Moroz,2021.10.04
-Khinalug,Khynalyg,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",kibrik1994b,370,George Moroz,2021.10.04
-Khinalug,Khynalyg,village,no,no,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,346--347,Viola Ivanova,2017.05.06
+Karata,Tukita,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",gadzhieva2007,8,George Moroz,2021.10.04
+Khinalug,Khinalug,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",kibrik1994b,370,George Moroz,2021.10.04
+Khinalug,Khinalug,village,no,no,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,346--347,Viola Ivanova,2017.05.06
+Khwarshi,Inkhoqwari,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,327,George Moroz,2017.05.06
 Khwarshi,Kwantlada,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",khalilova2009,13,George Moroz,2021.10.04
 Kryz,Kryz,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,345,Viola Ivanova,2017.05.06
 Kryz,Kryz,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",saadiev1994,409,George Moroz,2021.10.04
@@ -43,12 +43,12 @@ Kumyk,Standard Kumyk,language,yes,yes,Pharyngeal inventories,Pharyngeal inventor
 Lak,Khosrekh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,kibrikkodzasov1990,333,Viola Ivanova,2017.05.06
 Lezgian,Standard Lezgian,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,gaydarivetal2009,56,George Moroz,2021.10.04
 Lezgian,Khlyut,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,341,George Moroz,2017.05.06
-Nogai,Nogai,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,baskakov1940,27,George Moroz,2021.10.04
+Nogai,Standard Nogai,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,baskakov1940,27,George Moroz,2021.10.04
 Rutul,Luchek,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʡ",alekseev1994,215,George Moroz,2021.10.04
 Rutul,Luchek,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,ʢ,kibrikkodzasov1990,342--343,Viola Ivanova,2017.05.06
 Tabasaran,Standard Tabasaran,language,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,alekseevshixalieva2003,29,George Moroz,2021.10.04
 Tabasaran,Dyubek,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,none,kibrikkodzasov1990,336,George Moroz,2017.05.06
-Tat,Northern Azerbaijani Tat,dialect_toplevel,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʡ",griunberg1963,17,George Moroz,2021.10.04
+Tat,Muslim Tat,dialect_toplevel,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʡ",griunberg1963,17,George Moroz,2021.10.04
 Tindi,Tindi,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,326--327,Viola Ivanova,2017.05.06
 Tindi,Tindi,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",magomedova2012,,George Moroz,2021.10.04
 Tsakhur,Mishlesh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,kibrik1999,16,George Moroz,2021.10.04
@@ -56,4 +56,4 @@ Tsakhur,Mikik,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,none,
 Tsez,Kidero,village,no,yes,Pharyngeal inventories,Pharyngeal inventories,"ʜ, ʢ",kibrikkodzasov1990,328,Viola Ivanova,2017.05.06
 Tsez,Sagada,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,ħ,wilson2021,388,George Moroz,2021.10.04
 Tsova-Tush,Zemo-Alvani,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,"ħ, ʕ",holiskygagua1994,150,George Moroz,2021.10.04
-Udi,Nidzh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,kibrikkodzasov1990,347,Viola Ivanova,2017.05.06
+Udi,Nizh,village,yes,yes,Pharyngeal inventories,Pharyngeal inventories,none,kibrikkodzasov1990,347,Viola Ivanova,2017.05.06
