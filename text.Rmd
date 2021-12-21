@@ -24,7 +24,7 @@ There are many studies dedicated to the phonology of the indigenous languages of
 
 On average, East Caucasian languages (as well as other indigenous languages of the Caucasus) have more consonants and vowels than other languages of the world. The main reasons for this are the following:
 
-* the presence **ejective consonants** (with the exception of Udi);
+* the presence of **ejective consonants** (with the exception of Udi);
 * the presence of **uvular consonants**;
 * the presence of **lateral obstruents** in Andic and Tsezic languages;
 * widespread **labialization**, gemination and fortis/lenis distinction across Dagestan;
